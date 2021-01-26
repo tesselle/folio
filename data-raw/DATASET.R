@@ -1,5 +1,6 @@
-## Prepare datasets
-## Count data
+# PREPARE DATASETS
+
+# Count data ===================================================================
 # The birds dataset from Conkey 1980, Kintigh 1989
 birds <- read.csv("data-raw/birds.csv", header = TRUE, row.names = 1,
                   sep = ",", dec = ".")
@@ -35,7 +36,7 @@ zuni <- read.csv("data-raw/zuni.csv", header = TRUE, row.names = 1,
                  sep = ",", dec = ".")
 usethis::use_data(zuni, overwrite = FALSE)
 
-## Radiocarbon Calibration Curves
+# Radiocarbon Calibration Curves ===============================================
 intcal09 <- read.csv("data-raw/intcal09.14c", header = FALSE, row.names = NULL,
                      sep = ",", dec = ".", skip = 11,
                      col.names = c("calBP", "age", "error", "delta", "sigma"))
@@ -50,3 +51,14 @@ intcal20 <- read.csv("data-raw/intcal20.14c", header = FALSE, row.names = NULL,
                      sep = ",", dec = ".", skip = 11,
                      col.names = c("calBP", "age", "error", "delta", "sigma"))
 usethis::use_data(intcal20, overwrite = FALSE)
+
+# Isotopic data ================================================================
+lisiecki2005 <- read.csv("data-raw/LR04stack.txt",
+                         header = FALSE, row.names = NULL,
+                         sep = "\t", dec = ".", skip = 5, strip.white = TRUE,
+                         col.names = c("time", "delta", "error"))
+usethis::use_data(lisiecki2005, overwrite = FALSE)
+
+spratt2016 <- read.csv("data-raw/spratt2016.txt", header = TRUE, row.names = NULL,
+                 sep = "\t", dec = ".", skip = 95)[, 1:9]
+usethis::use_data(spratt2016, overwrite = FALSE)
