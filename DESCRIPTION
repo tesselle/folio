@@ -10,7 +10,7 @@ Authors@R:
 Maintainer: Nicolas Frerebeau
     <nicolas.frerebeau@u-bordeaux-montaigne.fr>
 Description: Datasets for teaching quantitative approaches and
-    modelling in archaeology and palaeontology. This package provides
+    modeling in archaeology and paleontology. This package provides
     several types of data, relating to typologies, cultural evolution,
     radiocarbon dating and paleoenvironments.
 License: GPL (>= 3)
