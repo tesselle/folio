@@ -11,7 +11,7 @@ archaeology and paleontology. This package provides several types of
 data, relating to typologies, diversity measurement, cultural evolution,
 radiocarbon dating and paleoenvironments.
 
-When using **codex**, please cite the relevant publications for each
+When using **codex**, you must cite the relevant publications for each
 dataset (see the documentation).
 
 ## Installation
@@ -27,12 +27,12 @@ And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("nfrerebeau/codex")
+remotes::install_github("tesselle/codex")
 ```
 
 ## Contributing
 
 Please note that the **codex** project is released with a [Contributor
 Code of
-Conduct](https://github.com/nfrerebeau/codex/blob/master/.github/CODE_OF_CONDUCT.md).
+Conduct](https://github.com/tesselle/codex/blob/master/.github/CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms.

@@ -14,8 +14,8 @@ Description: Datasets for teaching quantitative approaches and
     several types of data, relating to typologies, cultural evolution,
     radiocarbon dating and paleoenvironments.
 License: GPL (>= 3)
-URL: https://github.com/nfrerebeau/codex
-BugReports: https://github.com/nfrerebeau/codex/issues
+URL: https://github.com/tesselle/codex
+BugReports: https://github.com/tesselle/codex/issues
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

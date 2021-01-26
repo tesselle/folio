@@ -24,8 +24,8 @@ Datasets for teaching quantitative approaches and
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/nfrerebeau/codex}
-  \item Report bugs at \url{https://github.com/nfrerebeau/codex/issues}
+  \item \url{https://github.com/tesselle/codex}
+  \item Report bugs at \url{https://github.com/tesselle/codex/issues}
 }
 
 }
