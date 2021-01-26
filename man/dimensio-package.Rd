@@ -8,7 +8,7 @@
 \title{codex: Datasets for Teaching Archaeology and Palaeontology}
 \description{
 Datasets for teaching quantitative approaches and
-    modelling in archaeology and palaeontology. This package provides
+    modeling in archaeology and paleontology. This package provides
     several types of data, relating to typologies, cultural evolution,
     radiocarbon dating and paleoenvironments.
 }
