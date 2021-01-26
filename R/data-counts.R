@@ -2,7 +2,7 @@
 #'
 #' A dataset of design elements in engraved bones from Altamira (Spain).
 #' @format A data frame with 5 rows and 44 variables (designs):
-#' @references
+#' @source
 #'  Conkey, M. W. (1980). The Identification of prehistoric hunter-gatherer
 #'  aggregation sites: The case of Altamira. \emph{Current Anthropology}, 21(5),
 #'  609-630.
@@ -14,7 +14,7 @@
 #'
 #' A dataset of birds species abundance in remote European woodlands.
 #' @format A data frame with 35 rows (species) and 3 variables (woodlands).
-#' @references
+#' @source
 #'  Magurran, A. E. (1988). \emph{Ecological Diversity and its Measurement}.
 #'  Princeton, NJ: Princeton University Press.
 #'  \doi{10.1007/978-94-015-7358-0}.

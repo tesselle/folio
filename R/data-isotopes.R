@@ -4,7 +4,7 @@
 #' @format A data frame with 3 variables:
 #'  \describe{
 #'    \item{time}{Calendar (calibrated) age (kilo year).}
-#'    \item{data}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
+#'    \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
 #'    \item{error}{Standard error (per mil).}
 #'  }
 #' @details

@@ -7,16 +7,16 @@
 \format{
 A data frame with 35 rows (species) and 3 variables (woodlands).
 }
+\source{
+Magurran, A. E. (1988). \emph{Ecological Diversity and its Measurement}.
+Princeton, NJ: Princeton University Press.
+\doi{10.1007/978-94-015-7358-0}.
+}
 \usage{
 birds
 }
 \description{
 A dataset of birds species abundance in remote European woodlands.
-}
-\references{
-Magurran, A. E. (1988). \emph{Ecological Diversity and its Measurement}.
-Princeton, NJ: Princeton University Press.
-\doi{10.1007/978-94-015-7358-0}.
 }
 \seealso{
 Other count data: 
