@@ -34,3 +34,19 @@ usethis::use_data(mississippi, overwrite = FALSE)
 zuni <- read.csv("data-raw/zuni.csv", header = TRUE, row.names = 1,
                  sep = ",", dec = ".")
 usethis::use_data(zuni, overwrite = FALSE)
+
+## Radiocarbon Calibration Curves
+intcal09 <- read.csv("data-raw/intcal09.14c", header = FALSE, row.names = NULL,
+                     sep = ",", dec = ".", skip = 11,
+                     col.names = c("calBP", "age", "error", "delta", "sigma"))
+usethis::use_data(intcal09, overwrite = FALSE)
+
+intcal13 <- read.csv("data-raw/intcal13.14c", header = FALSE, row.names = NULL,
+                     sep = ",", dec = ".", skip = 11,
+                     col.names = c("calBP", "age", "error", "delta", "sigma"))
+usethis::use_data(intcal13, overwrite = FALSE)
+
+intcal20 <- read.csv("data-raw/intcal20.14c", header = FALSE, row.names = NULL,
+                     sep = ",", dec = ".", skip = 11,
+                     col.names = c("calBP", "age", "error", "delta", "sigma"))
+usethis::use_data(intcal20, overwrite = FALSE)
