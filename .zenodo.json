@@ -1,0 +1,21 @@
+{
+  "title": "codex: Datasets for Teaching Archaeology and Paleontology",
+  "description": "<p>Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data, relating to typologies, cultural evolution, radiocarbon dating and paleoenvironments.</p>",
+  "creators": [
+    {
+      "orcid": "0000-0001-5759-4944",
+      "affiliation": "Universit\u00e9 Bordeaux Montaigne",
+      "name": "Frerebeau, Nicolas"
+    }
+  ],
+  "language": "eng",
+  "keywords": [
+    "archaeology",
+    "archaeological science",
+    "paleontology",
+    "r package"
+  ],
+  "upload_type": "software",
+  "license": "GPL-3.0+",
+  "access_right": "open"
+}

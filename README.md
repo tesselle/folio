@@ -4,6 +4,14 @@
 # codex
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/tesselle/codex/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/codex/actions)
+
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 <!-- badges: end -->
 
 Datasets for teaching quantitative approaches and modeling in

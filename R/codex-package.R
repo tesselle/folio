@@ -2,7 +2,7 @@
 #' \tabular{ll}{
 #'  \strong{Package:} \tab codex \cr
 #'  \strong{Type:} \tab Package \cr
-#'  \strong{Version:} \tab 1.0.0 \cr
+#'  \strong{Version:} \tab 0.1.0 \cr
 #'  \strong{License:} \tab GPL-3 \cr
 #'  \strong{DOI:} \tab \href{https://doi.org/xxx}{xxx}
 #' }
@@ -23,8 +23,8 @@
 #' Université Bordeaux Montaigne\cr
 #' F-33607 Pessac cedex\cr
 #' France
-#' @name dimensio-package
-#' @aliases dimensio
+#' @name codex-package
+#' @aliases codex
 #' @docType package
 #' @keywords internal
 "_PACKAGE"
