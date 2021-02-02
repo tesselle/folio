@@ -1,14 +1,14 @@
-#' Altamira Engraved Bones
-#'
-#' A dataset of design elements in engraved bones from Altamira (Spain).
-#' @format A data frame with 5 rows and 44 variables (designs):
-#' @source
-#'  Conkey, M. W. (1980). The Identification of prehistoric hunter-gatherer
-#'  aggregation sites: The case of Altamira. \emph{Current Anthropology}, 21(5),
-#'  609-630.
-#' @family count data
-#' @keywords datasets
-"altamira"
+# Altamira Engraved Bones
+#
+# A dataset of design elements in engraved bones from Altamira (Spain).
+# @format A data frame with 5 rows and 44 variables (designs):
+# @source
+#  Conkey, M. W. (1980). The Identification of prehistoric hunter-gatherer
+#  aggregation sites: The case of Altamira. \emph{Current Anthropology}, 21(5),
+#  609-630.
+# @family count data
+# @keywords datasets
+#"altamira"
 
 #' European Birds
 #'
@@ -51,6 +51,30 @@
 #' @keywords datasets
 "boves"
 
+#' Chevelon Ground Stone
+#'
+#' A dataset of ground stone artifact counts from the Cholla project (USA).
+#' @format A data frame with 12 rows and 10 variables (ground stone types):
+#'  \describe{
+#'    \item{BMe}{Basin metate.}
+#'    \item{SMe}{Slab metate.}
+#'    \item{TMe}{Trough metate.}
+#'    \item{IMe}{Indeterminate metate.}
+#'    \item{UMa}{Unifacial mano.}
+#'    \item{BMa}{Bifacial mano.}
+#'    \item{MUHa}{Modified unifacial handstone.}
+#'    \item{MBHa}{Modified bifacial handstone.}
+#'    \item{UUHa}{Unmodified unifacial handstone.}
+#'    \item{UBHa}{Unmodified bifacial handstone.}
+#'  }
+#' @source
+#'  Reid, J. J. (ed.) (1982). \emph{Cholla Project Archaeology}. Vol. 2.
+#'  Archaeological Series 161. Tucson: University of Arizona.
+#'  \doi{10.6067/XCV8435710}
+#' @family count data
+#' @keywords datasets
+"chevelon"
+
 #' Compiègne ceramics
 #'
 #' A dataset containing the ceramic counts from the Place des Hallettes in
@@ -82,8 +106,7 @@
 #' @source
 #'  Lacroix, M. C. (1997). La céramique médiévale du site des Hallettes à
 #'  Compiègne (Oise). \emph{Revue archéologique de Picardie}. Numéro spécial,
-#'  13(1), 135-168.
-#'  DOI: \href{https://doi.org/10.3406/pica.1997.1945}{10.3406/pica.1997.1945}
+#'  13(1), 135-168. \doi{10.3406/pica.1997.1945}
 #' @family count data
 #' @keywords datasets
 "compiegne"
@@ -97,13 +120,11 @@
 #' @source
 #'  Crema, E. R., Kandler, A. & Shennan, S. (2016). Revealing Patterns of
 #'  Cultural Transmission from Frequency Data: Equilibrium and Non-Equilibrium
-#'  Assumptions. \emph{Scientific Reports}, 6(1).
-#'  DOI: \href{https://doi.org/10.1038/srep39122}{10.1038/srep39122}.
+#'  Assumptions. \emph{Scientific Reports}, 6(1). \doi{10.1038/srep39122}.
 #'
 #'  Crema, E. R. (2016). Sample codes and data for "Revealing patterns of
 #'  cultural transmission from frequency data: equilibrium and non-equilibrium
-#'  assumptions". \emph{Zenodo}, v1.0.
-#'  DOI: \href{https://doi.org/10.5281/zenodo.187558}{10.5281/zenodo.187558}.
+#'  assumptions". \emph{Zenodo}, v1.0. \doi{10.5281/zenodo.187558}.
 #' @family count data
 #' @keywords datasets
 "merzbach"
@@ -128,7 +149,7 @@
 #'  Lipo, C. P., Madsen, M. E. & Dunnell, R. C. (2015). A
 #'  Theoretically-Sufficient and Computationally-Practical Technique for
 #'  Deterministic Frequency Seriation. \emph{PLOS ONE}, 10(4), e0124942.
-#'  DOI: \href{https://doi.org/10.1371/journal.pone.0124942}{10.1371/journal.pone.0124942}.
+#'  \doi{10.1371/journal.pone.0124942}.
 #' @family count data
 #' @keywords datasets
 "mississippi"
@@ -163,8 +184,7 @@
 #' @source
 #'  Peeples, M. A., & Schachner, G. (2012). Refining correspondence
 #'  analysis-based ceramic seriation of regional data sets. \emph{Journal of
-#'  Archaeological Science}, 39(8), 2818-2827.
-#'  DOI: \href{https://doi.org/10.1016/j.jas.2012.04.040}{10.1016/j.jas.2012.04.040}.
+#'  Archaeological Science}, 39(8), 2818-2827. \doi{10.1016/j.jas.2012.04.040}.
 #' @family count data
 #' @keywords datasets
 "zuni"

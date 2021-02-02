@@ -20,8 +20,8 @@ A dataset of birds species abundance in remote European woodlands.
 }
 \seealso{
 Other count data: 
-\code{\link{altamira}},
 \code{\link{boves}},
+\code{\link{chevelon}},
 \code{\link{compiegne}},
 \code{\link{merzbach}},
 \code{\link{mississippi}},

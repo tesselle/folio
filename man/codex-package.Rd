@@ -16,14 +16,15 @@ Datasets for teaching quantitative approaches and
 \tabular{ll}{
 \strong{Package:} \tab codex \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 0.1.0 \cr
+\strong{Version:} \tab 1.0.0 \cr
 \strong{License:} \tab GPL-3 \cr
-\strong{DOI:} \tab \href{https://doi.org/xxx}{xxx}
+\strong{DOI:} \tab \href{https://doi.org/10.5281/zenodo.4476182}{10.5281/zenodo.4476182}
 }
 }
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://codex.tesselle.org}
   \item \url{https://github.com/tesselle/codex}
   \item Report bugs at \url{https://github.com/tesselle/codex/issues}
 }

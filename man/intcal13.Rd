@@ -27,9 +27,9 @@ intcal13
 The IntCal series of radiocarbon calibration curves.
 }
 \seealso{
-Other calibration curves: 
+Other radiocarbon dating: 
 \code{\link{intcal09}},
 \code{\link{intcal20}}
 }
-\concept{calibration curves}
+\concept{radiocarbon dating}
 \keyword{datasets}

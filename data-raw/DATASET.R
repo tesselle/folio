@@ -11,6 +11,11 @@ altamira <- read.csv("data-raw/altamira.csv", header = TRUE, row.names = 1,
                      sep = ",", dec = ".")
 usethis::use_data(altamira, overwrite = FALSE)
 
+# The Cholla dataset from Reid 1982, Kintigh 1989
+chevelon <- read.csv("data-raw/chevelon.csv", header = TRUE, row.names = 1,
+                     sep = ",", dec = ".")
+usethis::use_data(chevelon, overwrite = FALSE)
+
 # The Compiegne market dataset from Desachy 2004
 compiegne <- read.csv("data-raw/compiegne.csv", header = TRUE, row.names = 1,
                       sep = ",", dec = ".")

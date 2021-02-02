@@ -23,7 +23,7 @@ A data frame with 20 rows and 10 variables (ceramic types):
 Lipo, C. P., Madsen, M. E. & Dunnell, R. C. (2015). A
 Theoretically-Sufficient and Computationally-Practical Technique for
 Deterministic Frequency Seriation. \emph{PLOS ONE}, 10(4), e0124942.
-DOI: \href{https://doi.org/10.1371/journal.pone.0124942}{10.1371/journal.pone.0124942}.
+\doi{10.1371/journal.pone.0124942}.
 }
 \usage{
 mississippi
@@ -33,9 +33,9 @@ A dataset containing ceramic counts from the Mississippi region.
 }
 \seealso{
 Other count data: 
-\code{\link{altamira}},
 \code{\link{birds}},
 \code{\link{boves}},
+\code{\link{chevelon}},
 \code{\link{compiegne}},
 \code{\link{merzbach}},
 \code{\link{zuni}}
