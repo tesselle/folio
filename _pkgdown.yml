@@ -1,0 +1,23 @@
+url: http://codex.tesselle.org
+development:
+  mode: auto
+
+template:
+  opengraph:
+    twitter:
+      creator: "@nfrerebeau"
+      card: summary_large_image
+
+reference:
+- title: Count Data
+  contents:
+  - has_concept("count data")
+- title: Isotopic Data
+  contents:
+  - has_concept("isotopic data")
+- title: Chronological Charts
+  contents:
+  - has_concept("chronology")
+- title: Radiocarbon Dating
+  contents:
+  - has_concept("radiocarbon dating")
