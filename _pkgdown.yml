@@ -1,4 +1,4 @@
-url: http://codex.tesselle.org
+url: https://codex.tesselle.org
 development:
   mode: auto
 
@@ -15,9 +15,6 @@ reference:
 - title: Isotopic Data
   contents:
   - has_concept("isotopic data")
-- title: Chronological Charts
-  contents:
-  - has_concept("chronology")
 - title: Radiocarbon Dating
   contents:
   - has_concept("radiocarbon dating")

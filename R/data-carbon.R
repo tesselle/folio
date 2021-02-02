@@ -14,7 +14,7 @@
 #'  Blackwell, P. G., Bronk Ramsey, C. \emph{et al.} (2009). IntCal09 and Marine09
 #'  Radiocarbon age Calibration Curves, 0-50,000 Years Cal BP.
 #'  \emph{Radiocarbon}, 51(4): 1111‑50. \doi{10.1017/S0033822200034202}.
-#' @family calibration curves
+#' @family radiocarbon dating
 #' @keywords datasets
 "intcal09"
 
@@ -34,7 +34,7 @@
 #'  Bronk Ramsey, C., Buck, C. E. \emph{et al.} (2013). IntCal13 and Marine13
 #'  Radiocarbon age Calibration Curves 0-50,000 Years cal BP.
 #'  \emph{Radiocarbon}, 55(4): 1869‑87. \doi{10.2458/azu_js_rc.55.16947}.
-#' @family calibration curves
+#' @family radiocarbon dating
 #' @keywords datasets
 "intcal13"
 
@@ -54,6 +54,6 @@
 #'  Bronk Ramsey, C., Butzin, M. \emph{et al.} (2020). The IntCal20 Northern
 #'  Hemisphere Radiocarbon âge Calibration Curve (0-55 Cal KBP).
 #'  \emph{Radiocarbon}, 62(4), 725-757. \doi{10.1017/RDC.2020.41}.
-#' @family calibration curves
+#' @family radiocarbon dating
 #' @keywords datasets
 "intcal20"

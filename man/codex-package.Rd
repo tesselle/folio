@@ -9,8 +9,10 @@
 \description{
 Datasets for teaching quantitative approaches and
     modeling in archaeology and paleontology. This package provides
-    several types of data, relating to typologies, cultural evolution,
-    radiocarbon dating and paleoenvironments.
+    several types of data related to broad topics (cultural evolution,
+    radiocarbon dating, paleoenvironments, etc.), which can be used to
+    illustrate statistical methods (multivariate data analysis, diversity
+    measurement, etc.).
 }
 \details{
 \tabular{ll}{
