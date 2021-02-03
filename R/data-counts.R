@@ -22,7 +22,7 @@
 #' @keywords datasets
 "birds"
 
-#' Boves ceramics
+#' Boves Ceramics
 #'
 #' A dataset containing the ceramic counts from the castle site of Boves
 #'  (Somme, France). The data are grouped into eight periods ranging from the
@@ -75,7 +75,7 @@
 #' @keywords datasets
 "chevelon"
 
-#' Compiègne ceramics
+#' Compiègne Ceramics
 #'
 #' A dataset containing the ceramic counts from the Place des Hallettes in
 #'  Compiègne (Oise, France). The data are grouped into five periods of about a
@@ -111,7 +111,7 @@
 #' @keywords datasets
 "compiegne"
 
-#' Merzbach ceramics
+#' Merzbach Ceramics
 #'
 #' A dataset containing the ceramic counts from the Merzbach assemblage
 #' (Germany). The data are grouped into eight phases.
@@ -129,7 +129,7 @@
 #' @keywords datasets
 "merzbach"
 
-#' Mississippi ceramics
+#' Mississippi Ceramics
 #'
 #' A dataset containing ceramic counts from the Mississippi region.
 #' @format A data frame with 20 rows and 10 variables (ceramic types):
@@ -154,7 +154,7 @@
 #' @keywords datasets
 "mississippi"
 
-#' Zuni ceramics
+#' Zuni Ceramics
 #'
 #' A dataset containing ceramic counts from the Zuni region of the American
 #'  Southwest.

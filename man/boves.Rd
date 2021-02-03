@@ -3,7 +3,7 @@
 \docType{data}
 \name{boves}
 \alias{boves}
-\title{Boves ceramics}
+\title{Boves Ceramics}
 \format{
 A data frame with 8 rows and 13 variables (ceramic types):
 \describe{

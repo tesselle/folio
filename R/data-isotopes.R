@@ -78,7 +78,7 @@
 #' @keywords datasets
 "law2006"
 
-#' LR04 Benthic Stack
+#' Global Benthic \eqn{\delta^{18}O}{\delta18O} Stack
 #'
 #' A global Pliocene-Pleistocene benthic \eqn{\delta^{18}O}{\delta18O} stack.
 #' @format A data frame with 3 variables:

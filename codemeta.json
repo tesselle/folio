@@ -5,12 +5,12 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "codex",
-  "description": "Datasets for teaching quantitative approaches and\n    modeling in archaeology and paleontology. This package provides\n    several types of data, relating to typologies, cultural evolution,\n    radiocarbon dating and paleoenvironments.",
+  "description": "Datasets for teaching quantitative approaches and\n    modeling in archaeology and paleontology. This package provides\n    several types of data related to broad topics (cultural evolution,\n    radiocarbon dating, paleoenvironments, etc.), which can be used to\n    illustrate statistical methods (multivariate data analysis, \n    compositional data analysis, diversity measurement, etc.).",
   "name": "codex: Datasets for Teaching Archaeology and Paleontology",
   "codeRepository": "https://github.com/tesselle/codex",
   "issueTracker": "https://github.com/tesselle/codex/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -48,7 +48,7 @@
     }
   ],
   "readme": "https://github.com/tesselle/codex/blob/master/README.md",
-  "fileSize": "1177.769KB",
+  "fileSize": "1620.527KB",
   "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#stable"],
   "keywords": [
     "archaeology",
@@ -56,5 +56,7 @@
     "r-package",
     "datasets",
     "archaeological-science"
-  ]
+  ],
+  "relatedLink": "https://codex.tesselle.org",
+  "releaseNotes": "https://github.com/tesselle/codex/blob/master/NEWS.md"
 }

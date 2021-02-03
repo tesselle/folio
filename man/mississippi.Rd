@@ -3,7 +3,7 @@
 \docType{data}
 \name{mississippi}
 \alias{mississippi}
-\title{Mississippi ceramics}
+\title{Mississippi Ceramics}
 \format{
 A data frame with 20 rows and 10 variables (ceramic types):
 \describe{

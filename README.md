@@ -20,7 +20,11 @@ Datasets for teaching quantitative approaches and modeling in
 archaeology and paleontology. This package provides several types of
 data related to broad topics (cultural evolution, radiocarbon dating,
 paleoenvironments, etc.), which can be used to illustrate statistical
-methods (multivariate data analysis, diversity measurement, etc.).
+methods (multivariate data analysis, compositional data analysis,
+diversity measurement, etc.).
+
+This package is for teaching purposes only: some datasets may be
+outdated.
 
 When using **codex**, you must cite the relevant publications for each
 dataset (see the documentation).
@@ -40,6 +44,38 @@ And the development version from [GitHub](https://github.com/) with:
 # install.packages("remotes")
 remotes::install_github("tesselle/codex")
 ```
+
+## Usage
+
+``` r
+## Arnold and Libby's Curve of Knowns
+## Replicate fig. 1 from Arnold and Libby (1949)
+data("arnold1949")
+
+plot(
+  x = arnold1949$age_expected,
+  y = arnold1949$activity_found,
+  type = "p",
+  pch = 16,
+  xlab = "Historical age (years)",
+  ylab = "Specific activity (C/m/g)",
+  main = "Samples of known ages"
+)
+segments(
+  x0 = arnold1949$age_expected,
+  y0 = arnold1949$activity_found - arnold1949$activity_found_error,
+  x1 = arnold1949$age_expected,
+  y1 = arnold1949$activity_found + arnold1949$activity_found_error
+)
+segments(
+  x0 = arnold1949$age_expected - arnold1949$age_expected_error,
+  y0 = arnold1949$activity_found,
+  x1 = arnold1949$age_expected + arnold1949$age_expected_error,
+  y1 = arnold1949$activity_found
+)
+```
+
+![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
 
 ## Contributing
 

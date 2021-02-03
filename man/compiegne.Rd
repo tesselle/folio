@@ -3,7 +3,7 @@
 \docType{data}
 \name{compiegne}
 \alias{compiegne}
-\title{Compiègne ceramics}
+\title{Compiègne Ceramics}
 \format{
 A data frame with 5 rows (chronological periods, numbered from
 the oldest to the most recent from 1 to 5) and 16 variables (ceramic types):

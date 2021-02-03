@@ -3,7 +3,7 @@
 \docType{data}
 \name{merzbach}
 \alias{merzbach}
-\title{Merzbach ceramics}
+\title{Merzbach Ceramics}
 \format{
 A data frame with 8 rows (phases, numbered from VII to XIV)
 and 36 variables (pottery motifs).

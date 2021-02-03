@@ -1,6 +1,6 @@
 {
   "title": "codex: Datasets for Teaching Archaeology and Paleontology",
-  "description": "<p>Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data, relating to typologies, cultural evolution, radiocarbon dating and paleoenvironments.</p>",
+  "description": "<p>Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data related to broad topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be used to illustrate statistical methods (multivariate data analysis, compositional data analysis, diversity measurement, etc.).</p>",
   "creators": [
     {
       "orcid": "0000-0001-5759-4944",

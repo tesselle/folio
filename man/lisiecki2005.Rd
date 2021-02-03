@@ -3,7 +3,7 @@
 \docType{data}
 \name{lisiecki2005}
 \alias{lisiecki2005}
-\title{LR04 Benthic Stack}
+\title{Global Benthic \eqn{\delta^{18}O}{\delta18O} Stack}
 \format{
 A data frame with 3 variables:
 \describe{
