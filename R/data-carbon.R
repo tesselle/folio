@@ -1,3 +1,27 @@
+#' Arnold and Libby's Curve of Knowns
+#'
+#' "The agreement between prediction and observation is seen to be
+#' satisfactory."
+#' @format A data frame with 6 observations and 8 variables:
+#'  \describe{
+#'   \item{sample}{Sample name.}
+#'   \item{age_expected}{Expected age (year BP).}
+#'   \item{age_expected_error}{Error on \code{age_expected} (year BP).}
+#'   \item{age_found}{Measured age (year BP).}
+#'   \item{age_found_error}{Error on \code{age_found} (year BP).}
+#'   \item{activity_expected}{Expected specific activity (cpm/g of carbon).}
+#'   \item{activity_found}{Measured specific activity (cpm/g of carbon).}
+#'   \item{activity_found_error}{Error on \code{activity_found} (cpm/g of
+#'   carbon).}
+#'  }
+#' @source
+#'  Arnold, J. R. and Libby, W. F. (1949). Age Determinations by Radiocarbon
+#'  Content: Checks with Samples of Known Age. \emph{Science}, 110(2869),
+#'  678-80. \doi{10.1126/science.110.2869.678}
+#' @family radiocarbon dating
+#' @keywords datasets
+"arnold1949"
+
 #' IntCal09
 #'
 #' The IntCal series of radiocarbon calibration curves.

@@ -66,7 +66,8 @@ Other palaeoenvironment:
 \code{\link{lisiecki2005}}
 
 Other isotopic data: 
-\code{\link{lisiecki2005}}
+\code{\link{lisiecki2005}},
+\code{\link{nydal1996}}
 }
 \concept{isotopic data}
 \concept{palaeoenvironment}

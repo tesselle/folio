@@ -111,6 +111,35 @@
 #' @keywords datasets
 "lisiecki2005"
 
+#' \eqn{{}^{14}C}{14C} Measurements in Atmospheric \eqn{CO_2}{CO2}
+#'
+#' Corrected \eqn{{}^{14}C}{14C} measurements from air samples collected at five
+#' Norwegian sites from 1962-1993.
+#' @format A data frame with 5 variables:
+#'  \describe{
+#'   \item{site}{Sampling station.}
+#'   \item{start}{Beginning date of the sampling period.}
+#'   \item{end}{Ending date of the sampling period.}
+#'   \item{delta}{Isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
+#'   \item{sigma}{Error on \code{delta} (per mil).}
+#'  }
+#' @source
+#'  Nydal, R. and Lövseth, K. (1996). \emph{Carbon-14 Measurements in
+#'  Atmospheric CO2 from Northern and Southern Hemisphere Sites, 1962-1993}.
+#'  ORNL/CDIAC-93; NDP-057. Washington, DC: USDOE Office of Energy Research.
+#'  \doi{10.2172/461185}
+#' @examples
+#' plot(
+#'   x = nydal1996$start,
+#'   y = nydal1996$delta,
+#'   type = "p",
+#'   xlab = "Date",
+#'   ylab = expression(Delta^{14}*"C")
+#' )
+#' @family isotopic data
+#' @keywords datasets
+"nydal1996"
+
 #' Late Pleistocene Sea Level Stack
 #'
 #' A Late Pleistocene sea level stack based on marine sediment core data

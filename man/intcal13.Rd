@@ -28,6 +28,7 @@ The IntCal series of radiocarbon calibration curves.
 }
 \seealso{
 Other radiocarbon dating: 
+\code{\link{arnold1949}},
 \code{\link{intcal09}},
 \code{\link{intcal20}}
 }

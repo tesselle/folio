@@ -41,27 +41,35 @@ zuni <- read.csv("data-raw/zuni.csv", header = TRUE, row.names = 1,
                  sep = ",", dec = ".")
 usethis::use_data(zuni, overwrite = FALSE)
 
-# Radiocarbon Calibration Curves ===============================================
-intcal09 <- read.csv("data-raw/intcal09.14c", header = FALSE, row.names = NULL,
-                     sep = ",", dec = ".", skip = 11,
-                     col.names = c("calBP", "age", "error", "delta", "sigma"))
+# Radiocarbon Dating ===========================================================
+arnold1949 <- read.csv("data-raw/arnold1949.csv",
+                       header = TRUE, row.names = NULL,
+                       sep = ",", dec = ".")
+usethis::use_data(arnold1949, overwrite = FALSE)
+
+intcal09 <- read.table("data-raw/intcal09.14c",
+                       header = FALSE, row.names = NULL,
+                       sep = ",", dec = ".", skip = 11,
+                       col.names = c("calBP", "age", "error", "delta", "sigma"))
 usethis::use_data(intcal09, overwrite = FALSE)
 
-intcal13 <- read.csv("data-raw/intcal13.14c", header = FALSE, row.names = NULL,
-                     sep = ",", dec = ".", skip = 11,
-                     col.names = c("calBP", "age", "error", "delta", "sigma"))
+intcal13 <- read.table("data-raw/intcal13.14c",
+                       header = FALSE, row.names = NULL,
+                       sep = ",", dec = ".", skip = 11,
+                       col.names = c("calBP", "age", "error", "delta", "sigma"))
 usethis::use_data(intcal13, overwrite = FALSE)
 
-intcal20 <- read.csv("data-raw/intcal20.14c", header = FALSE, row.names = NULL,
-                     sep = ",", dec = ".", skip = 11,
-                     col.names = c("calBP", "age", "error", "delta", "sigma"))
+intcal20 <- read.table("data-raw/intcal20.14c",
+                       header = FALSE, row.names = NULL,
+                       sep = ",", dec = ".", skip = 11,
+                       col.names = c("calBP", "age", "error", "delta", "sigma"))
 usethis::use_data(intcal20, overwrite = FALSE)
 
 # Isotopic data ================================================================
 epica2008 <- read.table("data-raw/epica2008.txt",
-                      header = TRUE, row.names = NULL,
-                      sep = "", dec = ".", skip = 773,
-                      col.names = c("age", "CO2"))
+                        header = TRUE, row.names = NULL,
+                        sep = "", dec = ".", skip = 773,
+                        col.names = c("age", "CO2"))
 usethis::use_data(epica2008, overwrite = FALSE)
 
 law2006 <- read.table("data-raw/law2006.txt",
@@ -84,6 +92,12 @@ lisiecki2005 <- read.table("data-raw/LR04stack.txt",
                            sep = "\t", dec = ".", skip = 5,
                            col.names = c("age", "delta", "error"))
 usethis::use_data(lisiecki2005, overwrite = FALSE)
+
+nydal1996 <- read.csv("data-raw/nydal1996.csv", header = TRUE, row.names = 1,
+                      sep = ",", dec = ".", encoding = "UTF-8")
+nydal1996$start <- as.Date(nydal1996$start, format = "%Y-%m-%d")
+nydal1996$end <- as.Date(nydal1996$end, format = "%Y-%m-%d")
+usethis::use_data(nydal1996, overwrite = FALSE)
 
 spratt2016 <- read.table("data-raw/spratt2016.txt",
                          header = TRUE, row.names = NULL,

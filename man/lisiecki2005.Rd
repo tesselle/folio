@@ -48,6 +48,7 @@ Other palaeoenvironment:
 \code{\link{spratt2016}}
 
 Other isotopic data: 
+\code{\link{nydal1996}},
 \code{\link{spratt2016}}
 }
 \concept{isotopic data}
