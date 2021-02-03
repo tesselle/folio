@@ -58,12 +58,34 @@ intcal20 <- read.csv("data-raw/intcal20.14c", header = FALSE, row.names = NULL,
 usethis::use_data(intcal20, overwrite = FALSE)
 
 # Isotopic data ================================================================
-lisiecki2005 <- read.csv("data-raw/LR04stack.txt",
-                         header = FALSE, row.names = NULL,
-                         sep = "\t", dec = ".", skip = 5, strip.white = TRUE,
-                         col.names = c("time", "delta", "error"))
+epica2008 <- read.table("data-raw/epica2008.txt",
+                      header = TRUE, row.names = NULL,
+                      sep = "", dec = ".", skip = 773,
+                      col.names = c("age", "CO2"))
+usethis::use_data(epica2008, overwrite = FALSE)
+
+law2006 <- read.table("data-raw/law2006.txt",
+                      header = TRUE, row.names = NULL, nrows = 2004,
+                      sep = "", dec = ".", skip = 182)
+law2006 <- data.frame(
+  year = law2006$YearAD,
+  NOAA04 = law2006$NOAA04,
+  CH4_spl = law2006$CH4spl,
+  CH4_grw = law2006$GrwthRt,
+  CO2_spl = law2006$CO2spl,
+  CO2_grw = law2006$GrwthRt.1,
+  N2O_spl = law2006$N2Ospl,
+  N2O_grw = law2006$GrwthRt.2
+)
+usethis::use_data(law2006, overwrite = FALSE)
+
+lisiecki2005 <- read.table("data-raw/LR04stack.txt",
+                           header = FALSE, row.names = NULL,
+                           sep = "\t", dec = ".", skip = 5,
+                           col.names = c("age", "delta", "error"))
 usethis::use_data(lisiecki2005, overwrite = FALSE)
 
-spratt2016 <- read.csv("data-raw/spratt2016.txt", header = TRUE, row.names = NULL,
-                 sep = "\t", dec = ".", skip = 95)[, 1:9]
+spratt2016 <- read.table("data-raw/spratt2016.txt",
+                         header = TRUE, row.names = NULL,
+                         sep = "\t", dec = ".", skip = 95)[, 1:9]
 usethis::use_data(spratt2016, overwrite = FALSE)

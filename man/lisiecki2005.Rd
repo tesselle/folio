@@ -7,7 +7,7 @@
 \format{
 A data frame with 3 variables:
 \describe{
-\item{time}{Calendar (calibrated) age (kilo year).}
+\item{age}{Calendar (calibrated) age (kilo year).}
 \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
 \item{error}{Standard error (per mil).}
 }
@@ -26,14 +26,30 @@ The LR04 stack spans 5.3 Myr and is an average of 57 globally distributed
 benthic \eqn{\delta^{18}O}{\delta18O} records (which measure global ice
 volume and deep ocean temperature) collected from the scientific literature.
 }
+\examples{
+plot(
+  x = lisiecki2005$age,
+  y = lisiecki2005$delta,
+  type = "l",
+  xlim = c(500, 0),
+  xlab = "kilo year BP",
+  ylab = expression(delta^{18}*"O")
+)
+}
 \references{
 Lisiecki, L. E. and Raymo, M. E. (2005). A Pliocene-Pleistocene stack of 57
 globally distributed benthic d18O records. \emph{Paleoceanography}, 20,
 PA1003. \doi{10.1029/2004PA001071}
 }
 \seealso{
+Other palaeoenvironment: 
+\code{\link{epica2008}},
+\code{\link{law2006}},
+\code{\link{spratt2016}}
+
 Other isotopic data: 
 \code{\link{spratt2016}}
 }
 \concept{isotopic data}
+\concept{palaeoenvironment}
 \keyword{datasets}

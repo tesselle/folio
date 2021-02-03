@@ -44,14 +44,30 @@ spratt2016
 A Late Pleistocene sea level stack based on marine sediment core data
 (foraminiferal carbonate \eqn{\delta^{18}O}{\delta18O}).
 }
+\examples{
+plot(
+  x = spratt2016$age_calkaBP,
+  y = spratt2016$SeaLev_longPC1,
+  type = "l",
+  xlim = c(500, 0),
+  xlab = "kilo year BP",
+  ylab = "Sea level (meters above present)"
+)
+}
 \references{
 Spratt, R. M. and Lisiecki, L. E. (2016). A Late Pleistocene sea level
 stack. \emph{Climate of the Past}, 12, 1079-1092.
 \doi{10.5194/cp-12-1079-2016}
 }
 \seealso{
+Other palaeoenvironment: 
+\code{\link{epica2008}},
+\code{\link{law2006}},
+\code{\link{lisiecki2005}}
+
 Other isotopic data: 
 \code{\link{lisiecki2005}}
 }
 \concept{isotopic data}
+\concept{palaeoenvironment}
 \keyword{datasets}
