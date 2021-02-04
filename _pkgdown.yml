@@ -12,9 +12,9 @@ reference:
 - title: Count Data
   contents:
   - has_concept("count data")
-- title: Palaeoenvironment
+- title: Isotopic Data
   contents:
-  - has_concept("palaeoenvironment")
+  - has_concept("isotopic data")
 - title: Radiocarbon Dating
   contents:
   - has_concept("radiocarbon dating")

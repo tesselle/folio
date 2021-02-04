@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -24,7 +26,7 @@ knitr::opts_chunk$set(
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4476182.svg)](https://doi.org/10.5281/zenodo.4476182)
 <!-- badges: end -->
 
-Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data related to broad topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be used to illustrate statistical methods (multivariate data analysis, compositional data analysis, diversity measurement, etc.).
+Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data related to broad topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be used to illustrate statistical methods in the classroom (multivariate data analysis, compositional data analysis, diversity measurement, etc.).
 
 This package is for teaching purposes only: some datasets may be outdated.
 
@@ -52,6 +54,9 @@ remotes::install_github("tesselle/codex")
 ## Replicate fig. 1 from Arnold and Libby (1949)
 data("arnold1949")
 
+fit <- lm(activity_found ~ age_expected, data = arnold1949)
+summary(fit)
+
 plot(
   x = arnold1949$age_expected,
   y = arnold1949$activity_found,
@@ -73,6 +78,7 @@ segments(
   x1 = arnold1949$age_expected + arnold1949$age_expected_error,
   y1 = arnold1949$activity_found
 )
+abline(fit, col = "red")
 ```
 
 ## Contributing

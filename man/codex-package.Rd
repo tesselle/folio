@@ -11,8 +11,8 @@ Datasets for teaching quantitative approaches and
     modeling in archaeology and paleontology. This package provides
     several types of data related to broad topics (cultural evolution,
     radiocarbon dating, paleoenvironments, etc.), which can be used to
-    illustrate statistical methods (multivariate data analysis, 
-    compositional data analysis, diversity measurement, etc.).
+    illustrate statistical methods in the classroom (multivariate data
+    analysis, compositional data analysis, diversity measurement, etc.).
 }
 \details{
 \tabular{ll}{

@@ -5,7 +5,7 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "codex",
-  "description": "Datasets for teaching quantitative approaches and\n    modeling in archaeology and paleontology. This package provides\n    several types of data related to broad topics (cultural evolution,\n    radiocarbon dating, paleoenvironments, etc.), which can be used to\n    illustrate statistical methods (multivariate data analysis, \n    compositional data analysis, diversity measurement, etc.).",
+  "description": "Datasets for teaching quantitative approaches and\n    modeling in archaeology and paleontology. This package provides\n    several types of data related to broad topics (cultural evolution,\n    radiocarbon dating, paleoenvironments, etc.), which can be used to\n    illustrate statistical methods in the classroom (multivariate data\n    analysis, compositional data analysis, diversity measurement, etc.).",
   "name": "codex: Datasets for Teaching Archaeology and Paleontology",
   "codeRepository": "https://github.com/tesselle/codex",
   "issueTracker": "https://github.com/tesselle/codex/issues",
@@ -48,7 +48,7 @@
     }
   ],
   "readme": "https://github.com/tesselle/codex/blob/master/README.md",
-  "fileSize": "1620.527KB",
+  "fileSize": "1633.861KB",
   "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#stable"],
   "keywords": [
     "archaeology",
