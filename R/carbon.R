@@ -37,7 +37,7 @@
 #'  Reimer, P. J., Baillie, M. G. L., Bard, E., Bayliss, A., Beck, J. W.,
 #'  Blackwell, P. G., Bronk Ramsey, C. \emph{et al.} (2009). IntCal09 and Marine09
 #'  Radiocarbon age Calibration Curves, 0-50,000 Years Cal BP.
-#'  \emph{Radiocarbon}, 51(4): 1111‑50. \doi{10.1017/S0033822200034202}.
+#'  \emph{Radiocarbon}, 51(4): 1111-50. \doi{10.1017/S0033822200034202}.
 #' @family radiocarbon dating
 #' @keywords datasets
 "intcal09"
@@ -57,7 +57,7 @@
 #'  Reimer, P. J., Bard, E. Bayliss, A., Beck, J. W., Blackwell, P. G.,
 #'  Bronk Ramsey, C., Buck, C. E. \emph{et al.} (2013). IntCal13 and Marine13
 #'  Radiocarbon age Calibration Curves 0-50,000 Years cal BP.
-#'  \emph{Radiocarbon}, 55(4): 1869‑87. \doi{10.2458/azu_js_rc.55.16947}.
+#'  \emph{Radiocarbon}, 55(4): 1869-87. \doi{10.2458/azu_js_rc.55.16947}.
 #' @family radiocarbon dating
 #' @keywords datasets
 "intcal13"

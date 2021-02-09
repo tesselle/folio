@@ -18,7 +18,7 @@ A data frame with 5 variables:
 Reimer, P. J., Bard, E. Bayliss, A., Beck, J. W., Blackwell, P. G.,
 Bronk Ramsey, C., Buck, C. E. \emph{et al.} (2013). IntCal13 and Marine13
 Radiocarbon age Calibration Curves 0-50,000 Years cal BP.
-\emph{Radiocarbon}, 55(4): 1869‑87. \doi{10.2458/azu_js_rc.55.16947}.
+\emph{Radiocarbon}, 55(4): 1869-87. \doi{10.2458/azu_js_rc.55.16947}.
 }
 \usage{
 intcal13

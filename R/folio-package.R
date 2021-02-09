@@ -1,6 +1,6 @@
 #' @details
 #' \tabular{ll}{
-#'  \strong{Package:} \tab codex \cr
+#'  \strong{Package:} \tab folio \cr
 #'  \strong{Type:} \tab Package \cr
 #'  \strong{Version:} \tab 1.0.0 \cr
 #'  \strong{License:} \tab GPL-3 \cr
@@ -23,8 +23,8 @@
 #' Université Bordeaux Montaigne\cr
 #' F-33607 Pessac cedex\cr
 #' France
-#' @name codex-package
-#' @aliases codex
+#' @name folio-package
+#' @aliases folio
 #' @docType package
 #' @keywords internal
 "_PACKAGE"

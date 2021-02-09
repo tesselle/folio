@@ -4,11 +4,11 @@
     "http://schema.org"
   ],
   "@type": "SoftwareSourceCode",
-  "identifier": "codex",
+  "identifier": "folio",
   "description": "Datasets for teaching quantitative approaches and\n    modeling in archaeology and paleontology. This package provides\n    several types of data related to broad topics (cultural evolution,\n    radiocarbon dating, paleoenvironments, etc.), which can be used to\n    illustrate statistical methods in the classroom (multivariate data\n    analysis, compositional data analysis, diversity measurement, etc.).",
-  "name": "codex: Datasets for Teaching Archaeology and Paleontology",
-  "codeRepository": "https://github.com/tesselle/codex",
-  "issueTracker": "https://github.com/tesselle/codex/issues",
+  "name": "folio: Datasets for Teaching Archaeology and Paleontology",
+  "codeRepository": "https://github.com/tesselle/folio",
+  "issueTracker": "https://github.com/tesselle/folio/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
   "version": "1.0.0",
   "programmingLanguage": {
@@ -47,8 +47,8 @@
       "version": ">= 2.10"
     }
   ],
-  "readme": "https://github.com/tesselle/codex/blob/master/README.md",
-  "fileSize": "1649.774KB",
+  "readme": "https://github.com/tesselle/folio/blob/master/README.md",
+  "fileSize": "1649.766KB",
   "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#stable"],
   "keywords": [
     "archaeology",
@@ -57,6 +57,6 @@
     "datasets",
     "archaeological-science"
   ],
-  "relatedLink": "https://codex.tesselle.org",
-  "releaseNotes": "https://github.com/tesselle/codex/blob/master/NEWS.md"
+  "relatedLink": "https://folio.tesselle.org",
+  "releaseNotes": "https://github.com/tesselle/folio/blob/master/NEWS.md"
 }

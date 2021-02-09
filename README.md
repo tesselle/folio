@@ -1,11 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# codex
+# folio
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/tesselle/codex/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/codex/actions)
+[![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
@@ -26,23 +26,23 @@ analysis, diversity measurement, etc.).
 This package is for teaching purposes only: some datasets may be
 outdated.
 
-When using **codex**, you must cite the relevant publications for each
+When using **folio**, you must cite the relevant publications for each
 dataset (see the documentation).
 
 ## Installation
 
-You can install the released version of **codex** from
+You can install the released version of **folio** from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("codex")
+install.packages("folio")
 ```
 
 And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("tesselle/codex")
+remotes::install_github("tesselle/folio")
 ```
 
 ## Usage
@@ -101,7 +101,7 @@ abline(fit, col = "red")
 
 ## Contributing
 
-Please note that the **codex** project is released with a [Contributor
+Please note that the **folio** project is released with a [Contributor
 Code of
-Conduct](https://github.com/tesselle/codex/blob/master/.github/CODE_OF_CONDUCT.md).
+Conduct](https://github.com/tesselle/folio/blob/master/.github/CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms.
