@@ -1,5 +1,6 @@
 # codex 1.0.0
 
+* Add the `kommos` dataset (chemical data).
 * Add the `chevelon` dataset (count data).
 * Add the `law2006` and `epica2008` datasets (palaeoclimates).
 * Add the `nydal1996` dataset (isotopic data).
