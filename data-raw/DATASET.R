@@ -41,6 +41,12 @@ zuni <- read.csv("data-raw/zuni.csv", header = TRUE, row.names = 1,
                  sep = ",", dec = ".")
 usethis::use_data(zuni, overwrite = FALSE)
 
+# Chemical data ================================================================
+# The Kommos dataset from Day et al. 2011
+kommos <- read.csv("data-raw/kommos.csv", header = TRUE, row.names = 1,
+                   sep = ",", dec = ".")
+usethis::use_data(kommos, overwrite = FALSE)
+
 # Radiocarbon Dating ===========================================================
 arnold1949 <- read.csv("data-raw/arnold1949.csv",
                        header = TRUE, row.names = NULL,

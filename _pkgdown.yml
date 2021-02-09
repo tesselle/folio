@@ -12,6 +12,9 @@ reference:
 - title: Count Data
   contents:
   - has_concept("count data")
+- title: Chemical Data
+  contents:
+  - has_concept("chemical data")
 - title: Isotopic Data
   contents:
   - has_concept("isotopic data")
