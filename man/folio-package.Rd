@@ -20,8 +20,8 @@ Datasets for teaching quantitative approaches and
 \strong{Type:} \tab Package \cr
 \strong{Version:} \tab 1.0.0 \cr
 \strong{License:} \tab GPL-3 \cr
-\strong{DOI:} \tab \href{https://doi.org/10.5281/zenodo.4476182}{10.5281/zenodo.4476182}
 }
+\doi{10.5281/zenodo.4476182}
 }
 \seealso{
 Useful links:
