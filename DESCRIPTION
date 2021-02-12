@@ -2,11 +2,16 @@ Package: folio
 Title: Datasets for Teaching Archaeology and Paleontology
 Version: 1.0.0
 Authors@R: 
-    person(given = "Nicolas",
-           family = "Frerebeau",
-           role = c("aut", "cre"),
-           email = "nicolas.frerebeau@u-bordeaux-montaigne.fr",
-           comment = c(ORCID = "0000-0001-5759-4944"))
+    c(person(given = "Nicolas",
+             family = "Frerebeau",
+             role = c("aut", "cre"),
+             email = "nicolas.frerebeau@u-bordeaux-montaigne.fr",
+             comment = c(ORCID = "0000-0001-5759-4944")),
+      person(given = "Brice",
+             family = "Lebrun",
+             role = "ctb",
+             email = "brice.lebrun@u-bordeaux-montaigne.fr",
+             comment = c(ORCID = "0000-0001-7503-8685")))
 Maintainer: Nicolas Frerebeau
     <nicolas.frerebeau@u-bordeaux-montaigne.fr>
 Description: Datasets for teaching quantitative approaches and

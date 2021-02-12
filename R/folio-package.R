@@ -11,6 +11,7 @@
 #'
 #' \tabular{ll}{
 #'  Nicolas Frerebeau \tab \emph{Université Bordeaux Montaigne, France} \cr
+#'  Brice Lebrun \tab \emph{Université Bordeaux Montaigne, France}
 #' }
 #'
 #' \strong{Package maintainer}

@@ -26,7 +26,15 @@
       "@id": "https://orcid.org/0000-0001-5759-4944"
     }
   ],
-  "contributor": {},
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Brice",
+      "familyName": "Lebrun",
+      "email": "brice.lebrun@u-bordeaux-montaigne.fr",
+      "@id": "https://orcid.org/0000-0001-7503-8685"
+    }
+  ],
   "copyrightHolder": {},
   "funder": {},
   "maintainer": [
@@ -48,8 +56,8 @@
     }
   ],
   "readme": "https://github.com/tesselle/folio/blob/master/README.md",
-  "fileSize": "1649.766KB",
-  "developmentStatus": ["https://www.repostatus.org/#active", "https://www.tidyverse.org/lifecycle/#stable"],
+  "fileSize": "1746.762KB",
+  "developmentStatus": "https://www.repostatus.org/#active",
   "keywords": [
     "archaeology",
     "paleontology",
@@ -57,6 +65,12 @@
     "datasets",
     "archaeological-science"
   ],
-  "relatedLink": "https://folio.tesselle.org",
-  "releaseNotes": "https://github.com/tesselle/folio/blob/master/NEWS.md"
+  "relatedLink": ["https://folio.tesselle.org", "https://CRAN.R-project.org/package=folio"],
+  "releaseNotes": "https://github.com/tesselle/folio/blob/master/NEWS.md",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  }
 }
