@@ -1,11 +1,18 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# folio
+# folio <img width=120px src="man/figures/logo.png" align="right" />
 
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
+
+[![CRAN
+Version](http://www.r-pkg.org/badges/version/folio)](https://cran.r-project.org/package=folio)
+[![CRAN
+checks](https://cranchecks.info/badges/worst/folio)](https://cran.r-project.org/web/checks/check_results_folio.html)
+[![CRAN
+Downloads](http://cranlogs.r-pkg.org/badges/folio)](https://cran.r-project.org/package=folio)
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively

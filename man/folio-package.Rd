@@ -7,6 +7,8 @@
 \alias{folio}
 \title{folio: Datasets for Teaching Archaeology and Paleontology}
 \description{
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
 Datasets for teaching quantitative approaches and
     modeling in archaeology and paleontology. This package provides
     several types of data related to broad topics (cultural evolution,
