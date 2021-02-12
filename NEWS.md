@@ -1,4 +1,8 @@
+# folio 1.0.0.9000
+
 # folio 1.0.0
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4537570.svg)](https://doi.org/10.5281/zenodo.4537570)
 
 * Add the `kommos` dataset (chemical data).
 * Add the `chevelon` dataset (count data).

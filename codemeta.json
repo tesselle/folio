@@ -10,7 +10,7 @@
   "codeRepository": "https://github.com/tesselle/folio",
   "issueTracker": "https://github.com/tesselle/folio/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "1.0.0",
+  "version": "1.0.0.9000",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -56,7 +56,7 @@
     }
   ],
   "readme": "https://github.com/tesselle/folio/blob/master/README.md",
-  "fileSize": "1746.762KB",
+  "fileSize": "1747.185KB",
   "developmentStatus": "https://www.repostatus.org/#active",
   "keywords": [
     "archaeology",
@@ -65,7 +65,10 @@
     "datasets",
     "archaeological-science"
   ],
-  "relatedLink": ["https://folio.tesselle.org", "https://CRAN.R-project.org/package=folio"],
+  "relatedLink": [
+    "https://folio.tesselle.org",
+    "https://CRAN.R-project.org/package=folio"
+  ],
   "releaseNotes": "https://github.com/tesselle/folio/blob/master/NEWS.md",
   "provider": {
     "@id": "https://cran.r-project.org",

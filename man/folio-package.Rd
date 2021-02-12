@@ -20,7 +20,7 @@ Datasets for teaching quantitative approaches and
 \tabular{ll}{
 \strong{Package:} \tab folio \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.0.0 \cr
+\strong{Version:} \tab 1.0.0.9000 \cr
 \strong{License:} \tab GPL-3 \cr
 }
 \doi{10.5281/zenodo.4476182}
