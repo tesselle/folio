@@ -63,10 +63,12 @@ stack. \emph{Climate of the Past}, 12, 1079-1092.
 Other palaeoenvironment: 
 \code{\link{epica2008}},
 \code{\link{law2006}},
-\code{\link{lisiecki2005}}
+\code{\link{lisiecki2005}},
+\code{\link{ngrip2004}}
 
 Other isotopic data: 
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2004}},
 \code{\link{nydal1996}}
 }
 \concept{isotopic data}

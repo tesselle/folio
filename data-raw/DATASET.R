@@ -99,6 +99,12 @@ lisiecki2005 <- read.table("data-raw/LR04stack.txt",
                            col.names = c("age", "delta", "error"))
 usethis::use_data(lisiecki2005, overwrite = FALSE)
 
+ngrip2004 <- read.table("data-raw/ngrip2004.txt",
+                        header = TRUE, row.names = NULL,
+                        sep = "", dec = ".", skip = 79,
+                        col.names = c("age", "delta"))
+usethis::use_data(ngrip2004, overwrite = FALSE)
+
 nydal1996 <- read.csv("data-raw/nydal1996.csv", header = TRUE, row.names = 1,
                       sep = ",", dec = ".", encoding = "UTF-8")
 nydal1996$start <- as.Date(nydal1996$start, format = "%Y-%m-%d")

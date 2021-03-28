@@ -1,5 +1,7 @@
 # folio 1.0.0.9000
 
+* Add the `ngrip2004` dataset (palaeoclimates).
+
 # folio 1.0.0
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4537570.svg)](https://doi.org/10.5281/zenodo.4537570)

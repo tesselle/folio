@@ -7,7 +7,7 @@
 \format{
 A data frame with 3 variables:
 \describe{
-\item{age}{Calendar (calibrated) age (kilo year).}
+\item{age}{Calendar age (kilo year cal BP).}
 \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
 \item{error}{Standard error (per mil).}
 }
@@ -45,9 +45,11 @@ PA1003. \doi{10.1029/2004PA001071}
 Other palaeoenvironment: 
 \code{\link{epica2008}},
 \code{\link{law2006}},
+\code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 
 Other isotopic data: 
+\code{\link{ngrip2004}},
 \code{\link{nydal1996}},
 \code{\link{spratt2016}}
 }

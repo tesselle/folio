@@ -46,6 +46,7 @@ Research Letters}, 33(14), L14810. \doi{10.1029/2006GL026152}.
 Other palaeoenvironment: 
 \code{\link{epica2008}},
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 }
 \concept{palaeoenvironment}

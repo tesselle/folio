@@ -39,6 +39,7 @@ plot(
 \seealso{
 Other isotopic data: 
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 }
 \concept{isotopic data}

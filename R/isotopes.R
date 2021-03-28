@@ -83,7 +83,7 @@
 #' A global Pliocene-Pleistocene benthic \eqn{\delta^{18}O}{\delta18O} stack.
 #' @format A data frame with 3 variables:
 #'  \describe{
-#'    \item{age}{Calendar (calibrated) age (kilo year).}
+#'    \item{age}{Calendar age (kilo year cal BP).}
 #'    \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
 #'    \item{error}{Standard error (per mil).}
 #'  }
@@ -110,6 +110,35 @@
 #' @family isotopic data
 #' @keywords datasets
 "lisiecki2005"
+
+#' North GRIP
+#'
+#' 50-year averaged oxygen isotope data from the North Greenland Ice Core
+#' Project.
+#' @format A data frame with 2 variables:
+#'  \describe{
+#'    \item{age}{Calendar age (years before 2000 AD).}
+#'    \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
+#'  }
+#' @references
+#'  North Greenland Ice Core Project members (2004). High-resolution record of
+#'  Northern Hemisphere climate extending into the last interglacial period.
+#'  \emph{Nature}, 431(7005), 147-151. \doi{10.1038/nature02805}
+#' @source
+#'  \url{https://www.ncdc.noaa.gov/paleo-search/study/2481}
+#' @examples
+#' plot(
+#'   x = ngrip2004$age / 1000,
+#'   y = ngrip2004$delta,
+#'   type = "l",
+#'   xlim = c(120, 0),
+#'   xlab = "kilo year b2k",
+#'   ylab = expression(delta^{18}*"O")
+#' )
+#' @family palaeoenvironment
+#' @family isotopic data
+#' @keywords datasets
+"ngrip2004"
 
 #' \eqn{{}^{14}C}{14C} Measurements in Atmospheric \eqn{CO_2}{CO2}
 #'

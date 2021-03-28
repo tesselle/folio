@@ -58,6 +58,7 @@ Pleistocene. \emph{Science}, 310, 1313-1317. \doi{10.1126/science.1120130}
 Other palaeoenvironment: 
 \code{\link{law2006}},
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 }
 \concept{palaeoenvironment}
