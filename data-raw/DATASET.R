@@ -109,6 +109,7 @@ nydal1996 <- read.csv("data-raw/nydal1996.csv", header = TRUE, row.names = 1,
                       sep = ",", dec = ".", encoding = "UTF-8")
 nydal1996$start <- as.Date(nydal1996$start, format = "%Y-%m-%d")
 nydal1996$end <- as.Date(nydal1996$end, format = "%Y-%m-%d")
+nydal1996$site <- stringi::stri_enc_toascii(nydal1996$site) # Fix encoding
 usethis::use_data(nydal1996, overwrite = FALSE)
 
 spratt2016 <- read.table("data-raw/spratt2016.txt",

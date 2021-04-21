@@ -1,6 +1,7 @@
 # folio 1.0.0.9000
 
 * Add the `ngrip2004` dataset (palaeoclimates).
+* Fix `nydal1996` encoding.
 
 # folio 1.0.0
 
