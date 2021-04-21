@@ -1,20 +1,23 @@
-on:
-  push:
-    branches:
-      - main
-      - master
+# https://github.com/r-hyperspec/hySpc.chondro/blob/develop/.github/workflows/drat--insert-package.yaml
 
-name: pkgdown
+on:
+  release:
+    types:
+      - published
+
+name: drat
 
 jobs:
-  pkgdown:
-    name: Build-Website
+  drat:
+    name: Insert-Package
     
-    runs-on: macOS-latest
+    runs-on: ubuntu-20.04
     
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       REPO: ${{ github.event.repository.name }}
+      RELEASE: ${{ github.event.release.tag_name }}
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
       
     steps:
       - uses: actions/checkout@v2
@@ -37,20 +40,25 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
+      - name: Install system dependencies
+        run: |
+          while read -r cmd
+          do
+            eval sudo $cmd
+          done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
+
       - name: Install dependencies
         run: |
           remotes::install_deps(dependencies = TRUE)
-          install.packages("pkgdown", type = "binary")
-          remotes::install_github("amirmasoudabdol/preferably", type = "source")
+          install.packages(c("pkgbuild", "drat"))
         shell: Rscript {0}
 
-      - name: Install package
-        run: R CMD INSTALL .
-
-      - name: Build site
+      - name: Build source package
         run: |
-          Rscript -e 'pkgdown::build_site(devel = FALSE, preview = FALSE, install = FALSE, new_process = FALSE)'
- 
+          dir.create("build", showWarnings = FALSE)
+          pkgbuild::build(dest_path = "build", binary = FALSE, vignettes = TRUE, manual = FALSE)
+        shell: Rscript {0}
+        
       - name: Configure git
         if: success()
         env:
@@ -65,14 +73,22 @@ jobs:
         run: |
           rm -rf tmp
           git clone https://github.com/tesselle/packages.git tmp
-
+          
+      - name: Insert package
+        if: success()
+        run: |
+          targz <- list.files(path = "build", pattern = "\\.tar\\.gz", full.names = TRUE)
+          drat::insertPackage(file = targz, repodir = "tmp", action = "archive", location = "gh-pages")
+        shell: Rscript {0}
+        
       - name: Deploy
         if: success()
         run: |
-          mkdir -p tmp/${REPO}
-          cp -r docs/* tmp/${REPO}/
           cd tmp
           git add .
-          git commit -m "Built site for ${REPO}@$(echo ${GITHUB_SHA} | cut -c1-7)"
+          # .tar.gz files are globally blocked (git ignored) by git,
+          # must add manually and force it
+          git add -f *.tar.gz
+          git commit -m "Add ${REPO} ${RELEASE}"
           git push origin gh-pages
-
+          
