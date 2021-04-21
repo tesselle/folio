@@ -15,7 +15,7 @@
 #' A dataset of birds species abundance in remote European woodlands.
 #' @format A data frame with 35 rows (species) and 3 variables (woodlands).
 #' @source
-#'  Magurran, A. E. (1988). \emph{Ecological Diversity and its Measurement}.
+#'  Magurran, A. E. (1988). *Ecological Diversity and its Measurement*.
 #'  Princeton, NJ: Princeton University Press.
 #'  \doi{10.1007/978-94-015-7358-0}.
 #' @family count data
@@ -25,8 +25,8 @@
 #' Boves Ceramics
 #'
 #' A dataset containing the ceramic counts from the castle site of Boves
-#'  (Somme, France). The data are grouped into eight periods ranging from the
-#'  10th to the 18th century and thirteen ceramic types.
+#' (Somme, France). The data are grouped into eight periods ranging from the
+#' 10th to the 18th century and thirteen ceramic types.
 #' @format A data frame with 8 rows and 13 variables (ceramic types):
 #'  \describe{
 #'    \item{I}{}
@@ -45,8 +45,8 @@
 #'  }
 #' @source
 #'  Racinet P. (2002). Le site castral et prioral de Boves du Xe au XVIIe
-#'  siècle. Bilan des recherches 1996-2000. \emph{Revue archéologique de
-#'  Picardie}. Numéro spécial 20, 123 p.
+#'  siècle. Bilan des recherches 1996-2000. *Revue archéologique de Picardie*.
+#'  Numéro spécial 20, 123 p.
 #' @family count data
 #' @keywords datasets
 "boves"
@@ -68,7 +68,7 @@
 #'    \item{UBHa}{Unmodified bifacial handstone.}
 #'  }
 #' @source
-#'  Reid, J. J. (ed.) (1982). \emph{Cholla Project Archaeology}. Vol. 2.
+#'  Reid, J. J. (ed.) (1982). *Cholla Project Archaeology*. Vol. 2.
 #'  Archaeological Series 161. Tucson: University of Arizona.
 #'  \doi{10.6067/XCV8435710}
 #' @family count data
@@ -105,7 +105,7 @@
 #'  }
 #' @source
 #'  Lacroix, M. C. (1997). La céramique médiévale du site des Hallettes à
-#'  Compiègne (Oise). \emph{Revue archéologique de Picardie}. Numéro spécial,
+#'  Compiègne (Oise). *Revue archéologique de Picardie*. Numéro spécial,
 #'  13(1), 135-168. \doi{10.3406/pica.1997.1945}
 #' @family count data
 #' @keywords datasets
@@ -116,15 +116,15 @@
 #' A dataset containing the ceramic counts from the Merzbach assemblage
 #' (Germany). The data are grouped into eight phases.
 #' @format A data frame with 8 rows (phases, numbered from VII to XIV)
-#' and 36 variables (pottery motifs).
-#' @source
+#'  and 36 variables (pottery motifs).
+#' @references
 #'  Crema, E. R., Kandler, A. & Shennan, S. (2016). Revealing Patterns of
 #'  Cultural Transmission from Frequency Data: Equilibrium and Non-Equilibrium
-#'  Assumptions. \emph{Scientific Reports}, 6(1). \doi{10.1038/srep39122}.
-#'
+#'  Assumptions. *Scientific Reports*, 6(1). \doi{10.1038/srep39122}.
+#' @source
 #'  Crema, E. R. (2016). Sample codes and data for "Revealing patterns of
 #'  cultural transmission from frequency data: equilibrium and non-equilibrium
-#'  assumptions". \emph{Zenodo}, v1.0. \doi{10.5281/zenodo.187558}.
+#'  assumptions". *Zenodo*, v1.0. \doi{10.5281/zenodo.187558}.
 #' @family count data
 #' @keywords datasets
 "merzbach"
@@ -148,7 +148,7 @@
 #' @source
 #'  Lipo, C. P., Madsen, M. E. & Dunnell, R. C. (2015). A
 #'  Theoretically-Sufficient and Computationally-Practical Technique for
-#'  Deterministic Frequency Seriation. \emph{PLOS ONE}, 10(4), e0124942.
+#'  Deterministic Frequency Seriation. *PLOS ONE*, 10(4), e0124942.
 #'  \doi{10.1371/journal.pone.0124942}.
 #' @family count data
 #' @keywords datasets
@@ -183,8 +183,8 @@
 #'  }
 #' @source
 #'  Peeples, M. A., & Schachner, G. (2012). Refining correspondence
-#'  analysis-based ceramic seriation of regional data sets. \emph{Journal of
-#'  Archaeological Science}, 39(8), 2818-2827. \doi{10.1016/j.jas.2012.04.040}.
+#'  analysis-based ceramic seriation of regional data sets. *Journal of
+#'  Archaeological Science*, 39(8), 2818-2827. \doi{10.1016/j.jas.2012.04.040}.
 #' @family count data
 #' @keywords datasets
 "zuni"

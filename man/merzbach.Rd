@@ -9,10 +9,6 @@ A data frame with 8 rows (phases, numbered from VII to XIV)
 and 36 variables (pottery motifs).
 }
 \source{
-Crema, E. R., Kandler, A. & Shennan, S. (2016). Revealing Patterns of
-Cultural Transmission from Frequency Data: Equilibrium and Non-Equilibrium
-Assumptions. \emph{Scientific Reports}, 6(1). \doi{10.1038/srep39122}.
-
 Crema, E. R. (2016). Sample codes and data for "Revealing patterns of
 cultural transmission from frequency data: equilibrium and non-equilibrium
 assumptions". \emph{Zenodo}, v1.0. \doi{10.5281/zenodo.187558}.
@@ -23,6 +19,11 @@ merzbach
 \description{
 A dataset containing the ceramic counts from the Merzbach assemblage
 (Germany). The data are grouped into eight phases.
+}
+\references{
+Crema, E. R., Kandler, A. & Shennan, S. (2016). Revealing Patterns of
+Cultural Transmission from Frequency Data: Equilibrium and Non-Equilibrium
+Assumptions. \emph{Scientific Reports}, 6(1). \doi{10.1038/srep39122}.
 }
 \seealso{
 Other count data: 

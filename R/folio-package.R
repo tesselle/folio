@@ -1,20 +1,22 @@
 #' @details
 #' \tabular{ll}{
-#'  \strong{Package:} \tab folio \cr
-#'  \strong{Type:} \tab Package \cr
-#'  \strong{Version:} \tab 1.0.0.9000 \cr
-#'  \strong{License:} \tab GPL-3 \cr
+#'  **Package:** \tab folio \cr
+#'  **Type:** \tab Package \cr
+#'  **Version:** \tab 1.0.0.9000 \cr
+#'  **License:** \tab GPL-3 \cr
 #' }
+#'
 #' \doi{10.5281/zenodo.4476182}
+#'
 #' @author
-#' \strong{Full list of authors and contributors} (alphabetic order)
+#' **Full list of authors and contributors** (alphabetic order)
 #'
 #' \tabular{ll}{
-#'  Nicolas Frerebeau \tab \emph{Université Bordeaux Montaigne, France} \cr
-#'  Brice Lebrun \tab \emph{Université Bordeaux Montaigne, France}
+#'  Nicolas Frerebeau \tab *Université Bordeaux Montaigne, France* \cr
+#'  Brice Lebrun \tab *Université Bordeaux Montaigne, France*
 #' }
 #'
-#' \strong{Package maintainer}
+#' **Package maintainer**
 #'
 #' Nicolas Frerebeau\cr
 #' \email{nicolas.frerebeau@@u-bordeaux-montaigne.fr}

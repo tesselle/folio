@@ -10,12 +10,12 @@
 #'  Lüthi, D., Le Floch, M., Bereiter, B., Blunier, T., Barnola, J.-M.,
 #'  Siegenthaler, U., Raynaud, D., Jouzel, J., Fischer, H., Kawamura, K. and
 #'  Stocker, T. F. (2008). High-resolution carbon dioxide concentration record
-#'  650,000-800,000 years before present. \emph{Nature}, 453, 379-382.
+#'  650,000-800,000 years before present. *Nature*, 453, 379-382.
 #'  \doi{10.1038/nature06949}
 #'
 #'  Monnin, E., Indermuhle, A., Dallenbach, A., Fluckiger, J., Stauffer, B.,
 #'  Stocker, T. F., Raynaud, D. and Barnola, J.-M. (2001). Atmospheric CO2
-#'  concentrations over the last glacial termination. \emph{Science}, 291,
+#'  concentrations over the last glacial termination. *Science*, 291,
 #'  112-114. \doi{10.1126/science.291.5501.112}
 #'
 #'  Petit, J. R., Jouzel, J., Raynaud, D., Barkov, N. I., Barnola, J.-M.,
@@ -23,12 +23,12 @@
 #'  Delmotte, M., Kotlyakov, V. M., Legrand, M., Lipenkov, V. Y.,
 #'  Lorius, C., Pepin, L., Ritz, C., Saltzman, E. and Stievenard, M. (1999).
 #'  Climate and atmospheric history of the past 420,000 years from the Vostok
-#'  ice core, Antarctica. \emph{Nature}, 399, 429-436. \doi{10.1038/20859}
+#'  ice core, Antarctica. *Nature*, 399, 429-436. \doi{10.1038/20859}
 #'
 #'  Siegenthaler, U., Stocker, T. F., Monnin, E., Luthi, D., Schwander, J.,
 #'  Stauffer, B., Raynaud, D., Barnola, J.-M., Fischer, H., Masson-Delmotte, V.,
 #'  Jouzel, J. (2005). Stable Carbon Cycle-Climate Relationship During the Late
-#'  Pleistocene. \emph{Science}, 310, 1313-1317. \doi{10.1126/science.1120130}
+#'  Pleistocene. *Science*, 310, 1313-1317. \doi{10.1126/science.1120130}
 #' @source
 #'  \url{https://www.ncdc.noaa.gov/paleo-search/study/6091}
 #' @examples
@@ -62,8 +62,8 @@
 #' @references
 #'  MacFarling Meure, C., Etheridge, D., Trudinger, C., Steele, P., Langenfelds,
 #'  R., van Ommen, T., Smith, A. and Elkins, J. (2006). The Law Dome CO2, CH4
-#'  and N2O Ice Core Records Extended to 2000 years BP. \emph{Geophysical
-#'  Research Letters}, 33(14), L14810. \doi{10.1029/2006GL026152}.
+#'  and N2O Ice Core Records Extended to 2000 years BP. *Geophysical
+#'  Research Letters*, 33(14), L14810. \doi{10.1029/2006GL026152}.
 #' @source
 #'  \url{https://www.ncdc.noaa.gov/paleo-search/study/9959}
 #' @examples
@@ -93,7 +93,7 @@
 #'  volume and deep ocean temperature) collected from the scientific literature.
 #' @references
 #'  Lisiecki, L. E. and Raymo, M. E. (2005). A Pliocene-Pleistocene stack of 57
-#'  globally distributed benthic d18O records. \emph{Paleoceanography}, 20,
+#'  globally distributed benthic d18O records. *Paleoceanography*, 20,
 #'  PA1003. \doi{10.1029/2004PA001071}
 #' @source
 #'  \url{https://www.ncdc.noaa.gov/paleo-search/study/5847}
@@ -123,7 +123,7 @@
 #' @references
 #'  North Greenland Ice Core Project members (2004). High-resolution record of
 #'  Northern Hemisphere climate extending into the last interglacial period.
-#'  \emph{Nature}, 431(7005), 147-151. \doi{10.1038/nature02805}
+#'  *Nature*, 431(7005), 147-151. \doi{10.1038/nature02805}
 #' @source
 #'  \url{https://www.ncdc.noaa.gov/paleo-search/study/2481}
 #' @examples
@@ -153,8 +153,8 @@
 #'   \item{sigma}{Error on \code{delta} (per mil).}
 #'  }
 #' @source
-#'  Nydal, R. and Lövseth, K. (1996). \emph{Carbon-14 Measurements in
-#'  Atmospheric CO2 from Northern and Southern Hemisphere Sites, 1962-1993}.
+#'  Nydal, R. and Lövseth, K. (1996). *Carbon-14 Measurements in
+#'  Atmospheric CO2 from Northern and Southern Hemisphere Sites, 1962-1993*.
 #'  ORNL/CDIAC-93; NDP-057. Washington, DC: USDOE Office of Energy Research.
 #'  \doi{10.2172/461185}
 #' @examples
@@ -203,7 +203,7 @@
 #'  }
 #' @references
 #'  Spratt, R. M. and Lisiecki, L. E. (2016). A Late Pleistocene sea level
-#'  stack. \emph{Climate of the Past}, 12, 1079-1092.
+#'  stack. *Climate of the Past*, 12, 1079-1092.
 #'  \doi{10.5194/cp-12-1079-2016}
 #' @source
 #'  \url{https://www.ncdc.noaa.gov/paleo-search/study/19982}

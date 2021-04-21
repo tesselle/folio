@@ -23,6 +23,7 @@ Datasets for teaching quantitative approaches and
 \strong{Version:} \tab 1.0.0.9000 \cr
 \strong{License:} \tab GPL-3 \cr
 }
+
 \doi{10.5281/zenodo.4476182}
 }
 \seealso{

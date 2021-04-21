@@ -4,8 +4,8 @@
 #' transport jars found in excavations at Kommos, Crete.
 #' @format A data frame with 22 variables (chemical elements):
 #'  \describe{
-#'    \item{type}{\code{CJ}: Canaanite jar; \code{EJ}: Egyptian jar;
-#'    \code{TSJ}: transport stirrup jar; \code{SNA}: short-necked amphora.}
+#'    \item{type}{`CJ`: Canaanite jar; `EJ`: Egyptian jar;
+#'    `TSJ`: transport stirrup jar; `SNA`: short-necked amphora.}
 #'    \item{date}{Chronology (period).}
 #'    \item{Sm}{(ppm).}
 #'    \item{Lu}{(ppm).}
@@ -31,7 +31,7 @@
 #' @references
 #'  Day, P. M., Quinn, P. S., Rutter, J. B. & Kilikoglou, V. (2011).
 #'  A World of Goods: Transport Jars and Commodity Exchange at the Late Bronze
-#'  Age Harbor of Kommos, Crete. \emph{Hesperia}, 80, 511-558.
+#'  Age Harbor of Kommos, Crete. *Hesperia*, 80, 511-558.
 #'  \doi{10.2972/hesperia.80.4.0511}
 #' @family chemical data
 #' @keywords datasets
