@@ -29,7 +29,7 @@ Datasets for teaching quantitative approaches and
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://folio.tesselle.org}
+  \item \url{https://packages.tesselle.org/folio}
   \item \url{https://github.com/tesselle/folio}
   \item Report bugs at \url{https://github.com/tesselle/folio/issues}
 }
