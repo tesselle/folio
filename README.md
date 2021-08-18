@@ -7,6 +7,7 @@
 
 [![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
 
+[![r-universe](https://tesselle.r-universe.dev/badges/folio)](https://tesselle.r-universe.dev)
 [![CRAN
 Version](http://www.r-pkg.org/badges/version/folio)](https://cran.r-project.org/package=folio)
 [![CRAN

@@ -56,7 +56,7 @@
     }
   ],
   "readme": "https://github.com/tesselle/folio/blob/master/README.md",
-  "fileSize": "351.227KB",
+  "fileSize": "351.238KB",
   "developmentStatus": "https://www.repostatus.org/#active",
   "keywords": [
     "archaeology",
@@ -67,7 +67,7 @@
   ],
   "relatedLink": [
     "https://CRAN.R-project.org/package=folio",
-    "https://packages.tesselle.org/folio"
+    "https://packages.tesselle.org/folio/"
   ],
   "releaseNotes": "https://github.com/tesselle/folio/blob/master/NEWS.md",
   "provider": {

@@ -21,7 +21,7 @@ Description: Datasets for teaching quantitative approaches and
     illustrate statistical methods in the classroom (multivariate data
     analysis, compositional data analysis, diversity measurement, etc.).
 License: GPL (>= 3)
-URL: https://packages.tesselle.org/folio,
+URL: https://packages.tesselle.org/folio/,
     https://github.com/tesselle/folio
 BugReports: https://github.com/tesselle/folio/issues
 Depends: 
