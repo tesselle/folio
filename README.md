@@ -22,6 +22,8 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4476182.svg)](https://doi.org/10.5281/zenodo.4476182)
 <!-- badges: end -->
 
+## Overview
+
 Datasets for teaching quantitative approaches and modeling in
 archaeology and paleontology. This package provides several types of
 data related to broad topics (cultural evolution, radiocarbon dating,
@@ -78,7 +80,6 @@ summary(fit)
 #> Residual standard error: 0.2421 on 4 degrees of freedom
 #> Multiple R-squared:  0.9745, Adjusted R-squared:  0.9681 
 #> F-statistic: 152.6 on 1 and 4 DF,  p-value: 0.0002467
-
 plot(
   x = arnold1949$age_expected,
   y = arnold1949$activity_found,

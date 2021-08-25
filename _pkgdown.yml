@@ -1,15 +1,10 @@
 url: https://packages.tesselle.org/folio
-development:
-  mode: auto
 
 template:
-  package: preferably
-  params:
-    footer: folio is a part of the <strong>tesselle</strong> project, a collection of packages for research and teaching in archaeology. Learn more at <a href="https://www.tesselle.org/?mtm_campaign=pkgdown&mtm_kwd=folio">tesselle.org</a>.
+  package: tekton
   opengraph:
     twitter:
       creator: "@nfrerebeau"
-      card: summary_large_image
 
 reference:
 - title: Count Data
@@ -18,6 +13,9 @@ reference:
 - title: Chemical Data
   contents:
   - has_concept("chemical data")
+- title: Palaeoenvironment
+  contents:
+  - has_concept("palaeoenvironment data")
 - title: Isotopic Data
   contents:
   - has_concept("isotopic data")

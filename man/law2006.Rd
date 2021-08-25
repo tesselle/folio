@@ -43,11 +43,11 @@ and N2O Ice Core Records Extended to 2000 years BP. \emph{Geophysical
 Research Letters}, 33(14), L14810. \doi{10.1029/2006GL026152}.
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{epica2008}},
 \code{\link{lisiecki2005}},
 \code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 }
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}

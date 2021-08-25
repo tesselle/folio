@@ -55,11 +55,11 @@ Jouzel, J. (2005). Stable Carbon Cycle-Climate Relationship During the Late
 Pleistocene. \emph{Science}, 310, 1313-1317. \doi{10.1126/science.1120130}
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{law2006}},
 \code{\link{lisiecki2005}},
 \code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 }
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}

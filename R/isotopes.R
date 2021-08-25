@@ -40,7 +40,7 @@
 #'   xlab = "kilo year BP",
 #'   ylab = expression("CO"[2]~"(ppmv)")
 #' )
-#' @family palaeoenvironment
+#' @family palaeoenvironment data
 #' @keywords datasets
 "epica2008"
 
@@ -74,7 +74,7 @@
 #'   xlab = "Year AD",
 #'   ylab = expression("CO"[2]~"(ppm)")
 #' )
-#' @family palaeoenvironment
+#' @family palaeoenvironment data
 #' @keywords datasets
 "law2006"
 
@@ -106,7 +106,7 @@
 #'   xlab = "kilo year BP",
 #'   ylab = expression(delta^{18}*"O")
 #' )
-#' @family palaeoenvironment
+#' @family palaeoenvironment data
 #' @family isotopic data
 #' @keywords datasets
 "lisiecki2005"
@@ -135,7 +135,7 @@
 #'   xlab = "kilo year b2k",
 #'   ylab = expression(delta^{18}*"O")
 #' )
-#' @family palaeoenvironment
+#' @family palaeoenvironment data
 #' @family isotopic data
 #' @keywords datasets
 "ngrip2004"
@@ -216,7 +216,7 @@
 #'   xlab = "kilo year BP",
 #'   ylab = "Sea level (meters above present)"
 #' )
-#' @family palaeoenvironment
+#' @family palaeoenvironment data
 #' @family isotopic data
 #' @keywords datasets
 "spratt2016"

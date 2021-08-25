@@ -60,7 +60,7 @@ stack. \emph{Climate of the Past}, 12, 1079-1092.
 \doi{10.5194/cp-12-1079-2016}
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{epica2008}},
 \code{\link{law2006}},
 \code{\link{lisiecki2005}},
@@ -72,5 +72,5 @@ Other isotopic data:
 \code{\link{nydal1996}}
 }
 \concept{isotopic data}
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}

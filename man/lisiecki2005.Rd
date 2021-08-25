@@ -42,7 +42,7 @@ globally distributed benthic d18O records. \emph{Paleoceanography}, 20,
 PA1003. \doi{10.1029/2004PA001071}
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{epica2008}},
 \code{\link{law2006}},
 \code{\link{ngrip2004}},
@@ -54,5 +54,5 @@ Other isotopic data:
 \code{\link{spratt2016}}
 }
 \concept{isotopic data}
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}

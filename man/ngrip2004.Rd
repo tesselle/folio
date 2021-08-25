@@ -37,7 +37,7 @@ Northern Hemisphere climate extending into the last interglacial period.
 \emph{Nature}, 431(7005), 147-151. \doi{10.1038/nature02805}
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{epica2008}},
 \code{\link{law2006}},
 \code{\link{lisiecki2005}},
@@ -49,5 +49,5 @@ Other isotopic data:
 \code{\link{spratt2016}}
 }
 \concept{isotopic data}
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}
