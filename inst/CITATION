@@ -1,0 +1,21 @@
+citHeader("To cite folio in publications use:")
+
+citEntry(
+  entry        = "Manual",
+  title        = "folio: Datasets for Teaching Archaeology and Paleontology",
+  author       = c(person("Nicolas", "Frerebeau", role = "aut")),
+  year         = "2021",
+  organization = "Université Bordeaux Montaigne",
+  address      = "Pessac, France",
+  note         = "R package version 1.0.0",
+  url          = "https://packages.tesselle.org/folio",
+  doi          = "10.5281/zenodo.4476182",
+
+  textVersion  =
+  paste("Frerebeau, Nicolas (2021).",
+        "folio: Datasets for Teaching Archaeology and Paleontology.",
+        "R package version 1.0.0",
+        "Université Bordeaux Montaigne, Pessac, France.",
+        "DOI 10.5281/zenodo.4476182.",
+        "URL https://packages.tesselle.org/folio.")
+)

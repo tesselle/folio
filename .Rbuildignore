@@ -1,7 +1,4 @@
 ^codecov\.yml$
-^appveyor\.yml$
-^\.travis\.yml$
-^\.zenodo\.json$
 ^codemeta\.json$
 ^\_pkgdown\.yml$
 ^cran-comments\.md$
@@ -15,3 +12,4 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
+^CITATION\.cff$

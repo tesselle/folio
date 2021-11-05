@@ -1,0 +1,72 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.1.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "folio" in publications use:'
+type: software
+license: GPL-3.0-or-later
+title: 'folio: Datasets for Teaching Archaeology and Paleontology'
+version: 1.0.0.9000
+abstract: Datasets for teaching quantitative approaches and modeling in archaeology
+  and paleontology. This package provides several types of data related to broad topics
+  (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be
+  used to illustrate statistical methods in the classroom (multivariate data analysis,
+  compositional data analysis, diversity measurement, etc.).
+authors:
+- family-names: Frerebeau
+  given-names: Nicolas
+  email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+  orcid: https://orcid.org/0000-0001-5759-4944
+  affiliation: Université Bordeaux Montaigne
+preferred-citation:
+  type: manual
+  title: 'folio: Datasets for Teaching Archaeology and Paleontology'
+  authors:
+  - family-names: Frerebeau
+    given-names: Nicolas
+    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+    orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
+  version: 1.0.0.9000
+  abstract: Datasets for teaching quantitative approaches and modeling in archaeology
+    and paleontology. This package provides several types of data related to broad
+    topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which
+    can be used to illustrate statistical methods in the classroom (multivariate data
+    analysis, compositional data analysis, diversity measurement, etc.).
+  repository: https://CRAN.R-project.org/package=folio
+  repository-code: https://github.com/tesselle/folio
+  url: https://packages.tesselle.org/folio/
+  contact:
+  - family-names: Frerebeau
+    given-names: Nicolas
+    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+    orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
+  license: GPL-3.0-or-later
+  year: '2021'
+repository: https://CRAN.R-project.org/package=folio
+repository-code: https://github.com/tesselle/folio
+url: https://packages.tesselle.org/folio/
+contact:
+- family-names: Frerebeau
+  given-names: Nicolas
+  email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+  orcid: https://orcid.org/0000-0001-5759-4944
+  affiliation: Université Bordeaux Montaigne
+keywords:
+- archaeology
+- archaeological science
+- paleontology
+- r package
+identifiers:
+- description: The concept DOI.
+  type: doi
+  value: 10.5281/zenodo.4476182
+- description: The versioned DOI for version 0.1.0.
+  type: doi
+  value: 10.5281/zenodo.4476183
+- description: The versioned DOI for version 1.0.0.
+  type: doi
+  value: 10.5281/zenodo.4537570

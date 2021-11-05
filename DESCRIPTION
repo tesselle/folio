@@ -6,12 +6,14 @@ Authors@R:
              family = "Frerebeau",
              role = c("aut", "cre"),
              email = "nicolas.frerebeau@u-bordeaux-montaigne.fr",
-             comment = c(ORCID = "0000-0001-5759-4944")),
+             comment = c(ORCID = "0000-0001-5759-4944", 
+                         affiliation = "Université Bordeaux Montaigne")),
       person(given = "Brice",
              family = "Lebrun",
              role = "ctb",
              email = "brice.lebrun@u-bordeaux-montaigne.fr",
-             comment = c(ORCID = "0000-0001-7503-8685")))
+             comment = c(ORCID = "0000-0001-7503-8685", 
+                         affiliation = "Université Bordeaux Montaigne")))
 Maintainer: Nicolas Frerebeau
     <nicolas.frerebeau@u-bordeaux-montaigne.fr>
 Description: Datasets for teaching quantitative approaches and
