@@ -58,6 +58,12 @@ kommos <- read.csv("data-raw/kommos.csv", header = TRUE, row.names = 1,
                    sep = ",", dec = ".")
 usethis::use_data(kommos, overwrite = FALSE)
 
+# Chronological data ===========================================================
+# Chronostratigraphic Chart
+stratigraphy <- read.csv("data-raw/stratigraphy.csv", header = TRUE,
+                         row.names = NULL, sep = ",", dec = ".")
+usethis::use_data(stratigraphy, overwrite = FALSE)
+
 # Radiocarbon Dating ===========================================================
 arnold1949 <- read.csv("data-raw/arnold1949.csv",
                        header = TRUE, row.names = NULL,

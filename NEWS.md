@@ -2,6 +2,7 @@
 
 * Add the `verre` dataset (chemical data).
 * Add the `ngrip2004` dataset (palaeoclimates).
+* Add the `stratigraphy` dataset (chronological data).
 * Fix `nydal1996` encoding.
 
 # folio 1.0.0
