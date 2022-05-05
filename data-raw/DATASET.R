@@ -44,7 +44,7 @@ usethis::use_data(zuni, overwrite = FALSE)
 # Chemical data ================================================================
 # The French glass dataset from Barrera and Velde 1989
 verre <- read.csv("data-raw/verre.csv", header = TRUE, row.names = NULL,
-                  sep = ",", dec = ".")
+                  sep = ",", dec = ".", encoding = "UTF-8")
 verre$R <- NULL
 usethis::use_data(verre, overwrite = FALSE)
 
@@ -126,7 +126,6 @@ nydal1996 <- read.csv("data-raw/nydal1996.csv", header = TRUE, row.names = 1,
                       sep = ",", dec = ".", encoding = "UTF-8")
 nydal1996$start <- as.Date(nydal1996$start, format = "%Y-%m-%d")
 nydal1996$end <- as.Date(nydal1996$end, format = "%Y-%m-%d")
-nydal1996$site <- stringi::stri_enc_toascii(nydal1996$site) # Fix encoding
 usethis::use_data(nydal1996, overwrite = FALSE)
 
 spratt2016 <- read.table("data-raw/spratt2016.txt",
