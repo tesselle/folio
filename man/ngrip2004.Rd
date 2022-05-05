@@ -5,7 +5,7 @@
 \alias{ngrip2004}
 \title{North GRIP}
 \format{
-A data frame with 2 variables:
+A \code{\link{data.frame}} with 2 variables:
 \describe{
 \item{age}{Calendar age (years before 2000 AD).}
 \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}

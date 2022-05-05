@@ -5,7 +5,7 @@
 \alias{kommos}
 \title{Transport Jars from Kommos (Crete).}
 \format{
-A data frame with 22 variables (chemical elements):
+A \code{\link{data.frame}} with 22 variables (chemical elements):
 \describe{
 \item{type}{\code{CJ}: Canaanite jar; \code{EJ}: Egyptian jar;
 \code{TSJ}: transport stirrup jar; \code{SNA}: short-necked amphora.}

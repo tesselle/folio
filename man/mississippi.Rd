@@ -5,7 +5,7 @@
 \alias{mississippi}
 \title{Mississippi Ceramics}
 \format{
-A data frame with 20 rows and 10 variables (ceramic types):
+A \code{\link{data.frame}} with 20 rows and 10 variables (ceramic types):
 \describe{
 \item{ParkinPunctate}{}
 \item{BartonKentMPI}{}

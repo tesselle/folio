@@ -5,7 +5,7 @@
 \alias{boves}
 \title{Boves Ceramics}
 \format{
-A data frame with 8 rows and 13 variables (ceramic types):
+A \code{\link{data.frame}} with 8 rows and 13 variables (ceramic types):
 \describe{
 \item{I}{}
 \item{IIa}{}

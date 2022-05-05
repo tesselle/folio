@@ -5,7 +5,7 @@
 \alias{chevelon}
 \title{Chevelon Ground Stone}
 \format{
-A data frame with 12 rows and 10 variables (ground stone types):
+A \code{\link{data.frame}} with 12 rows and 10 variables (ground stone types):
 \describe{
 \item{BMe}{Basin metate.}
 \item{SMe}{Slab metate.}

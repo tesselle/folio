@@ -2,7 +2,7 @@
 #'
 #' "The agreement between prediction and observation is seen to be
 #' satisfactory."
-#' @format A data frame with 6 observations and 8 variables:
+#' @format A [`data.frame`] with 6 observations and 8 variables:
 #'  \describe{
 #'   \item{sample}{Sample name.}
 #'   \item{age_expected}{Expected age (year BP).}
@@ -24,7 +24,7 @@
 #' IntCal09
 #'
 #' The IntCal series of radiocarbon calibration curves.
-#' @format A data frame with 5 variables:
+#' @format A [`data.frame`] with 5 variables:
 #'  \describe{
 #'    \item{calBP}{Calendar (calibrated) age (year BP).}
 #'    \item{age}{Radiocarbon age (year BP).}
@@ -44,7 +44,7 @@
 #' IntCal13
 #'
 #' The IntCal series of radiocarbon calibration curves.
-#' @format A data frame with 5 variables:
+#' @format A [`data.frame`] with 5 variables:
 #'  \describe{
 #'    \item{calBP}{Calendar (calibrated) age (year BP).}
 #'    \item{age}{Radiocarbon age (year BP).}
@@ -64,7 +64,7 @@
 #' IntCal20
 #'
 #' The IntCal series of radiocarbon calibration curves.
-#' @format A data frame with 5 variables:
+#' @format A [`data.frame`] with 5 variables:
 #'  \describe{
 #'    \item{calBP}{Calendar (calibrated) age (year BP).}
 #'    \item{age}{Radiocarbon age (year BP).}

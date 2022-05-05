@@ -5,7 +5,7 @@
 \alias{nydal1996}
 \title{\eqn{{}^{14}C}{14C} Measurements in Atmospheric \eqn{CO_2}{CO2}}
 \format{
-A data frame with 5 variables:
+A \code{\link{data.frame}} with 5 variables:
 \describe{
 \item{site}{Sampling station.}
 \item{start}{Beginning date of the sampling period.}

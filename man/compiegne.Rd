@@ -5,7 +5,7 @@
 \alias{compiegne}
 \title{Compiègne Ceramics}
 \format{
-A data frame with 5 rows (chronological periods, numbered from
+A \code{\link{data.frame}} with 5 rows (chronological periods, numbered from
 the oldest to the most recent from 1 to 5) and 16 variables (ceramic types):
 \describe{
 \item{A}{Red to white ceramics with fine sized inclusions.}

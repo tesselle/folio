@@ -5,7 +5,7 @@
 \alias{arnold1949}
 \title{Arnold and Libby's Curve of Knowns}
 \format{
-A data frame with 6 observations and 8 variables:
+A \code{\link{data.frame}} with 6 observations and 8 variables:
 \describe{
 \item{sample}{Sample name.}
 \item{age_expected}{Expected age (year BP).}

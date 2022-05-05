@@ -1,7 +1,7 @@
 # Altamira Engraved Bones
 #
 # A dataset of design elements in engraved bones from Altamira (Spain).
-# @format A data frame with 5 rows and 44 variables (designs):
+# @format A [`data.frame`] with 5 rows and 44 variables (designs):
 # @source
 #  Conkey, M. W. (1980). The Identification of prehistoric hunter-gatherer
 #  aggregation sites: The case of Altamira. \emph{Current Anthropology}, 21(5),
@@ -13,7 +13,7 @@
 #' European Birds
 #'
 #' A dataset of birds species abundance in remote European woodlands.
-#' @format A data frame with 35 rows (species) and 3 variables (woodlands).
+#' @format A [`data.frame`] with 35 rows (species) and 3 variables (woodlands).
 #' @source
 #'  Magurran, A. E. (1988). *Ecological Diversity and its Measurement*.
 #'  Princeton, NJ: Princeton University Press.
@@ -27,7 +27,7 @@
 #' A dataset containing the ceramic counts from the castle site of Boves
 #' (Somme, France). The data are grouped into eight periods ranging from the
 #' 10th to the 18th century and thirteen ceramic types.
-#' @format A data frame with 8 rows and 13 variables (ceramic types):
+#' @format A [`data.frame`] with 8 rows and 13 variables (ceramic types):
 #'  \describe{
 #'    \item{I}{}
 #'    \item{IIa}{}
@@ -54,7 +54,7 @@
 #' Chevelon Ground Stone
 #'
 #' A dataset of ground stone artifact counts from the Cholla project (USA).
-#' @format A data frame with 12 rows and 10 variables (ground stone types):
+#' @format A [`data.frame`] with 12 rows and 10 variables (ground stone types):
 #'  \describe{
 #'    \item{BMe}{Basin metate.}
 #'    \item{SMe}{Slab metate.}
@@ -81,7 +81,7 @@
 #'  Compiègne (Oise, France). The data are grouped into five periods of about a
 #'  century, ranging from the 9th to the 14th century, and sixteen ceramic
 #'  types.
-#' @format A data frame with 5 rows (chronological periods, numbered from
+#' @format A [`data.frame`] with 5 rows (chronological periods, numbered from
 #'  the oldest to the most recent from 1 to 5) and 16 variables (ceramic types):
 #'  \describe{
 #'   \item{A}{Red to white ceramics with fine sized inclusions.}
@@ -115,7 +115,7 @@
 #'
 #' A dataset containing the ceramic counts from the Merzbach assemblage
 #' (Germany). The data are grouped into eight phases.
-#' @format A data frame with 8 rows (phases, numbered from VII to XIV)
+#' @format A [`data.frame`] with 8 rows (phases, numbered from VII to XIV)
 #'  and 36 variables (pottery motifs).
 #' @references
 #'  Crema, E. R., Kandler, A. & Shennan, S. (2016). Revealing Patterns of
@@ -132,7 +132,7 @@
 #' Mississippi Ceramics
 #'
 #' A dataset containing ceramic counts from the Mississippi region.
-#' @format A data frame with 20 rows and 10 variables (ceramic types):
+#' @format A [`data.frame`] with 20 rows and 10 variables (ceramic types):
 #'  \describe{
 #'    \item{ParkinPunctate}{}
 #'    \item{BartonKentMPI}{}
@@ -158,7 +158,7 @@
 #'
 #' A dataset containing ceramic counts from the Zuni region of the American
 #'  Southwest.
-#' @format A data frame with 420 rows (assemblages) and 18 variables
+#' @format A [`data.frame`] with 420 rows (assemblages) and 18 variables
 #'  (ceramic types). The numbers in brackets correspond to the date range of
 #'  each type (in AD years):
 #'  \describe{

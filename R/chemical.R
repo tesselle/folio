@@ -2,7 +2,7 @@
 #'
 #' Chemical analysis (electron probe X-ray micro analysis) of 398 medieval
 #' glass vessels found in France.
-#' @format A data frame with 17 variables:
+#' @format A [`data.frame`] with 17 variables:
 #'  \describe{
 #'    \item{Site}{`CNL`: Cour Napoléon, Louvre; `ORL`: Orléans;
 #'    `POI`: Poitiers; `ANG`: Angers; `OMO`: Omonville, Seine Maritime;
@@ -55,7 +55,7 @@
 #'
 #' Chemical analysis (neutron activation analysis) of 88 Late Bronze Age
 #' transport jars found in excavations at Kommos, Crete.
-#' @format A data frame with 22 variables (chemical elements):
+#' @format A [`data.frame`] with 22 variables (chemical elements):
 #'  \describe{
 #'    \item{type}{`CJ`: Canaanite jar; `EJ`: Egyptian jar;
 #'    `TSJ`: transport stirrup jar; `SNA`: short-necked amphora.}

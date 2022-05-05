@@ -5,7 +5,7 @@
 \alias{verre}
 \title{French Medieval Glass Composition}
 \format{
-A data frame with 17 variables:
+A \code{\link{data.frame}} with 17 variables:
 \describe{
 \item{Site}{\code{CNL}: Cour Napoléon, Louvre; \code{ORL}: Orléans;
 \code{POI}: Poitiers; \code{ANG}: Angers; \code{OMO}: Omonville, Seine Maritime;

@@ -5,7 +5,7 @@
 \alias{lisiecki2005}
 \title{Global Benthic \eqn{\delta^{18}O}{\delta18O} Stack}
 \format{
-A data frame with 3 variables:
+A \code{\link{data.frame}} with 3 variables:
 \describe{
 \item{age}{Calendar age (kilo year cal BP).}
 \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}

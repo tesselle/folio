@@ -5,7 +5,7 @@
 \alias{intcal09}
 \title{IntCal09}
 \format{
-A data frame with 5 variables:
+A \code{\link{data.frame}} with 5 variables:
 \describe{
 \item{calBP}{Calendar (calibrated) age (year BP).}
 \item{age}{Radiocarbon age (year BP).}

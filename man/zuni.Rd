@@ -5,7 +5,7 @@
 \alias{zuni}
 \title{Zuni Ceramics}
 \format{
-A data frame with 420 rows (assemblages) and 18 variables
+A \code{\link{data.frame}} with 420 rows (assemblages) and 18 variables
 (ceramic types). The numbers in brackets correspond to the date range of
 each type (in AD years):
 \describe{

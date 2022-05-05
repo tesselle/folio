@@ -1,7 +1,7 @@
 #' EPICA Dome C
 #'
 #' EPICA Dome C 800-ka composite \eqn{CO_2}{CO2} data.
-#' @format A data frame with 2 variables:
+#' @format A [`data.frame`] with 2 variables:
 #'  \describe{
 #'   \item{age}{Year BP.}
 #'   \item{CO2}{\eqn{CO_2}{CO2} (ppmv).}
@@ -48,7 +48,7 @@
 #'
 #' Law Dome Ice Core 2000-year \eqn{CH_4}{CH4}, \eqn{CO_2}{CO2} and
 #' \eqn{N_{2}O}{N2O} data.
-#' @format A data frame with 2004 observations and 8 variables:
+#' @format A [`data.frame`] with 2004 observations and 8 variables:
 #'  \describe{
 #'   \item{year}{Year AD.}
 #'   \item{NOAA04}{NOAA04 \eqn{CH_4}{CH4} scale.}
@@ -81,7 +81,7 @@
 #' Global Benthic \eqn{\delta^{18}O}{\delta18O} Stack
 #'
 #' A global Pliocene-Pleistocene benthic \eqn{\delta^{18}O}{\delta18O} stack.
-#' @format A data frame with 3 variables:
+#' @format A [`data.frame`] with 3 variables:
 #'  \describe{
 #'    \item{age}{Calendar age (kilo year cal BP).}
 #'    \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
@@ -115,7 +115,7 @@
 #'
 #' 50-year averaged oxygen isotope data from the North Greenland Ice Core
 #' Project.
-#' @format A data frame with 2 variables:
+#' @format A [`data.frame`] with 2 variables:
 #'  \describe{
 #'    \item{age}{Calendar age (years before 2000 AD).}
 #'    \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
@@ -144,7 +144,7 @@
 #'
 #' Corrected \eqn{{}^{14}C}{14C} measurements from air samples collected at five
 #' Norwegian sites from 1962-1993.
-#' @format A data frame with 5 variables:
+#' @format A [`data.frame`] with 5 variables:
 #'  \describe{
 #'   \item{site}{Sampling station.}
 #'   \item{start}{Beginning date of the sampling period.}
@@ -173,7 +173,7 @@
 #'
 #' A Late Pleistocene sea level stack based on marine sediment core data
 #' (foraminiferal carbonate \eqn{\delta^{18}O}{\delta18O}).
-#' @format A data frame with 9 variables:
+#' @format A [`data.frame`] with 9 variables:
 #'  \describe{
 #'    \item{age_calkaBP}{Age (calendar kilo year BP).}
 #'    \item{SeaLev_shortPC1}{Sea Level (meters above present day),

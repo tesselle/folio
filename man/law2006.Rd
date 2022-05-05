@@ -5,7 +5,7 @@
 \alias{law2006}
 \title{Law Dome Ice Core}
 \format{
-A data frame with 2004 observations and 8 variables:
+A \code{\link{data.frame}} with 2004 observations and 8 variables:
 \describe{
 \item{year}{Year AD.}
 \item{NOAA04}{NOAA04 \eqn{CH_4}{CH4} scale.}

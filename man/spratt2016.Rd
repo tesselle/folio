@@ -5,7 +5,7 @@
 \alias{spratt2016}
 \title{Late Pleistocene Sea Level Stack}
 \format{
-A data frame with 9 variables:
+A \code{\link{data.frame}} with 9 variables:
 \describe{
 \item{age_calkaBP}{Age (calendar kilo year BP).}
 \item{SeaLev_shortPC1}{Sea Level (meters above present day),

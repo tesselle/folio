@@ -5,7 +5,7 @@
 \alias{epica2008}
 \title{EPICA Dome C}
 \format{
-A data frame with 2 variables:
+A \code{\link{data.frame}} with 2 variables:
 \describe{
 \item{age}{Year BP.}
 \item{CO2}{\eqn{CO_2}{CO2} (ppmv).}
