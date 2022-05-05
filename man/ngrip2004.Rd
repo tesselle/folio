@@ -12,7 +12,7 @@ A \code{\link{data.frame}} with 2 variables:
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/2481}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/2481}
 }
 \usage{
 ngrip2004

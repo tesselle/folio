@@ -35,7 +35,7 @@ five sea level reconstructions (0-798 ka)).}
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/19982}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/19982}
 }
 \usage{
 spratt2016

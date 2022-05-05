@@ -30,7 +30,7 @@
 #'  Jouzel, J. (2005). Stable Carbon Cycle-Climate Relationship During the Late
 #'  Pleistocene. *Science*, 310, 1313-1317. \doi{10.1126/science.1120130}
 #' @source
-#'  \url{https://www.ncdc.noaa.gov/paleo-search/study/6091}
+#'  \url{https://www.ncei.noaa.gov/access/paleo-search/study/6091}
 #' @examples
 #' plot(
 #'   x = epica2008$age / 1000,
@@ -65,7 +65,7 @@
 #'  and N2O Ice Core Records Extended to 2000 years BP. *Geophysical
 #'  Research Letters*, 33(14), L14810. \doi{10.1029/2006GL026152}.
 #' @source
-#'  \url{https://www.ncdc.noaa.gov/paleo-search/study/9959}
+#'  \url{https://www.ncei.noaa.gov/access/paleo-search/study/9959}
 #' @examples
 #' plot(
 #'   x = law2006$year,
@@ -96,7 +96,7 @@
 #'  globally distributed benthic d18O records. *Paleoceanography*, 20,
 #'  PA1003. \doi{10.1029/2004PA001071}
 #' @source
-#'  \url{https://www.ncdc.noaa.gov/paleo-search/study/5847}
+#'  \url{https://www.ncei.noaa.gov/access/paleo-search/study/5847}
 #' @examples
 #' plot(
 #'   x = lisiecki2005$age,
@@ -125,7 +125,7 @@
 #'  Northern Hemisphere climate extending into the last interglacial period.
 #'  *Nature*, 431(7005), 147-151. \doi{10.1038/nature02805}
 #' @source
-#'  \url{https://www.ncdc.noaa.gov/paleo-search/study/2481}
+#'  \url{https://www.ncei.noaa.gov/access/paleo-search/study/2481}
 #' @examples
 #' plot(
 #'   x = ngrip2004$age / 1000,
@@ -206,7 +206,7 @@
 #'  stack. *Climate of the Past*, 12, 1079-1092.
 #'  \doi{10.5194/cp-12-1079-2016}
 #' @source
-#'  \url{https://www.ncdc.noaa.gov/paleo-search/study/19982}
+#'  \url{https://www.ncei.noaa.gov/access/paleo-search/study/19982}
 #' @examples
 #' plot(
 #'   x = spratt2016$age_calkaBP,

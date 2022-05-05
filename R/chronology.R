@@ -15,7 +15,7 @@
 #'  The ICS International Chronostratigraphic Chart. *Episodes*,
 #'  36(3): 199-204. \doi{10.18814/epiiugs/2013/v36i3/002}
 #' @source
-#'  \url{https://stratigraphy.org/ICSchart/ChronostratChart2022-02}
+#'  \url{https://stratigraphy.org/ICSchart/ChronostratChart2022-02.pdf}
 #' @family chronological data
 #' @keywords datasets
 "stratigraphy"

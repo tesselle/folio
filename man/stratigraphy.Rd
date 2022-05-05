@@ -16,7 +16,7 @@ A \code{\link{data.frame}} with 5 variables:
 }
 }
 \source{
-\url{https://stratigraphy.org/ICSchart/ChronostratChart2022-02}
+\url{https://stratigraphy.org/ICSchart/ChronostratChart2022-02.pdf}
 }
 \usage{
 stratigraphy

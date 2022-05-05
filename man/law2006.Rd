@@ -18,7 +18,7 @@ A \code{\link{data.frame}} with 2004 observations and 8 variables:
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/9959}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/9959}
 }
 \usage{
 law2006

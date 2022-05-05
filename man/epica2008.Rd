@@ -12,7 +12,7 @@ A \code{\link{data.frame}} with 2 variables:
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/6091}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/6091}
 }
 \usage{
 epica2008

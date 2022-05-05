@@ -13,7 +13,7 @@ A \code{\link{data.frame}} with 3 variables:
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/5847}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/5847}
 }
 \usage{
 lisiecki2005
