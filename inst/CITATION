@@ -4,18 +4,18 @@ citEntry(
   entry        = "Manual",
   title        = "folio: Datasets for Teaching Archaeology and Paleontology",
   author       = c(person("Nicolas", "Frerebeau", role = "aut")),
-  year         = "2021",
+  year         = "2022",
   organization = "Université Bordeaux Montaigne",
   address      = "Pessac, France",
-  note         = "R package version 1.0.0",
-  url          = "https://packages.tesselle.org/folio",
+  note         = "R package version 1.1.0",
+  url          = "https://packages.tesselle.org/folio/",
   doi          = "10.5281/zenodo.4476182",
 
   textVersion  =
-  paste("Frerebeau, Nicolas (2021).",
+  paste("Frerebeau, Nicolas (2022).",
         "folio: Datasets for Teaching Archaeology and Paleontology.",
-        "R package version 1.0.0",
+        "R package version 1.1.0",
         "Université Bordeaux Montaigne, Pessac, France.",
         "DOI 10.5281/zenodo.4476182.",
-        "URL https://packages.tesselle.org/folio.")
+        "URL https://packages.tesselle.org/folio/.")
 )

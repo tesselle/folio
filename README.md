@@ -7,13 +7,20 @@
 
 [![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
 
-[![r-universe](https://tesselle.r-universe.dev/badges/folio)](https://tesselle.r-universe.dev)
-[![CRAN
-Version](http://www.r-pkg.org/badges/version/folio)](https://cran.r-project.org/package=folio)
-[![CRAN
-checks](https://cranchecks.info/badges/worst/folio)](https://cran.r-project.org/web/checks/check_results_folio.html)
-[![CRAN
-Downloads](http://cranlogs.r-pkg.org/badges/folio)](https://cran.r-project.org/package=folio)
+<a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
+src="https://tesselle.r-universe.dev/badges/folio"
+alt="r-universe" /></a>
+<a href="https://cran.r-project.org/package=folio"
+class="pkgdown-release"><img
+src="http://www.r-pkg.org/badges/version/folio"
+alt="CRAN Version" /></a>
+<a href="https://cran.r-project.org/web/checks/check_results_folio.html"
+class="pkgdown-release"><img
+src="https://cranchecks.info/badges/worst/folio"
+alt="CRAN checks" /></a>
+<a href="https://cran.r-project.org/package=folio"
+class="pkgdown-release"><img
+src="http://cranlogs.r-pkg.org/badges/folio" alt="CRAN Downloads" /></a>
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
@@ -80,6 +87,7 @@ summary(fit)
 #> Residual standard error: 0.2421 on 4 degrees of freedom
 #> Multiple R-squared:  0.9745, Adjusted R-squared:  0.9681 
 #> F-statistic: 152.6 on 1 and 4 DF,  p-value: 0.0002467
+
 plot(
   x = arnold1949$age_expected,
   y = arnold1949$activity_found,
@@ -104,7 +112,7 @@ segments(
 abline(fit, col = "red")
 ```
 
-![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
+<img src="man/figures/README-unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
 ## Contributing
 

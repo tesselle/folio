@@ -20,10 +20,10 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
 
-[![r-universe](https://tesselle.r-universe.dev/badges/folio)](https://tesselle.r-universe.dev)
-[![CRAN Version](http://www.r-pkg.org/badges/version/folio)](https://cran.r-project.org/package=folio)
-[![CRAN checks](https://cranchecks.info/badges/worst/folio)](https://cran.r-project.org/web/checks/check_results_folio.html)
-[![CRAN Downloads](http://cranlogs.r-pkg.org/badges/folio)](https://cran.r-project.org/package=folio)
+[![r-universe](https://tesselle.r-universe.dev/badges/folio)](https://tesselle.r-universe.dev){.pkgdown-devel}
+[![CRAN Version](http://www.r-pkg.org/badges/version/folio)](https://cran.r-project.org/package=folio){.pkgdown-release}
+[![CRAN checks](https://cranchecks.info/badges/worst/folio)](https://cran.r-project.org/web/checks/check_results_folio.html){.pkgdown-release}
+[![CRAN Downloads](http://cranlogs.r-pkg.org/badges/folio)](https://cran.r-project.org/package=folio){.pkgdown-release}
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
@@ -55,7 +55,7 @@ remotes::install_github("tesselle/folio")
 
 ## Usage
 
-```{r, fig.width=5, fig.height=5}
+```{r, fig.width=5, fig.height=5, fig.align='center'}
 ## Arnold and Libby's Curve of Knowns
 ## Replicate fig. 1 from Arnold and Libby (1949)
 data("arnold1949")
