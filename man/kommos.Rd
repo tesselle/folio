@@ -10,26 +10,26 @@ A data frame with 22 variables (chemical elements):
 \item{type}{\code{CJ}: Canaanite jar; \code{EJ}: Egyptian jar;
 \code{TSJ}: transport stirrup jar; \code{SNA}: short-necked amphora.}
 \item{date}{Chronology (period).}
-\item{Sm}{(ppm).}
-\item{Lu}{(ppm).}
-\item{U}{(ppm).}
-\item{Yb}{(ppm).}
-\item{As}{(ppm).}
-\item{Sb}{(ppm).}
-\item{Ca}{(ppm).}
-\item{Na}{(ppm).}
-\item{La}{(ppm).}
-\item{Ce}{(ppm).}
-\item{Th}{(ppm).}
-\item{Cr}{(ppm).}
-\item{Hf}{(ppm).}
-\item{Cs}{(ppm).}
-\item{Sc}{(ppm).}
-\item{Rb}{(ppm).}
-\item{Fe}{(ppm).}
-\item{Ta}{(ppm).}
-\item{Co}{(ppm).}
-\item{Eu}{(ppm).}
+\item{Sm}{Sm content (ppm).}
+\item{Lu}{Lu content (ppm).}
+\item{U}{U content (ppm).}
+\item{Yb}{Yb content (ppm).}
+\item{As}{As content (ppm).}
+\item{Sb}{Sb content (ppm).}
+\item{Ca}{Ca content (ppm).}
+\item{Na}{Na content (ppm).}
+\item{La}{La content (ppm).}
+\item{Ce}{Ce content (ppm).}
+\item{Th}{Th content (ppm).}
+\item{Cr}{Cr content (ppm).}
+\item{Hf}{Hf content (ppm).}
+\item{Cs}{Cs content (ppm).}
+\item{Sc}{Sc content (ppm).}
+\item{Rb}{Rb content (ppm).}
+\item{Fe}{Fe content (ppm).}
+\item{Ta}{Ta content (ppm).}
+\item{Co}{Co content (ppm).}
+\item{Eu}{Eu content (ppm).}
 }
 }
 \usage{
@@ -44,6 +44,10 @@ Day, P. M., Quinn, P. S., Rutter, J. B. & Kilikoglou, V. (2011).
 A World of Goods: Transport Jars and Commodity Exchange at the Late Bronze
 Age Harbor of Kommos, Crete. \emph{Hesperia}, 80, 511-558.
 \doi{10.2972/hesperia.80.4.0511}
+}
+\seealso{
+Other chemical data: 
+\code{\link{verre}}
 }
 \concept{chemical data}
 \keyword{datasets}

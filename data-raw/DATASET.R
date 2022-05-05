@@ -42,6 +42,17 @@ zuni <- read.csv("data-raw/zuni.csv", header = TRUE, row.names = 1,
 usethis::use_data(zuni, overwrite = FALSE)
 
 # Chemical data ================================================================
+# The French glass dataset from Barrera and Velde 1989
+verre <- read.csv("data-raw/verre.csv", header = TRUE, row.names = NULL,
+                  sep = ",", dec = ".")
+verre$R <- NULL
+usethis::use_data(verre, overwrite = FALSE)
+
+# The Antwerp dataset from Janssens et al. 1998
+# antwerp <- read.csv("data-raw/antwerp.csv", header = TRUE, row.names = NULL,
+#                     sep = ",", dec = ".")
+# usethis::use_data(antwerp, overwrite = FALSE)
+
 # The Kommos dataset from Day et al. 2011
 kommos <- read.csv("data-raw/kommos.csv", header = TRUE, row.names = 1,
                    sep = ",", dec = ".")

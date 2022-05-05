@@ -1,5 +1,6 @@
 # folio 1.0.0.9000
 
+* Add the `verre` dataset (chemical data).
 * Add the `ngrip2004` dataset (palaeoclimates).
 * Fix `nydal1996` encoding.
 
