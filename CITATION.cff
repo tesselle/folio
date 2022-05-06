@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.1.0
+# CITATION file created with {cffr} R package, v0.2.2
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
@@ -8,7 +8,7 @@ message: 'To cite package "folio" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'folio: Datasets for Teaching Archaeology and Paleontology'
-version: 1.0.0.9000
+version: 1.1.0
 abstract: Datasets for teaching quantitative approaches and modeling in archaeology
   and paleontology. This package provides several types of data related to broad topics
   (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be
@@ -29,7 +29,7 @@ preferred-citation:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  version: 1.0.0.9000
+  version: 1.1.0
   abstract: Datasets for teaching quantitative approaches and modeling in archaeology
     and paleontology. This package provides several types of data related to broad
     topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which
@@ -44,8 +44,14 @@ preferred-citation:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
+  keywords:
+  - archaeological-science
+  - archaeology
+  - datasets
+  - paleontology
+  - r-package
   license: GPL-3.0-or-later
-  year: '2021'
+  year: '2022'
 repository: https://CRAN.R-project.org/package=folio
 repository-code: https://github.com/tesselle/folio
 url: https://packages.tesselle.org/folio/
@@ -60,6 +66,20 @@ keywords:
 - archaeological science
 - paleontology
 - r package
+- datasets
+references:
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  authors:
+  - name: R Core Team
+  location:
+    name: Vienna, Austria
+  year: '2022'
+  url: https://www.R-project.org/
+  institution:
+    name: R Foundation for Statistical Computing
+  version: '>= 2.10'
 identifiers:
 - description: The concept DOI.
   type: doi
@@ -70,3 +90,6 @@ identifiers:
 - description: The versioned DOI for version 1.0.0.
   type: doi
   value: 10.5281/zenodo.4537570
+- description: The versioned DOI for version 1.1.0.
+  type: doi
+  value: 10.5281/zenodo.6523636
