@@ -111,13 +111,13 @@
 #' @keywords datasets
 "lisiecki2005"
 
-#' North GRIP
+#' NGRIP 50-year Average
 #'
 #' 50-year averaged oxygen isotope data from the North Greenland Ice Core
-#' Project.
+#' Project (ss09sea time scale).
 #' @format A [`data.frame`] with 2 variables:
 #'  \describe{
-#'    \item{age}{Calendar age (years before 2000 AD).}
+#'    \item{age}{Calendar age (years before 2000 AD), ss09sea time scale.}
 #'    \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
 #'  }
 #' @references
@@ -132,13 +132,76 @@
 #'   y = ngrip2004$delta,
 #'   type = "l",
 #'   xlim = c(120, 0),
-#'   xlab = "kilo year b2k",
+#'   xlab = "ss09sea (ka b2k)",
 #'   ylab = expression(delta^{18}*"O")
 #' )
 #' @family palaeoenvironment data
 #' @family isotopic data
 #' @keywords datasets
 "ngrip2004"
+
+#' NGRIP 20-year Average
+#'
+#' 20-year averaged oxygen isotope data from the North Greenland Ice Core
+#' Project (GICC05 time scale).
+#' @format A [`data.frame`] with 4 variables:
+#'  \describe{
+#'    \item{age}{Calendar age (years before 2000 AD), GICC05 time scale
+#'    (or GICC05modelext when going beyond 60 ka b2k).}
+#'    \item{depth}{(meters).}
+#'    \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
+#'    \item{MCE}{Maximum counting error (years).}
+#'  }
+#' @note
+#'  Use the labels GICC05 (or GICC05modelext when going beyond 60 ka b2k) on
+#'  graphs.
+#' @references
+#'  Vinther, B. M., Clausen, H. B., Johnsen, S. J., Rasmussen, S. O., Andersen,
+#'  K. K., Buchardt, S. L., Dahl-Jensen, D., Seierstad, I. K.,
+#'  Siggaard-Andersen, M.-L., Steffensen, J. P., Svensson, A. M., Olsen, J. &
+#'  Heinemeier, J. (2006). A synchronized dating of three Greenland ice cores
+#'  throughout the Holocene. *Journal of Geophysical Research*, 111, D13102.
+#'  \doi{10.1029/2005JD006921}.
+#'
+#'  Rasmussen, S. O., Andersen, K. K., Svensson, A. M., Steffensen, J. P.,
+#'  Vinther, B. M., Clausen, H. B., Siggaard-Andersen, M.-L., Johnsen, S. J.,
+#'  Larsen, L. B., Dahl-Jensen, D., Bigler, M., Röthlisberger, R., Fischer, H.,
+#'  Goto-Azuma, K., Hansson, M. E. & Ruth, U. (2006). A new Greenland ice core
+#'  chronology for the last glacial termination. *Journal of Geophysical
+#'  Research*, 111, D06102. \doi{10.1029/2005JD006079}.
+#'
+#'  Andersen, K. K., Svensson, A., Johnsen, S. J., Rasmussen, S. O., Bigler, M.,
+#'  Röthlisberger, R., Ruth, U., Siggaard-Andersen, M.-L., Steffensen, J. P.,
+#'  Dahl-Jensen, D., Vinther, B. M. & Clausen, H.B. (2005). The Greenland Ice
+#'  Core Chronology 2005, 15-42 ka. Part 1: Constructing the time scale.
+#'  *Quaternary Science Reviews*, 25(23-24):3246-3257.
+#'  \doi{10.1016/j.quascirev.2006.08.002}.
+#'
+#'  Svensson, A., Andersen, K. K., Bigler, M., Clausen, H. B., Dahl-Jensen, D.,
+#'  Davies, S. M., Johnsen, S. J., Muscheler, R., Rasmussen, S. O.,
+#'  Röthlisberger, R., Seierstad, I., Steffensen, J. P. & Vinther, B. M. (2008).
+#'  A 60,000 year Greenland stratigraphic ice core chronology. *Climate of the
+#'  Past*, 4:47–57. \doi{10.5194/cp-4-47-2008}.
+#'
+#'  Wolff, E. W., Chappellaz, J., Blunier, T., Rasmussen, S. O. & Svensson, A.
+#'  (2010). Millennial-scale variability during the last glacial: The ice core
+#'  record. *Quaternary Science Reviews*, 29:2828-2838.
+#'  \doi{10.1016/j.quascirev.2009.10.013}.
+#' @source
+#'  \url{https://www.iceandclimate.nbi.ku.dk/data/}
+#' @examples
+#' plot(
+#'   x = ngrip2010$age / 1000,
+#'   y = ngrip2010$delta,
+#'   type = "l",
+#'   xlim = c(120, 0),
+#'   xlab = "GICC05",
+#'   ylab = expression(delta^{18}*"O")
+#' )
+#' @family palaeoenvironment data
+#' @family isotopic data
+#' @keywords datasets
+"ngrip2010"
 
 #' \eqn{{}^{14}C}{14C} Measurements in Atmospheric \eqn{CO_2}{CO2}
 #'

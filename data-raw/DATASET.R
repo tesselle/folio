@@ -122,6 +122,13 @@ ngrip2004 <- read.table("data-raw/ngrip2004.txt",
                         col.names = c("age", "delta"))
 usethis::use_data(ngrip2004, overwrite = FALSE)
 
+ngrip2010 <- read.table("data-raw/ngrip2010.txt",
+                        header = FALSE, row.names = NULL,
+                        sep = "", dec = ".", skip = 70,
+                        col.names = c("age", "depth", "delta", "MCE"))
+ngrip2010$MCE[is.nan(ngrip2010$MCE)] <- NA
+usethis::use_data(ngrip2010, overwrite = FALSE)
+
 nydal1996 <- read.csv("data-raw/nydal1996.csv", header = TRUE, row.names = 1,
                       sep = ",", dec = ".", encoding = "UTF-8")
 nydal1996$start <- as.Date(nydal1996$start, format = "%Y-%m-%d")

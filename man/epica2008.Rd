@@ -59,6 +59,7 @@ Other palaeoenvironment data:
 \code{\link{law2006}},
 \code{\link{lisiecki2005}},
 \code{\link{ngrip2004}},
+\code{\link{ngrip2010}},
 \code{\link{spratt2016}}
 }
 \concept{palaeoenvironment data}

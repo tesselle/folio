@@ -1,5 +1,7 @@
 # folio 1.1.0.9000
 
+* Add the `ngrip2010` dataset (palaeoclimates).
+
 # folio 1.1.0
 
 * Add the `verre` dataset (chemical data).

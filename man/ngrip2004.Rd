@@ -3,11 +3,11 @@
 \docType{data}
 \name{ngrip2004}
 \alias{ngrip2004}
-\title{North GRIP}
+\title{NGRIP 50-year Average}
 \format{
 A \code{\link{data.frame}} with 2 variables:
 \describe{
-\item{age}{Calendar age (years before 2000 AD).}
+\item{age}{Calendar age (years before 2000 AD), ss09sea time scale.}
 \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
 }
 }
@@ -19,7 +19,7 @@ ngrip2004
 }
 \description{
 50-year averaged oxygen isotope data from the North Greenland Ice Core
-Project.
+Project (ss09sea time scale).
 }
 \examples{
 plot(
@@ -27,7 +27,7 @@ plot(
   y = ngrip2004$delta,
   type = "l",
   xlim = c(120, 0),
-  xlab = "kilo year b2k",
+  xlab = "ss09sea (ka b2k)",
   ylab = expression(delta^{18}*"O")
 )
 }
@@ -41,10 +41,12 @@ Other palaeoenvironment data:
 \code{\link{epica2008}},
 \code{\link{law2006}},
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2010}},
 \code{\link{spratt2016}}
 
 Other isotopic data: 
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2010}},
 \code{\link{nydal1996}},
 \code{\link{spratt2016}}
 }
