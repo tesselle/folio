@@ -1,6 +1,7 @@
 # folio 1.1.0.9000
 
 * Add the `ngrip2010` dataset (palaeoclimates).
+* Add the `shipwrecks` dataset (artefact data).
 
 # folio 1.1.0
 

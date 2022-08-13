@@ -7,6 +7,9 @@ template:
       creator: "@nfrerebeau"
 
 reference:
+- title: Artefact Data
+  contents:
+  - has_concept("artefact data")
 - title: Count Data
   contents:
   - has_concept("count data")
