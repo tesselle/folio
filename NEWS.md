@@ -1,5 +1,6 @@
 # folio 1.1.0.9000
 
+* Add the `munsingen` dataset (artefact data).
 * Add the `ngrip2010` dataset (palaeoclimates).
 * Add the `shipwrecks` dataset (artefact data).
 

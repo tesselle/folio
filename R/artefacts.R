@@ -1,3 +1,28 @@
+#' Münsingen Cemetery
+#'
+#' A dataset of data set of artifact presence/absence for the Celtic
+#' Münsingen-Rain cemetery (Switzerland).
+#' @format A [`data.frame`] with 59 rows (graves) and 70 variables (artifacts).
+#' @references
+#'  Hodson, F. R. (1968). *The La Tene Cemetery at Münsingen-Rain*. Stämpfli,
+#'  Bern.
+#'
+#'  Kendall, D. G. (1971). Seriation from abundance matrices. In Hodson,
+#'  F. R., Kendall, D. G. and Tautu, P. (eds), *Mathematics in the
+#'  Archaeological and Historical Sciences*. Edinburgh University Press,
+#'  Edinburgh, 215-232.
+#' @examples
+#' heatmap(
+#'   x = as.matrix(munsingen),
+#'   Rowv = NA,
+#'   Colv = NA,
+#'   scale = "none",
+#'   col = c("white", "black")
+#' )
+#' @family artefact data
+#' @keywords datasets
+"munsingen"
+
 #' Mediterranean Shipwrecks
 #'
 #' A dataset of mediterranean shipwrecks.

@@ -43,5 +43,9 @@ Strauss, E. J. (2007). \emph{Roman Cargoes: Underwater Evidence from the Eastern
 Mediterranean}. Doctoral thesis, University College London.
 URL: \url{https://discovery.ucl.ac.uk/id/eprint/1349806}.
 }
+\seealso{
+Other artefact data: 
+\code{\link{munsingen}}
+}
 \concept{artefact data}
 \keyword{datasets}

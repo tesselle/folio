@@ -1,6 +1,11 @@
 # PREPARE DATASETS
 
 # Artefact data ================================================================
+# The Münsingen Cemetery from Hodson 1968, Kendall 1971
+munsingen <- read.csv("data-raw/munsingen.csv", header = TRUE, row.names = 1,
+                       sep = ",", dec = ".")
+usethis::use_data(munsingen, overwrite = FALSE)
+
 # The shipwrecks dataset from Strauss 2007
 shipwrecks <- read.csv("data-raw/shipwrecks.csv", header = TRUE, row.names = 1,
                   sep = ",", dec = ".", encoding = "UTF-8")
