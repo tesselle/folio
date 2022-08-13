@@ -3,7 +3,7 @@
 # Artefact data ================================================================
 # The shipwrecks dataset from Strauss 2007
 shipwrecks <- read.csv("data-raw/shipwrecks.csv", header = TRUE, row.names = 1,
-                  sep = ",", dec = ".")
+                  sep = ",", dec = ".", encoding = "UTF-8")
 usethis::use_data(shipwrecks, overwrite = FALSE)
 
 # Count data ===================================================================
