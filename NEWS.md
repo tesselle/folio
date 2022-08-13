@@ -16,7 +16,7 @@
 * Add the `chevelon` dataset (count data).
 * Add the `law2006` and `epica2008` datasets (palaeoclimates).
 * Add the `nydal1996` dataset (isotopic data).
-* Add the `arnold1949` dataset (historical radiocarbon dates; "curve of knows").
+* Add the `arnold1949` dataset (historical radiocarbon dates; "Curve of Knowns").
 * Remove the `altamira` dataset.
 
 # folio 0.1.0
