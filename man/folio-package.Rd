@@ -15,7 +15,7 @@ Datasets for teaching quantitative approaches and modeling in archaeology and pa
 \tabular{ll}{
 \strong{Package:} \tab folio \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.1.0 \cr
+\strong{Version:} \tab 1.2.0 \cr
 \strong{License:} \tab GPL-3 \cr
 \strong{Zenodo:} \tab \doi{10.5281/zenodo.4476182} \cr
 }
