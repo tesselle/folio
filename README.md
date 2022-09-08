@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
+[![Dependencies](https://tinyverse.netlify.com/badge/folio)](https://cran.r-project.org/package=folio)
 
 <a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
 src="https://tesselle.r-universe.dev/badges/folio"
