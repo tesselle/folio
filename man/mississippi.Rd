@@ -37,6 +37,7 @@ Other count data:
 \code{\link{boves}},
 \code{\link{chevelon}},
 \code{\link{compiegne}},
+\code{\link{loire}},
 \code{\link{merzbach}},
 \code{\link{zuni}}
 }

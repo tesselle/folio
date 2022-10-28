@@ -47,6 +47,7 @@ Other count data:
 \code{\link{birds}},
 \code{\link{boves}},
 \code{\link{chevelon}},
+\code{\link{loire}},
 \code{\link{merzbach}},
 \code{\link{mississippi}},
 \code{\link{zuni}}

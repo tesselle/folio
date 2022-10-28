@@ -1,5 +1,7 @@
 # folio 1.2.0.9000
 
+* Add the `loire` dataset (count data).
+
 # folio 1.2.0
 
 * Add the `munsingen` dataset (artefact data).

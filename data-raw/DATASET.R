@@ -37,6 +37,11 @@ boves <- read.csv("data-raw/boves.csv", header = TRUE, row.names = 1,
                   sep = ",", dec = ".")
 usethis::use_data(boves, overwrite = FALSE)
 
+# The Loire dataset from Husi 2022
+loire <- read.csv("data-raw/loire.csv", header = TRUE, row.names = 1,
+                  sep = ",", dec = ".", check.names = FALSE)
+usethis::use_data(loire, overwrite = FALSE)
+
 # The Merzbach dataset from Crema et al. 2016
 merzbach <- read.csv("data-raw/merzbach.csv", header = TRUE, row.names = 1,
                      sep = ",", dec = ".")

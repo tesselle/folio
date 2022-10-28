@@ -40,6 +40,7 @@ Other count data:
 \code{\link{birds}},
 \code{\link{chevelon}},
 \code{\link{compiegne}},
+\code{\link{loire}},
 \code{\link{merzbach}},
 \code{\link{mississippi}},
 \code{\link{zuni}}
