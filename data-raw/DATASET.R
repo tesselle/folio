@@ -39,7 +39,7 @@ usethis::use_data(boves, overwrite = FALSE)
 
 # The Loire dataset from Husi 2022
 loire <- read.csv("data-raw/loire.csv", header = TRUE, row.names = 1,
-                  sep = ",", dec = ".", check.names = FALSE)
+                  sep = ",", dec = ";", check.names = FALSE, encoding = "UTF-8")
 usethis::use_data(loire, overwrite = FALSE)
 
 # The Merzbach dataset from Crema et al. 2016
