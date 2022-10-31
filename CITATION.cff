@@ -8,7 +8,7 @@ message: 'To cite package "folio" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'folio: Datasets for Teaching Archaeology and Paleontology'
-version: 1.3.0
+version: 1.3.0.9000
 abstract: Datasets for teaching quantitative approaches and modeling in archaeology
   and paleontology. This package provides several types of data related to broad topics
   (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be
@@ -29,7 +29,7 @@ preferred-citation:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  version: 1.3.0
+  version: 1.3.0.9000
   abstract: Datasets for teaching quantitative approaches and modeling in archaeology
     and paleontology. This package provides several types of data related to broad
     topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which
@@ -96,3 +96,6 @@ identifiers:
 - description: The versioned DOI for version 1.2.0.
   type: doi
   value: 10.5281/zenodo.6993457
+- description: The versioned DOI for version 1.3.0.
+  type: doi
+  value: 10.5281/zenodo.7267613
