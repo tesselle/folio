@@ -8,8 +8,6 @@
 
 0 errors | 0 warnings | 1 note
 
-* CRAN package check note ("HTML validation problems") has been fixed.
-
 * Some links in the documentation point to articles behind paywalls that may return a 403 error.
 * Some datasets contain UTF-8 strings to match source publications.
 

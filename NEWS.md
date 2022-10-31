@@ -1,4 +1,4 @@
-# folio 1.2.0.9000
+# folio 1.3.0
 
 * Add the `loire` dataset (count data).
 
