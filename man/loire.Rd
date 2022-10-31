@@ -17,7 +17,7 @@ the next columns give the MNI of each ceramic types:
 }
 }
 \source{
-\url{https://ceramedvaldeloire.huma-num.fr}
+https://ceramedvaldeloire.huma-num.fr/editions/suppl79racf2022/accueil
 }
 \usage{
 loire

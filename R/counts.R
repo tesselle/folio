@@ -130,7 +130,7 @@
 #'  dans la longue durée (6e-19e s.)*. Suppléments à la revue Archéologique du
 #'  Centre de la France, 79.
 #' @source
-#'  \url{https://ceramedvaldeloire.huma-num.fr}
+#'  https://ceramedvaldeloire.huma-num.fr/editions/suppl79racf2022/accueil
 #' @family count data
 #' @keywords datasets
 "loire"
