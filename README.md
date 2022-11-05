@@ -17,7 +17,7 @@ src="http://www.r-pkg.org/badges/version/folio"
 alt="CRAN Version" /></a>
 <a href="https://cran.r-project.org/web/checks/check_results_folio.html"
 class="pkgdown-release"><img
-src="https://cranchecks.info/badges/worst/folio"
+src="https://badges.cranchecks.info/worst/folio.svg"
 alt="CRAN checks" /></a>
 <a href="https://cran.r-project.org/package=folio"
 class="pkgdown-release"><img
