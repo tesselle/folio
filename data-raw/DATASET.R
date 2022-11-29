@@ -155,3 +155,8 @@ spratt2016 <- read.table("data-raw/spratt2016.txt",
                          header = TRUE, row.names = NULL,
                          sep = "\t", dec = ".", skip = 95)[, 1:9]
 usethis::use_data(spratt2016, overwrite = FALSE)
+
+# delta 13C in plants from Cerling and Harris 1999
+vegetation <- read.csv("data-raw/vegetation.csv", header = TRUE,
+                       sep = ",", dec = ".")
+usethis::use_data(vegetation, overwrite = FALSE)

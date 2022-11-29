@@ -283,3 +283,39 @@
 #' @family isotopic data
 #' @keywords datasets
 "spratt2016"
+
+#' \eqn{\delta^{13}C}{\delta13C} Values for Vegetation
+#'
+#' @format A [`data.frame`] with 155 observations and 5 variables:
+#'  \describe{
+#'    \item{family}{Plant family.}
+#'    \item{species}{Plant species.}
+#'    \item{type}{C3 or C4 plant.}
+#'    \item{delta}{Isotopic ratio \eqn{\delta^{13}C}{\delta13C} (per mil).}
+#'    \item{country}{Country.}
+#'  }
+#' @source
+#'  Cerling, T. E. and Harris, J. M. (1999). Carbon isotope fractionation
+#'  between diet and bioapatite in ungulate mammals and implications for
+#'  ecological and paleoecological studies. *Oecologia*, 120, 347-363.
+#'  \doi{10.1007/s004420050868}
+#' @examples
+#' hist(
+#'   x = vegetation$delta,
+#'   breaks = 20,
+#'   main = "C3 and C4 plants",
+#'   xlab = expression(delta^{13}*"C"),
+#'   xlim = c(-40, 0)
+#'  )
+#'
+#' boxplot(
+#'   delta ~ type,
+#'   data = vegetation,
+#'   horizontal = TRUE,
+#'   xlab = expression(delta^{13}*"C"),
+#'   ylab = "Plant",
+#'   ylim = c(-40, 0)
+#' )
+#' @family isotopic data
+#' @keywords datasets
+"vegetation"

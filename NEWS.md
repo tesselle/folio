@@ -1,5 +1,7 @@
 # folio 1.3.0.9000
 
+* Add the `vegetation` dataset (isotopic data).
+
 # folio 1.3.0
 
 * Add the `loire` dataset (count data).

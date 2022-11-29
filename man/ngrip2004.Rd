@@ -48,7 +48,8 @@ Other isotopic data:
 \code{\link{lisiecki2005}},
 \code{\link{ngrip2010}},
 \code{\link{nydal1996}},
-\code{\link{spratt2016}}
+\code{\link{spratt2016}},
+\code{\link{vegetation}}
 }
 \concept{isotopic data}
 \concept{palaeoenvironment data}
