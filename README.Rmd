@@ -37,7 +37,11 @@ Datasets for teaching quantitative approaches and modeling in archaeology and pa
 
 This package is for teaching purposes only: some datasets may be outdated.
 
-When using **folio**, you must cite the relevant publications for each dataset (see the documentation).
+**When using folio, you must cite the relevant publications for each dataset (see the documentation).**
+
+```{r citation, echo=FALSE, comment=''}
+utils::citation("folio")
+```
 
 ## Installation
 
