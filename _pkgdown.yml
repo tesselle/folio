@@ -2,9 +2,6 @@ url: https://packages.tesselle.org/folio
 
 template:
   package: tekton
-  opengraph:
-    twitter:
-      creator: "@nfrerebeau"
 
 reference:
 - title: Artefact Data

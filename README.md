@@ -47,16 +47,16 @@ dataset (see the documentation).**
 
     To cite folio in publications use:
 
-      Frerebeau N (2022). _folio: Datasets for Teaching Archaeology and
-      Paleontology_. Université Bordeaux Montaigne, Pessac, France.
-      doi:10.5281/zenodo.4476182 <https://doi.org/10.5281/zenodo.4476182>,
-      R package version 1.3.0, <https://packages.tesselle.org/folio/>.
+      Frerebeau, Nicolas (2022). folio: Datasets for Teaching Archaeology
+      and Paleontology. R package version 1.3.0 Université Bordeaux
+      Montaigne, Pessac, France. DOI 10.5281/zenodo.4476182. URL
+      https://packages.tesselle.org/folio/.
 
-    Une entrée BibTeX pour les utilisateurs LaTeX est
+    A BibTeX entry for LaTeX users is
 
       @Manual{,
+        title = {folio: Datasets for Teaching Archaeology and Paleontology},
         author = {Nicolas Frerebeau},
-        title = {{folio: Datasets for Teaching Archaeology and Paleontology}},
         year = {2022},
         organization = {Université Bordeaux Montaigne},
         address = {Pessac, France},
@@ -64,9 +64,6 @@ dataset (see the documentation).**
         url = {https://packages.tesselle.org/folio/},
         doi = {10.5281/zenodo.4476182},
       }
-
-    This package is a part of the tesselle project
-    <https://www.tesselle.org>.
 
 ## Installation
 
