@@ -93,5 +93,10 @@ segments(
 abline(fit, col = "red")
 ```
 
+## Related Works
+
+* [**archdata**](https://cran.r-project.org/package=archdata): includes archaeological data sets used in [*Quantitative Methods in Archaeology Using R*](https://doi.org/10.1017/9781139628730) by David L. Carlson (2017).
+* [**historydata**](https://github.com/ropensci/historydata): includes data sets intended for historians learning R.
+
 ## Contributing
 Please note that the **folio** project is released with a [Contributor Code of Conduct](https://www.tesselle.org/conduct.html). By contributing to this project, you agree to abide by its terms.

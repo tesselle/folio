@@ -135,6 +135,15 @@ abline(fit, col = "red")
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
+## Related Works
+
+- [**archdata**](https://cran.r-project.org/package=archdata): includes
+  archaeological data sets used in [*Quantitative Methods in Archaeology
+  Using R*](https://doi.org/10.1017/9781139628730) by David L. Carlson
+  (2017).
+- [**historydata**](https://github.com/ropensci/historydata): includes
+  data sets intended for historians learning R.
+
 ## Contributing
 
 Please note that the **folio** project is released with a [Contributor
