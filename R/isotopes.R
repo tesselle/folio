@@ -1,10 +1,10 @@
 #' EPICA Dome C
 #'
 #' EPICA Dome C 800-ka composite \eqn{CO_2}{CO2} data.
-#' @format A [`data.frame`] with 2 variables:
+#' @format `r describe_dim(epica2008)`:
 #'  \describe{
-#'   \item{age}{Year BP.}
-#'   \item{CO2}{\eqn{CO_2}{CO2} (ppmv).}
+#'   \item{age}{[`integer`]: year BP.}
+#'   \item{CO2}{[`numeric`]: \eqn{CO_2}{CO2} (ppmv).}
 #'  }
 #' @references
 #'  Lüthi, D., Le Floch, M., Bereiter, B., Blunier, T., Barnola, J.-M.,
@@ -48,16 +48,16 @@
 #'
 #' Law Dome Ice Core 2000-year \eqn{CH_4}{CH4}, \eqn{CO_2}{CO2} and
 #' \eqn{N_{2}O}{N2O} data.
-#' @format A [`data.frame`] with 2004 observations and 8 variables:
+#' @format `r describe_dim(law2006)`:
 #'  \describe{
-#'   \item{year}{Year AD.}
-#'   \item{NOAA04}{NOAA04 \eqn{CH_4}{CH4} scale.}
-#'   \item{CH4_spl}{\eqn{CH_4}{CH4} spline (ppb).}
-#'   \item{CH4_grw}{\eqn{CH_4}{CH4} growth Rate (ppb/yr).}
-#'   \item{CO2_spl}{\eqn{CO_2}{CO2} spline (ppb).}
-#'   \item{CO2_grw}{\eqn{CO_2}{CO2} growth Rate (ppb/yr).}
-#'   \item{N2O_spl}{\eqn{N_{2}O}{N2O} spline (ppb).}
-#'   \item{N2O_grw}{\eqn{N_{2}O}{N2O} growth Rate (ppb/yr).}
+#'   \item{year}{[`integer`]: year AD.}
+#'   \item{NOAA04}{[`numeric`]: NOAA04 \eqn{CH_4}{CH4} scale.}
+#'   \item{CH4_spl}{[`numeric`]: \eqn{CH_4}{CH4} spline (ppb).}
+#'   \item{CH4_grw}{[`numeric`]: \eqn{CH_4}{CH4} growth Rate (ppb/yr).}
+#'   \item{CO2_spl}{[`numeric`]: \eqn{CO_2}{CO2} spline (ppb).}
+#'   \item{CO2_grw}{[`numeric`]: \eqn{CO_2}{CO2} growth Rate (ppb/yr).}
+#'   \item{N2O_spl}{[`numeric`]: \eqn{N_{2}O}{N2O} spline (ppb).}
+#'   \item{N2O_grw}{[`numeric`]: \eqn{N_{2}O}{N2O} growth Rate (ppb/yr).}
 #'  }
 #' @references
 #'  MacFarling Meure, C., Etheridge, D., Trudinger, C., Steele, P., Langenfelds,
@@ -81,11 +81,11 @@
 #' Global Benthic \eqn{\delta^{18}O}{\delta18O} Stack
 #'
 #' A global Pliocene-Pleistocene benthic \eqn{\delta^{18}O}{\delta18O} stack.
-#' @format A [`data.frame`] with 3 variables:
+#' @format `r describe_dim(lisiecki2005)`:
 #'  \describe{
-#'    \item{age}{Calendar age (kilo year cal BP).}
-#'    \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
-#'    \item{error}{Standard error (per mil).}
+#'    \item{age}{[`numeric`]: calendar age (kilo year cal BP).}
+#'    \item{delta}{[`numeric`]: benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
+#'    \item{error}{[`numeric`]: standard error (per mil).}
 #'  }
 #' @details
 #'  The LR04 stack spans 5.3 Myr and is an average of 57 globally distributed
@@ -115,10 +115,10 @@
 #'
 #' 50-year averaged oxygen isotope data from the North Greenland Ice Core
 #' Project (ss09sea time scale).
-#' @format A [`data.frame`] with 2 variables:
+#' @format `r describe_dim(ngrip2004)`:
 #'  \describe{
-#'    \item{age}{Calendar age (years before 2000 AD), ss09sea time scale.}
-#'    \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
+#'    \item{age}{[`integer`]: calendar age (years before 2000 AD), ss09sea time scale.}
+#'    \item{delta}{[`numeric`]: \eqn{\delta^{18}O}{\delta18O} (per mil).}
 #'  }
 #' @references
 #'  North Greenland Ice Core Project members (2004). High-resolution record of
@@ -144,13 +144,13 @@
 #'
 #' 20-year averaged oxygen isotope data from the North Greenland Ice Core
 #' Project (GICC05 time scale).
-#' @format A [`data.frame`] with 4 variables:
+#' @format `r describe_dim(ngrip2010)`:
 #'  \describe{
-#'    \item{age}{Calendar age (years before 2000 AD), GICC05 time scale
+#'    \item{age}{[`integer`]: calendar age (years before 2000 AD), GICC05 time scale
 #'    (or GICC05modelext when going beyond 60 ka b2k).}
-#'    \item{depth}{(meters).}
-#'    \item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
-#'    \item{MCE}{Maximum counting error (years).}
+#'    \item{depth}{[`numeric`]: depth (meters).}
+#'    \item{delta}{[`numeric`]: \eqn{\delta^{18}O}{\delta18O} (per mil).}
+#'    \item{MCE}{[`numeric`]: maximum counting error (years).}
 #'  }
 #' @note
 #'  Use the labels GICC05 (or GICC05modelext when going beyond 60 ka b2k) on
@@ -207,13 +207,13 @@
 #'
 #' Corrected \eqn{{}^{14}C}{14C} measurements from air samples collected at five
 #' Norwegian sites from 1962-1993.
-#' @format A [`data.frame`] with 5 variables:
+#' @format `r describe_dim(nydal1996)`:
 #'  \describe{
-#'   \item{site}{Sampling station.}
-#'   \item{start}{Beginning date of the sampling period.}
-#'   \item{end}{Ending date of the sampling period.}
-#'   \item{delta}{Isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
-#'   \item{sigma}{Error on \code{delta} (per mil).}
+#'   \item{site}{[`character`]: sampling station.}
+#'   \item{start}{[`Date`]: beginning date of the sampling period.}
+#'   \item{end}{[`Date`]: ending date of the sampling period.}
+#'   \item{delta}{[`numeric`]: isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
+#'   \item{sigma}{[`numeric`]: error on \code{delta} (per mil).}
 #'  }
 #' @source
 #'  Nydal, R. and Lövseth, K. (1996). *Carbon-14 Measurements in
@@ -236,33 +236,33 @@
 #'
 #' A Late Pleistocene sea level stack based on marine sediment core data
 #' (foraminiferal carbonate \eqn{\delta^{18}O}{\delta18O}).
-#' @format A [`data.frame`] with 9 variables:
+#' @format `r describe_dim(spratt2016)`:
 #'  \describe{
-#'    \item{age_calkaBP}{Age (calendar kilo year BP).}
-#'    \item{SeaLev_shortPC1}{Sea Level (meters above present day),
+#'    \item{age_calkaBP}{[`integer`]: age (calendar kilo year BP).}
+#'    \item{SeaLev_shortPC1}{[`numeric`]: sea Level (meters above present day),
 #'    climate reconstructions (scaled first principal component of seven sea
 #'    level reconstructions (0-430 ka)).}
-#'    \item{SeaLev_shortPC1_err_sig}{Sea Level standard deviation from
-#'    bootstrap (meters), climate reconstructions (scaled first principal
+#'    \item{SeaLev_shortPC1_err_sig}{[`numeric`]: sea Level standard deviation
+#'    from bootstrap (meters), climate reconstructions (scaled first principal
 #'    component of seven sea level reconstructions (0-430 ka)).}
-#'    \item{SeaLev_shortPC1_err_lo}{Sea Level 95% confidence interval lower
-#'    bound (meters), climate reconstructions (scaled first principal component
-#'    of seven sea level reconstructions (0-430 ka)).}
-#'    \item{SeaLev_shortPC1_err_up}{Sea Level 95% confidence interval upper
-#'    bound (meters), climate reconstructions (scaled first principal component
-#'    of seven sea level reconstructions (0-430 ka)).}
-#'    \item{SeaLev_longPC1}{Sea Level (meters above present day),
+#'    \item{SeaLev_shortPC1_err_lo}{[`numeric`]: sea Level 95% confidence
+#'    interval lower bound (meters), climate reconstructions (scaled first
+#'    principal component of seven sea level reconstructions (0-430 ka)).}
+#'    \item{SeaLev_shortPC1_err_up}{[`numeric`]: sea Level 95% confidence
+#'    interval upper bound (meters), climate reconstructions (scaled first
+#'    principal component of seven sea level reconstructions (0-430 ka)).}
+#'    \item{SeaLev_longPC1}{[`numeric`]: sea Level (meters above present day),
 #'    climate reconstructions (scaled first principal component of five sea
 #'    level reconstructions (0-798 ka)).}
-#'    \item{SeaLev_longPC1_err_sig}{Sea Level standard deviation from bootstrap
-#'    (meters), climate reconstructions (scaled first principal component of
-#'    five sea level reconstructions (0-798 ka)).}
-#'    \item{SeaLev_longPC1_err_lo}{Sea Level 95% confidence interval lower bound
-#'    (meters), climate reconstructions (scaled first principal component of
-#'    five sea level reconstructions (0-798 ka)).}
-#'    \item{SeaLev_longPC1_err_up}{Sea Level 95% confidence interval upper bound
-#'    (meters), climate reconstructions (scaled first principal component of
-#'    five sea level reconstructions (0-798 ka)).}
+#'    \item{SeaLev_longPC1_err_sig}{[`numeric`]: sea Level standard deviation
+#'    from bootstrap (meters), climate reconstructions (scaled first principal
+#'    component of five sea level reconstructions (0-798 ka)).}
+#'    \item{SeaLev_longPC1_err_lo}{[`numeric`]: sea Level 95% confidence
+#'    interval lower bound (meters), climate reconstructions (scaled first
+#'    principal component of five sea level reconstructions (0-798 ka)).}
+#'    \item{SeaLev_longPC1_err_up}{[`numeric`]: sea Level 95% confidence
+#'    interval upper bound (meters), climate reconstructions (scaled first
+#'    principal component of five sea level reconstructions (0-798 ka)).}
 #'  }
 #' @references
 #'  Spratt, R. M. and Lisiecki, L. E. (2016). A Late Pleistocene sea level
@@ -286,13 +286,14 @@
 
 #' \eqn{\delta^{13}C}{\delta13C} Values for Vegetation
 #'
-#' @format A [`data.frame`] with 155 observations and 5 variables:
+#' @format `r describe_dim(vegetation)`:
 #'  \describe{
-#'    \item{family}{Plant family.}
-#'    \item{species}{Plant species.}
-#'    \item{type}{C3 or C4 plant.}
-#'    \item{delta}{Isotopic ratio \eqn{\delta^{13}C}{\delta13C} (per mil).}
-#'    \item{country}{Country.}
+#'    \item{family}{[`character`]: plant family.}
+#'    \item{species}{[`character`]: plant species.}
+#'    \item{type}{[`character`]: C3 or C4 plant.}
+#'    \item{delta}{[`numeric`]: isotopic ratio \eqn{\delta^{13}C}{\delta13C}
+#'    (per mil).}
+#'    \item{country}{[`character`]: country.}
 #'  }
 #' @source
 #'  Cerling, T. E. and Harris, J. M. (1999). Carbon isotope fractionation

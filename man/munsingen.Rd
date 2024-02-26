@@ -5,7 +5,7 @@
 \alias{munsingen}
 \title{Münsingen Cemetery}
 \format{
-A \code{\link{data.frame}} with 59 rows (graves) and 70 variables (artifacts).
+A \code{data.frame} with 59 observations (graves) and 70 variables (artefact types).
 }
 \usage{
 munsingen

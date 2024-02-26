@@ -5,29 +5,28 @@
 \alias{zuni}
 \title{Zuni Ceramics}
 \format{
-A \code{\link{data.frame}} with 420 rows (assemblages) and 18 variables
-(ceramic types). The numbers in brackets correspond to the date range of
-each type (in AD years):
+A \code{data.frame} with 420 observations (assemblages) and 18 variables (ceramic types):
 \describe{
-\item{LINO}{Lino Gray (575-875).}
-\item{KIAT}{Kiatuthlanna Black-on-white (850-910).}
-\item{RED}{Red Mesa Black-on-white (900-1030).}
-\item{GALL}{Gallup Black-on-white (1025-1150).}
-\item{ESC}{Escavada Black-on-white (1050-1150).}
-\item{PUBW}{Puerco Black-on-white (1050-1200).}
-\item{RES}{Reserve Black-on-white (1071-1115).}
-\item{TULA}{Tularosa Black-on-white (1175-1300).}
-\item{PINE}{Pinedale Black-on-white (1275-1325).}
-\item{PUBR}{Puerco Black-on-red (1050-1200).}
-\item{WING}{Wingate Black-on-red (1070-1200).}
-\item{WIPO}{Wingate Polychrome (1150-1250).}
-\item{SJ}{St. Johns Black-on-red/Polychrome (1200-1300).}
-\item{LSJ}{St. Johns glaze, Techado Polychrome (1275-1300).}
-\item{SPR}{Springerville Polychrome (1250-1300).}
-\item{PINER}{Pinedale Black-on-red/Polychrome (1275-1325).}
-\item{HESH}{Heshotauthla Polychrome (1285-1400).}
-\item{KWAK}{Kwakina Polychrome (1285-1400).}
+\item{LINO}{\code{\link{integer}}: Lino Gray (575-875).}
+\item{KIAT}{\code{\link{integer}}: Kiatuthlanna Black-on-white (850-910).}
+\item{RED}{\code{\link{integer}}: Red Mesa Black-on-white (900-1030).}
+\item{GALL}{\code{\link{integer}}: Gallup Black-on-white (1025-1150).}
+\item{ESC}{\code{\link{integer}}: Escavada Black-on-white (1050-1150).}
+\item{PUBW}{\code{\link{integer}}: Puerco Black-on-white (1050-1200).}
+\item{RES}{\code{\link{integer}}: Reserve Black-on-white (1071-1115).}
+\item{TULA}{\code{\link{integer}}: Tularosa Black-on-white (1175-1300).}
+\item{PINE}{\code{\link{integer}}: Pinedale Black-on-white (1275-1325).}
+\item{PUBR}{\code{\link{integer}}: Puerco Black-on-red (1050-1200).}
+\item{WING}{\code{\link{integer}}: Wingate Black-on-red (1070-1200).}
+\item{WIPO}{\code{\link{integer}}: Wingate Polychrome (1150-1250).}
+\item{SJ}{\code{\link{integer}}: St. Johns Black-on-red/Polychrome (1200-1300).}
+\item{LSJ}{\code{\link{integer}}: St. Johns glaze, Techado Polychrome (1275-1300).}
+\item{SPR}{\code{\link{integer}}: Springerville Polychrome (1250-1300).}
+\item{PINER}{\code{\link{integer}}: Pinedale Black-on-red/Polychrome (1275-1325).}
+\item{HESH}{\code{\link{integer}}: Heshotauthla Polychrome (1285-1400).}
+\item{KWAK}{\code{\link{integer}}: Kwakina Polychrome (1285-1400).}
 }
+The numbers in brackets correspond to the date range of each type (in AD years).
 }
 \source{
 Peeples, M. A., & Schachner, G. (2012). Refining correspondence

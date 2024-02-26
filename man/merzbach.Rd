@@ -5,8 +5,7 @@
 \alias{merzbach}
 \title{Merzbach Ceramics}
 \format{
-A \code{\link{data.frame}} with 8 rows (phases, numbered from VII to XIV)
-and 36 variables (pottery motifs).
+A \code{data.frame} with 8 observations (chronological phases) and 36 variables (pottery motifs).
 }
 \source{
 Crema, E. R. (2016). Sample codes and data for "Revealing patterns of

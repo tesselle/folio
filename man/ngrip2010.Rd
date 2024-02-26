@@ -5,13 +5,13 @@
 \alias{ngrip2010}
 \title{NGRIP 20-year Average}
 \format{
-A \code{\link{data.frame}} with 4 variables:
+A \code{data.frame} with 6114 observations and 4 variables:
 \describe{
-\item{age}{Calendar age (years before 2000 AD), GICC05 time scale
+\item{age}{\code{\link{integer}}: calendar age (years before 2000 AD), GICC05 time scale
 (or GICC05modelext when going beyond 60 ka b2k).}
-\item{depth}{(meters).}
-\item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
-\item{MCE}{Maximum counting error (years).}
+\item{depth}{\code{\link{numeric}}: depth (meters).}
+\item{delta}{\code{\link{numeric}}: \eqn{\delta^{18}O}{\delta18O} (per mil).}
+\item{MCE}{\code{\link{numeric}}: maximum counting error (years).}
 }
 }
 \source{

@@ -1,14 +1,14 @@
 #' Chronostratigraphic Chart
 #'
 #' The ICS international chronostratigraphic chart (v2022/2).
-#' @format A [`data.frame`] with 5 variables:
+#' @format `r describe_dim(stratigraphy)`:
 #'  \describe{
-#'    \item{type}{Unit type ("`eon`", "`era`", "`period`", "`series`" or
-#'    "`stage`"). Precambrian and Hadean are informal units.}
-#'    \item{name}{Unit name.}
-#'    \item{age}{Numerical age (Ma).}
-#'    \item{error}{Error on numerical age (Ma).}
-#'    \item{parent}{Parent unit.}
+#'    \item{type}{[`character`]: unit type ("`eon`", "`era`", "`period`",
+#'    "`series`" or "`stage`"). Precambrian and Hadean are informal units.}
+#'    \item{name}{[`character`]: unit name.}
+#'    \item{age}{[`numeric`]: numerical age (Ma).}
+#'    \item{error}{[`numeric`]: error on numerical `age` (Ma).}
+#'    \item{parent}{[`character`]: parent unit.}
 #'  }
 #' @references
 #'  Cohen, K. M., Finney, S. C., Gibbard, P. L. and Fan, J.-X. (2013).

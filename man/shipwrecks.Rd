@@ -5,21 +5,21 @@
 \alias{shipwrecks}
 \title{Mediterranean Shipwrecks}
 \format{
-A \code{\link{data.frame}} with 1784 rows and 13 variables:
+A \code{data.frame} with 1784 observations (wrecks) and 13 variables:
 \describe{
-\item{name}{Wreck name.}
-\item{sea}{Region of the sea where the wreck was discovered.}
-\item{country}{Country where the wreck was discovered.}
-\item{region}{Region where the wreck was discovered.}
-\item{depth_min}{Minimum depth of the wreck (m).}
-\item{depth_max}{Maximum depth of the wreck (m).}
-\item{depth}{Depth of the wreck (m).}
-\item{period}{Period.}
-\item{dating}{Dating.}
-\item{date_early}{Earliest date.}
-\item{date_late}{Latest date.}
-\item{origin}{Place of origin.}
-\item{destination}{Place of destination.}
+\item{name}{\code{\link{character}}: wreck name.}
+\item{sea}{\code{\link{character}}: region of the sea where the wreck was discovered.}
+\item{country}{\code{\link{character}}: country where the wreck was discovered.}
+\item{region}{\code{\link{character}}: region where the wreck was discovered.}
+\item{depth_min}{\code{\link{integer}}: minimum depth of the wreck (m).}
+\item{depth_max}{\code{\link{integer}}: maximum depth of the wreck (m).}
+\item{depth}{\code{\link{character}}: depth of the wreck (m).}
+\item{period}{\code{\link{character}}: chronology (period).}
+\item{dating}{\code{\link{character}}: chronology (dating).}
+\item{date_early}{\code{\link{integer}}: earliest date.}
+\item{date_late}{\code{\link{integer}}: latest date.}
+\item{origin}{\code{\link{character}}: place of origin.}
+\item{destination}{\code{\link{character}}: place of destination.}
 }
 }
 \source{
@@ -30,7 +30,7 @@ URL: \url{http://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/}
 shipwrecks
 }
 \description{
-A dataset of mediterranean shipwrecks.
+A dataset of Mediterranean shipwrecks.
 }
 \note{
 This dataset contains typos and needs to be normalized.

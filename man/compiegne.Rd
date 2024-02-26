@@ -5,28 +5,30 @@
 \alias{compiegne}
 \title{Compiègne Ceramics}
 \format{
-A \code{\link{data.frame}} with 5 rows (chronological periods, numbered from
-the oldest to the most recent from 1 to 5) and 16 variables (ceramic types):
+A \code{data.frame} with 5 observations (periods) and 16 variables (ceramic types):
 \describe{
-\item{A}{Red to white ceramics with fine sized inclusions.}
-\item{B}{Red to white ceramics with medium sized inclusions.}
-\item{C}{Dark ceramics with fine sized inclusions.}
-\item{D}{Dark ceramics with medium sized inclusions.}
-\item{E}{Ceramics close to those of groups B or D, with similarities to
-group F.}
-\item{F}{Black, red or beige ceramics with coarse inclusions.}
-\item{G}{Red polished ceramics with fine to medium sized inclusions.}
-\item{H}{Black polished ceramics with fine sized inclusions.}
-\item{I}{Black polished ceramics with medium sized inclusions.}
-\item{J}{Polished and painted ceramics with fine to medium sized
+\item{A}{\code{\link{integer}}: red to white ceramics with fine sized inclusions.}
+\item{B}{\code{\link{integer}}: red to white ceramics with medium sized inclusions.}
+\item{C}{\code{\link{integer}}: dark ceramics with fine sized inclusions.}
+\item{D}{\code{\link{integer}}: dark ceramics with medium sized inclusions.}
+\item{E}{\code{\link{integer}}: ceramics close to those of groups B or D, with
+similarities to group F.}
+\item{F}{\code{\link{integer}}: black, red or beige ceramics with coarse inclusions.}
+\item{G}{\code{\link{integer}}: red polished ceramics with fine to medium sized
 inclusions.}
-\item{K}{Painted ceramics, similar to those of group A.}
-\item{L}{Painted ceramics, similar to those of group B.}
-\item{M}{Painted ceramics with coarse inclusions.}
-\item{N}{Glazed ceramics.}
-\item{O}{Stamped ceramics.}
-\item{P}{Coated ceramics.}
+\item{H}{\code{\link{integer}}: black polished ceramics with fine sized inclusions.}
+\item{I}{\code{\link{integer}}: black polished ceramics with medium sized inclusions.}
+\item{J}{\code{\link{integer}}: polished and painted ceramics with fine to medium
+sized inclusions.}
+\item{K}{\code{\link{integer}}: painted ceramics, similar to those of group A.}
+\item{L}{\code{\link{integer}}: painted ceramics, similar to those of group B.}
+\item{M}{\code{\link{integer}}: painted ceramics with coarse inclusions.}
+\item{N}{\code{\link{integer}}: glazed ceramics.}
+\item{O}{\code{\link{integer}}: stamped ceramics.}
+\item{P}{\code{\link{integer}}: coated ceramics.}
 }
+Chronological periods are numbered from the oldest to the most recent
+(from 1 to 5).
 }
 \source{
 Lacroix, M. C. (1997). La céramique médiévale du site des Hallettes à

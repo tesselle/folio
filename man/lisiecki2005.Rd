@@ -5,11 +5,11 @@
 \alias{lisiecki2005}
 \title{Global Benthic \eqn{\delta^{18}O}{\delta18O} Stack}
 \format{
-A \code{\link{data.frame}} with 3 variables:
+A \code{data.frame} with 2115 observations and 3 variables:
 \describe{
-\item{age}{Calendar age (kilo year cal BP).}
-\item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
-\item{error}{Standard error (per mil).}
+\item{age}{\code{\link{numeric}}: calendar age (kilo year cal BP).}
+\item{delta}{\code{\link{numeric}}: benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
+\item{error}{\code{\link{numeric}}: standard error (per mil).}
 }
 }
 \source{

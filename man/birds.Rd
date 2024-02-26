@@ -5,7 +5,7 @@
 \alias{birds}
 \title{European Birds}
 \format{
-A \code{\link{data.frame}} with 35 rows (species) and 3 variables (woodlands).
+A \code{data.frame} with 35 observations (species) and 3 variables (woodlands).
 }
 \source{
 Magurran, A. E. (1988). \emph{Ecological Diversity and its Measurement}.

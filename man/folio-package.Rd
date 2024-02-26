@@ -3,7 +3,6 @@
 \docType{package}
 \name{folio-package}
 \alias{folio-package}
-\alias{_PACKAGE}
 \alias{folio}
 \title{folio: Datasets for Teaching Archaeology and Paleontology}
 \description{

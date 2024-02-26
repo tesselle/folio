@@ -5,39 +5,40 @@
 \alias{verre}
 \title{French Medieval Glass Composition}
 \format{
-A \code{\link{data.frame}} with 17 variables:
+A \code{data.frame} with 398 observations and 17 variables:
 \describe{
-\item{Site}{\code{CNL}: Cour Napoléon, Louvre; \code{ORL}: Orléans;
-\code{POI}: Poitiers; \code{ANG}: Angers; \code{OMO}: Omonville, Seine Maritime;
-\code{ROU}: Rouen; \code{MEA}: Meaux; \code{CHL}: Châlons-sur-Marne;
-\code{PAI}: Pairu (Argonne, Ardennes); \code{BER}: Bercettes (Argonne, Ardennes);
-\code{BIN}: Binois (Argonne, Ardennes); \code{CHE}: Chevrie (Argonne, Ardennes);
-\code{MIT}: Mitte (Argonne, Ardennes); \code{MET}: Metz; \code{CHM}: Chambaran.}
-\item{Sample}{Sample code.}
-\item{Type}{Typology.}
-\item{Age}{Century.}
-\item{Periode}{\code{I}: 9th-12th century; \code{II}: 13th-first half of the 15th
-century; \code{III}: end of the 15th to end of the 16th century;
-\code{IV}: end of 16th to end of the 17th century.}
-\item{Tint}{\code{B}: blue; \code{CL}: colourless; \code{CLg} colourless (greyish tint);
-\code{PB}: pale blue; \code{PGE}: pale greenish;
-\code{PGE-B}: pale green-blue or blue-green;
-\code{PGY-B}: pale grey-blue; \code{R}: opaque red; \code{W}: opaque white;
-\verb{*av}: added aventurine spots;
-\verb{*bl}: added thread blue or blue spots;
-\verb{*r}: added thread opaque red or opaque red spots;
-\verb{*w}: added thread opaque white.}
-\item{Na2O}{Na2O content (percent).}
-\item{CaO}{CaO content (percent).}
-\item{K2O}{K2O content (percent).}
-\item{MgO}{MgO content (percent).}
-\item{P2O5}{P2O5 content (percent).}
-\item{SiO2}{SiO2 content (percent).}
-\item{Al2O3}{Al2O3 content (percent).}
-\item{FeO}{FeO content (percent).}
-\item{MnO}{MnO content (percent).}
-\item{Cl}{Cl content (percent).}
-\item{Reference}{Site reference.}
+\item{Site}{\code{\link{factor}}: \code{CNL} (Cour Napoléon, Louvre), \code{ORL} (Orléans),
+\code{POI} (Poitiers), \code{ANG} (Angers), \code{OMO} (Omonville, Seine Maritime),
+\code{ROU} (Rouen), \code{MEA} (Meaux), \code{CHL} (Châlons-sur-Marne),
+\code{PAI} (Pairu, Argonne, Ardennes), \code{BER} (Bercettes, Argonne, Ardennes),
+\code{BIN} (Binois, Argonne, Ardennes), \code{CHE} (Chevrie, Argonne, Ardennes),
+\code{MIT} (Mitte, Argonne, Ardennes), \code{MET} (Metz), \code{CHM} (Chambaran).}
+\item{Sample}{\code{\link{character}}: sample code.}
+\item{Type}{\code{\link{character}}: typology.}
+\item{Age}{\code{\link{character}}: century.}
+\item{Periode}{\code{\link{factor}}: \code{I} (9th-12th century), \code{II} (13th-first
+half of the 15th century), \code{III} (end of the 15th to end of the 16th
+century), \code{IV} (end of 16th to end of the 17th century).}
+\item{Tint}{\code{\link{factor}}: \verb{?} (unknown), \code{B} (blue), \code{CL} (colourless),
+\code{CLg} (colourless -- greyish tint),
+\code{PB} (pale blue; \code{PGE}: pale greenish),
+\code{PGE-B} (pale green-blue or blue-green),
+\code{PGY-B} (pale grey-blue), \code{R} (opaque red), \code{W} (opaque white),
+\verb{*av} (added aventurine spots),
+\verb{*bl} (added thread blue or blue spots),
+\verb{*r} (added thread opaque red or opaque red spots),
+\verb{*w} (added thread opaque white).}
+\item{Na2O}{\code{\link{numeric}}: Na2O content (percent).}
+\item{CaO}{\code{\link{numeric}}: CaO content (percent).}
+\item{K2O}{\code{\link{numeric}}: K2O content (percent).}
+\item{MgO}{\code{\link{numeric}}: MgO content (percent).}
+\item{P2O5}{\code{\link{numeric}}: P2O5 content (percent).}
+\item{SiO2}{\code{\link{numeric}}: SiO2 content (percent).}
+\item{Al2O3}{\code{\link{numeric}}: Al2O3 content (percent).}
+\item{FeO}{\code{\link{numeric}}: FeO content (percent).}
+\item{MnO}{\code{\link{numeric}}: MnO content (percent).}
+\item{Cl}{\code{\link{numeric}}: Cl content (percent).}
+\item{Reference}{\code{\link{character}}: site reference.}
 }
 }
 \usage{

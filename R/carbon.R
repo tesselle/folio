@@ -2,16 +2,16 @@
 #'
 #' "The agreement between prediction and observation is seen to be
 #' satisfactory."
-#' @format A [`data.frame`] with 6 observations and 8 variables:
+#' @format `r describe_dim(arnold1949)`:
 #'  \describe{
-#'   \item{sample}{Sample name.}
-#'   \item{age_expected}{Expected age (year BP).}
-#'   \item{age_expected_error}{Error on `age_expected` (year BP).}
-#'   \item{age_found}{Measured age (year BP).}
-#'   \item{age_found_error}{Error on `age_found` (year BP).}
-#'   \item{activity_expected}{Expected specific activity (cpm/g of carbon).}
-#'   \item{activity_found}{Measured specific activity (cpm/g of carbon).}
-#'   \item{activity_found_error}{Error on `activity_found` (cpm/g of carbon).}
+#'   \item{sample}{[`character`]: sample name.}
+#'   \item{age_expected}{[`integer`]: Expected age (year BP).}
+#'   \item{age_expected_error}{[`integer`]: Error on `age_expected` (year BP).}
+#'   \item{age_found}{[`integer`]: Measured age (year BP).}
+#'   \item{age_found_error}{[`integer`]: Error on `age_found` (year BP).}
+#'   \item{activity_expected}{[`numeric`]: Expected specific activity (cpm/g of carbon).}
+#'   \item{activity_found}{[`numeric`]: Measured specific activity (cpm/g of carbon).}
+#'   \item{activity_found_error}{[`numeric`]: Error on `activity_found` (cpm/g of carbon).}
 #'  }
 #' @source
 #'  Arnold, J. R. and Libby, W. F. (1949). Age Determinations by Radiocarbon
@@ -24,13 +24,13 @@
 #' IntCal09
 #'
 #' The IntCal series of radiocarbon calibration curves.
-#' @format A [`data.frame`] with 5 variables:
+#' @format `r describe_dim(intcal09)`:
 #'  \describe{
-#'    \item{calBP}{Calendar (calibrated) age (year BP).}
-#'    \item{age}{Radiocarbon age (year BP).}
-#'    \item{error}{Radiocarbon error (year BP).}
-#'    \item{delta}{Isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
-#'    \item{sigma}{Error on `delta` (per mil).}
+#'    \item{calBP}{[`integer`]: calendar (calibrated) age (year BP).}
+#'    \item{age}{[`integer`]: radiocarbon age (year BP).}
+#'    \item{error}{[`integer`]: radiocarbon error (year BP).}
+#'    \item{delta}{[`numeric`]: isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
+#'    \item{sigma}{[`numeric`]: error on `delta` (per mil).}
 #'  }
 #' @source
 #'  Reimer, P. J., Baillie, M. G. L., Bard, E., Bayliss, A., Beck, J. W.,
@@ -44,13 +44,13 @@
 #' IntCal13
 #'
 #' The IntCal series of radiocarbon calibration curves.
-#' @format A [`data.frame`] with 5 variables:
+#' @format `r describe_dim(intcal13)`:
 #'  \describe{
-#'    \item{calBP}{Calendar (calibrated) age (year BP).}
-#'    \item{age}{Radiocarbon age (year BP).}
-#'    \item{error}{Radiocarbon error (year BP).}
-#'    \item{delta}{Isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
-#'    \item{sigma}{Error on `delta` (per mil).}
+#'    \item{calBP}{[`integer`]: calendar (calibrated) age (year BP).}
+#'    \item{age}{[`integer`]: radiocarbon age (year BP).}
+#'    \item{error}{[`integer`]: radiocarbon error (year BP).}
+#'    \item{delta}{[`numeric`]: isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
+#'    \item{sigma}{[`numeric`]: error on `delta` (per mil).}
 #'  }
 #' @source
 #'  Reimer, P. J., Bard, E. Bayliss, A., Beck, J. W., Blackwell, P. G.,
@@ -64,13 +64,13 @@
 #' IntCal20
 #'
 #' The IntCal series of radiocarbon calibration curves.
-#' @format A [`data.frame`] with 5 variables:
+#' @format `r describe_dim(intcal20)`:
 #'  \describe{
-#'    \item{calBP}{Calendar (calibrated) age (year BP).}
-#'    \item{age}{Radiocarbon age (year BP).}
-#'    \item{error}{Radiocarbon error (year BP).}
-#'    \item{delta}{Isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
-#'    \item{sigma}{Error on `delta` (per mil).}
+#'    \item{calBP}{[`integer`]: calendar (calibrated) age (year BP).}
+#'    \item{age}{[`integer`]: radiocarbon age (year BP).}
+#'    \item{error}{[`integer`]: radiocarbon error (year BP).}
+#'    \item{delta}{[`numeric`]: isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
+#'    \item{sigma}{[`numeric`]: error on `delta` (per mil).}
 #'  }
 #' @source
 #'  Reimer, P. J., Austin, W. E. N., Bard, E., Bayliss, A., Blackwell, P. G.,

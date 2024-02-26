@@ -5,14 +5,14 @@
 \alias{stratigraphy}
 \title{Chronostratigraphic Chart}
 \format{
-A \code{\link{data.frame}} with 5 variables:
+A \code{data.frame} with 176 observations and 5 variables:
 \describe{
-\item{type}{Unit type ("\code{eon}", "\code{era}", "\code{period}", "\code{series}" or
-"\code{stage}"). Precambrian and Hadean are informal units.}
-\item{name}{Unit name.}
-\item{age}{Numerical age (Ma).}
-\item{error}{Error on numerical age (Ma).}
-\item{parent}{Parent unit.}
+\item{type}{\code{\link{character}}: unit type ("\code{eon}", "\code{era}", "\code{period}",
+"\code{series}" or "\code{stage}"). Precambrian and Hadean are informal units.}
+\item{name}{\code{\link{character}}: unit name.}
+\item{age}{\code{\link{numeric}}: numerical age (Ma).}
+\item{error}{\code{\link{numeric}}: error on numerical \code{age} (Ma).}
+\item{parent}{\code{\link{character}}: parent unit.}
 }
 }
 \source{

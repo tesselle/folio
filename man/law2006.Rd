@@ -5,16 +5,16 @@
 \alias{law2006}
 \title{Law Dome Ice Core}
 \format{
-A \code{\link{data.frame}} with 2004 observations and 8 variables:
+A \code{data.frame} with 2004 observations and 8 variables:
 \describe{
-\item{year}{Year AD.}
-\item{NOAA04}{NOAA04 \eqn{CH_4}{CH4} scale.}
-\item{CH4_spl}{\eqn{CH_4}{CH4} spline (ppb).}
-\item{CH4_grw}{\eqn{CH_4}{CH4} growth Rate (ppb/yr).}
-\item{CO2_spl}{\eqn{CO_2}{CO2} spline (ppb).}
-\item{CO2_grw}{\eqn{CO_2}{CO2} growth Rate (ppb/yr).}
-\item{N2O_spl}{\eqn{N_{2}O}{N2O} spline (ppb).}
-\item{N2O_grw}{\eqn{N_{2}O}{N2O} growth Rate (ppb/yr).}
+\item{year}{\code{\link{integer}}: year AD.}
+\item{NOAA04}{\code{\link{numeric}}: NOAA04 \eqn{CH_4}{CH4} scale.}
+\item{CH4_spl}{\code{\link{numeric}}: \eqn{CH_4}{CH4} spline (ppb).}
+\item{CH4_grw}{\code{\link{numeric}}: \eqn{CH_4}{CH4} growth Rate (ppb/yr).}
+\item{CO2_spl}{\code{\link{numeric}}: \eqn{CO_2}{CO2} spline (ppb).}
+\item{CO2_grw}{\code{\link{numeric}}: \eqn{CO_2}{CO2} growth Rate (ppb/yr).}
+\item{N2O_spl}{\code{\link{numeric}}: \eqn{N_{2}O}{N2O} spline (ppb).}
+\item{N2O_grw}{\code{\link{numeric}}: \eqn{N_{2}O}{N2O} growth Rate (ppb/yr).}
 }
 }
 \source{

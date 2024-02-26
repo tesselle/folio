@@ -2,39 +2,40 @@
 #'
 #' Chemical analysis (electron probe X-ray micro analysis) of 398 medieval
 #' glass vessels found in France.
-#' @format A [`data.frame`] with 17 variables:
+#' @format `r describe_dim(verre)`:
 #'  \describe{
-#'    \item{Site}{`CNL`: Cour Napoléon, Louvre; `ORL`: Orléans;
-#'    `POI`: Poitiers; `ANG`: Angers; `OMO`: Omonville, Seine Maritime;
-#'    `ROU`: Rouen; `MEA`: Meaux; `CHL`: Châlons-sur-Marne;
-#'    `PAI`: Pairu (Argonne, Ardennes); `BER`: Bercettes (Argonne, Ardennes);
-#'    `BIN`: Binois (Argonne, Ardennes); `CHE`: Chevrie (Argonne, Ardennes);
-#'    `MIT`: Mitte (Argonne, Ardennes); `MET`: Metz; `CHM`: Chambaran.}
-#'    \item{Sample}{Sample code.}
-#'    \item{Type}{Typology.}
-#'    \item{Age}{Century.}
-#'    \item{Periode}{`I`: 9th-12th century; `II`: 13th-first half of the 15th
-#'    century; `III`: end of the 15th to end of the 16th century;
-#'    `IV`: end of 16th to end of the 17th century.}
-#'    \item{Tint}{`B`: blue; `CL`: colourless; `CLg` colourless (greyish tint);
-#'    `PB`: pale blue; `PGE`: pale greenish;
-#'    `PGE-B`: pale green-blue or blue-green;
-#'    `PGY-B`: pale grey-blue; `R`: opaque red; `W`: opaque white;
-#'    `*av`: added aventurine spots;
-#'    `*bl`: added thread blue or blue spots;
-#'    `*r`: added thread opaque red or opaque red spots;
-#'    `*w`: added thread opaque white.}
-#'    \item{Na2O}{Na2O content (percent).}
-#'    \item{CaO}{CaO content (percent).}
-#'    \item{K2O}{K2O content (percent).}
-#'    \item{MgO}{MgO content (percent).}
-#'    \item{P2O5}{P2O5 content (percent).}
-#'    \item{SiO2}{SiO2 content (percent).}
-#'    \item{Al2O3}{Al2O3 content (percent).}
-#'    \item{FeO}{FeO content (percent).}
-#'    \item{MnO}{MnO content (percent).}
-#'    \item{Cl}{Cl content (percent).}
-#'    \item{Reference}{Site reference.}
+#'    \item{Site}{[`factor`]: `CNL` (Cour Napoléon, Louvre), `ORL` (Orléans),
+#'    `POI` (Poitiers), `ANG` (Angers), `OMO` (Omonville, Seine Maritime),
+#'    `ROU` (Rouen), `MEA` (Meaux), `CHL` (Châlons-sur-Marne),
+#'    `PAI` (Pairu, Argonne, Ardennes), `BER` (Bercettes, Argonne, Ardennes),
+#'    `BIN` (Binois, Argonne, Ardennes), `CHE` (Chevrie, Argonne, Ardennes),
+#'    `MIT` (Mitte, Argonne, Ardennes), `MET` (Metz), `CHM` (Chambaran).}
+#'    \item{Sample}{[`character`]: sample code.}
+#'    \item{Type}{[`character`]: typology.}
+#'    \item{Age}{[`character`]: century.}
+#'    \item{Periode}{[`factor`]: `I` (9th-12th century), `II` (13th-first
+#'    half of the 15th century), `III` (end of the 15th to end of the 16th
+#'    century), `IV` (end of 16th to end of the 17th century).}
+#'    \item{Tint}{[`factor`]: `?` (unknown), `B` (blue), `CL` (colourless),
+#'    `CLg` (colourless -- greyish tint),
+#'    `PB` (pale blue; `PGE`: pale greenish),
+#'    `PGE-B` (pale green-blue or blue-green),
+#'    `PGY-B` (pale grey-blue), `R` (opaque red), `W` (opaque white),
+#'    `*av` (added aventurine spots),
+#'    `*bl` (added thread blue or blue spots),
+#'    `*r` (added thread opaque red or opaque red spots),
+#'    `*w` (added thread opaque white).}
+#'    \item{Na2O}{[`numeric`]: Na2O content (percent).}
+#'    \item{CaO}{[`numeric`]: CaO content (percent).}
+#'    \item{K2O}{[`numeric`]: K2O content (percent).}
+#'    \item{MgO}{[`numeric`]: MgO content (percent).}
+#'    \item{P2O5}{[`numeric`]: P2O5 content (percent).}
+#'    \item{SiO2}{[`numeric`]: SiO2 content (percent).}
+#'    \item{Al2O3}{[`numeric`]: Al2O3 content (percent).}
+#'    \item{FeO}{[`numeric`]: FeO content (percent).}
+#'    \item{MnO}{[`numeric`]: MnO content (percent).}
+#'    \item{Cl}{[`numeric`]: Cl content (percent).}
+#'    \item{Reference}{[`character`]: site reference.}
 #'  }
 #' @references
 #'  Barrera J., Velde B. (1989). A study of french medieval glass composition.
@@ -55,31 +56,31 @@
 #'
 #' Chemical analysis (neutron activation analysis) of 88 Late Bronze Age
 #' transport jars found in excavations at Kommos, Crete.
-#' @format A [`data.frame`] with 22 variables (chemical elements):
+#' @format `r describe_dim(kommos, what_col = "chemical elements")`:
 #'  \describe{
-#'    \item{type}{`CJ`: Canaanite jar; `EJ`: Egyptian jar;
-#'    `TSJ`: transport stirrup jar; `SNA`: short-necked amphora.}
-#'    \item{date}{Chronology (period).}
-#'    \item{Sm}{Sm content (ppm).}
-#'    \item{Lu}{Lu content (ppm).}
-#'    \item{U}{U content (ppm).}
-#'    \item{Yb}{Yb content (ppm).}
-#'    \item{As}{As content (ppm).}
-#'    \item{Sb}{Sb content (ppm).}
-#'    \item{Ca}{Ca content (ppm).}
-#'    \item{Na}{Na content (ppm).}
-#'    \item{La}{La content (ppm).}
-#'    \item{Ce}{Ce content (ppm).}
-#'    \item{Th}{Th content (ppm).}
-#'    \item{Cr}{Cr content (ppm).}
-#'    \item{Hf}{Hf content (ppm).}
-#'    \item{Cs}{Cs content (ppm).}
-#'    \item{Sc}{Sc content (ppm).}
-#'    \item{Rb}{Rb content (ppm).}
-#'    \item{Fe}{Fe content (ppm).}
-#'    \item{Ta}{Ta content (ppm).}
-#'    \item{Co}{Co content (ppm).}
-#'    \item{Eu}{Eu content (ppm).}
+#'    \item{type}{[`factor`]: `CJ` (Canaanite jar), `EJ` (Egyptian jar);
+#'    `TSJ` (transport stirrup jar), `SNA` (short-necked amphora).}
+#'    \item{date}{[`character`]: chronology (period).}
+#'    \item{Sm}{[`numeric`]: Sm content (ppm).}
+#'    \item{Lu}{[`numeric`]: Lu content (ppm).}
+#'    \item{U}{[`numeric`]: U content (ppm).}
+#'    \item{Yb}{[`numeric`]: Yb content (ppm).}
+#'    \item{As}{[`numeric`]: As content (ppm).}
+#'    \item{Sb}{[`numeric`]: Sb content (ppm).}
+#'    \item{Ca}{[`numeric`]: Ca content (ppm).}
+#'    \item{Na}{[`numeric`]: Na content (ppm).}
+#'    \item{La}{[`numeric`]: La content (ppm).}
+#'    \item{Ce}{[`numeric`]: Ce content (ppm).}
+#'    \item{Th}{[`numeric`]: Th content (ppm).}
+#'    \item{Cr}{[`numeric`]: Cr content (ppm).}
+#'    \item{Hf}{[`numeric`]: Hf content (ppm).}
+#'    \item{Cs}{[`numeric`]: Cs content (ppm).}
+#'    \item{Sc}{[`numeric`]: Sc content (ppm).}
+#'    \item{Rb}{[`numeric`]: Rb content (ppm).}
+#'    \item{Fe}{[`numeric`]: Fe content (ppm).}
+#'    \item{Ta}{[`numeric`]: Ta content (ppm).}
+#'    \item{Co}{[`numeric`]: Co content (ppm).}
+#'    \item{Eu}{[`numeric`]: Eu content (ppm).}
 #'  }
 #' @references
 #'  Day, P. M., Quinn, P. S., Rutter, J. B. & Kilikoglou, V. (2011).

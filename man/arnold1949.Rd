@@ -5,16 +5,16 @@
 \alias{arnold1949}
 \title{Arnold and Libby's Curve of Knowns}
 \format{
-A \code{\link{data.frame}} with 6 observations and 8 variables:
+A \code{data.frame} with 6 observations and 8 variables:
 \describe{
-\item{sample}{Sample name.}
-\item{age_expected}{Expected age (year BP).}
-\item{age_expected_error}{Error on \code{age_expected} (year BP).}
-\item{age_found}{Measured age (year BP).}
-\item{age_found_error}{Error on \code{age_found} (year BP).}
-\item{activity_expected}{Expected specific activity (cpm/g of carbon).}
-\item{activity_found}{Measured specific activity (cpm/g of carbon).}
-\item{activity_found_error}{Error on \code{activity_found} (cpm/g of carbon).}
+\item{sample}{\code{\link{character}}: sample name.}
+\item{age_expected}{\code{\link{integer}}: Expected age (year BP).}
+\item{age_expected_error}{\code{\link{integer}}: Error on \code{age_expected} (year BP).}
+\item{age_found}{\code{\link{integer}}: Measured age (year BP).}
+\item{age_found_error}{\code{\link{integer}}: Error on \code{age_found} (year BP).}
+\item{activity_expected}{\code{\link{numeric}}: Expected specific activity (cpm/g of carbon).}
+\item{activity_found}{\code{\link{numeric}}: Measured specific activity (cpm/g of carbon).}
+\item{activity_found_error}{\code{\link{numeric}}: Error on \code{activity_found} (cpm/g of carbon).}
 }
 }
 \source{

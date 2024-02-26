@@ -5,18 +5,18 @@
 \alias{mississippi}
 \title{Mississippi Ceramics}
 \format{
-A \code{\link{data.frame}} with 20 rows and 10 variables (ceramic types):
+A \code{data.frame} with 20 observations and 10 variables (ceramic types):
 \describe{
-\item{ParkinPunctate}{}
-\item{BartonKentMPI}{}
-\item{Painted}{}
-\item{FortuneNoded}{}
-\item{RanchIncised}{}
-\item{WallsEngraved}{}
-\item{WallaceIncised}{}
-\item{RhodesIncised}{}
-\item{VernonPaulApplique}{}
-\item{HullEngraved}{}
+\item{ParkinPunctate}{\code{\link{integer}}.}
+\item{BartonKentMPI}{\code{\link{integer}}.}
+\item{Painted}{\code{\link{integer}}.}
+\item{FortuneNoded}{\code{\link{integer}}.}
+\item{RanchIncised}{\code{\link{integer}}.}
+\item{WallsEngraved}{\code{\link{integer}}.}
+\item{WallaceIncised}{\code{\link{integer}}.}
+\item{RhodesIncised}{\code{\link{integer}}.}
+\item{VernonPaulApplique}{\code{\link{integer}}.}
+\item{HullEngraved}{\code{\link{integer}}.}
 }
 }
 \source{

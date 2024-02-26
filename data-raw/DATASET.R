@@ -61,6 +61,9 @@ usethis::use_data(zuni, overwrite = FALSE)
 # The French glass dataset from Barrera and Velde 1989
 verre <- read.csv("data-raw/verre.csv", header = TRUE, row.names = NULL,
                   sep = ",", dec = ".", encoding = "UTF-8")
+verre$Site <- as.factor(verre$Site)
+verre$Periode <- as.factor(verre$Periode)
+verre$Tint <- as.factor(verre$Tint)
 verre$R <- NULL
 usethis::use_data(verre, overwrite = FALSE)
 
@@ -72,6 +75,7 @@ usethis::use_data(verre, overwrite = FALSE)
 # The Kommos dataset from Day et al. 2011
 kommos <- read.csv("data-raw/kommos.csv", header = TRUE, row.names = 1,
                    sep = ",", dec = ".")
+kommos$type <- as.factor(kommos$type)
 usethis::use_data(kommos, overwrite = FALSE)
 
 # Chronological data ===========================================================
@@ -149,6 +153,7 @@ nydal1996 <- read.csv("data-raw/nydal1996.csv", header = TRUE, row.names = 1,
                       sep = ",", dec = ".", encoding = "UTF-8")
 nydal1996$start <- as.Date(nydal1996$start, format = "%Y-%m-%d")
 nydal1996$end <- as.Date(nydal1996$end, format = "%Y-%m-%d")
+nydal1996$sigma <- as.numeric(nydal1996$sigma)
 usethis::use_data(nydal1996, overwrite = FALSE)
 
 spratt2016 <- read.table("data-raw/spratt2016.txt",

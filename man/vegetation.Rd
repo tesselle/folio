@@ -5,13 +5,14 @@
 \alias{vegetation}
 \title{\eqn{\delta^{13}C}{\delta13C} Values for Vegetation}
 \format{
-A \code{\link{data.frame}} with 155 observations and 5 variables:
+A \code{data.frame} with 155 observations and 5 variables:
 \describe{
-\item{family}{Plant family.}
-\item{species}{Plant species.}
-\item{type}{C3 or C4 plant.}
-\item{delta}{Isotopic ratio \eqn{\delta^{13}C}{\delta13C} (per mil).}
-\item{country}{Country.}
+\item{family}{\code{\link{character}}: plant family.}
+\item{species}{\code{\link{character}}: plant species.}
+\item{type}{\code{\link{character}}: C3 or C4 plant.}
+\item{delta}{\code{\link{numeric}}: isotopic ratio \eqn{\delta^{13}C}{\delta13C}
+(per mil).}
+\item{country}{\code{\link{character}}: country.}
 }
 }
 \source{

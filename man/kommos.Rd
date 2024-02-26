@@ -5,31 +5,31 @@
 \alias{kommos}
 \title{Transport Jars from Kommos (Crete).}
 \format{
-A \code{\link{data.frame}} with 22 variables (chemical elements):
+A \code{data.frame} with 88 observations and 22 variables (chemical elements):
 \describe{
-\item{type}{\code{CJ}: Canaanite jar; \code{EJ}: Egyptian jar;
-\code{TSJ}: transport stirrup jar; \code{SNA}: short-necked amphora.}
-\item{date}{Chronology (period).}
-\item{Sm}{Sm content (ppm).}
-\item{Lu}{Lu content (ppm).}
-\item{U}{U content (ppm).}
-\item{Yb}{Yb content (ppm).}
-\item{As}{As content (ppm).}
-\item{Sb}{Sb content (ppm).}
-\item{Ca}{Ca content (ppm).}
-\item{Na}{Na content (ppm).}
-\item{La}{La content (ppm).}
-\item{Ce}{Ce content (ppm).}
-\item{Th}{Th content (ppm).}
-\item{Cr}{Cr content (ppm).}
-\item{Hf}{Hf content (ppm).}
-\item{Cs}{Cs content (ppm).}
-\item{Sc}{Sc content (ppm).}
-\item{Rb}{Rb content (ppm).}
-\item{Fe}{Fe content (ppm).}
-\item{Ta}{Ta content (ppm).}
-\item{Co}{Co content (ppm).}
-\item{Eu}{Eu content (ppm).}
+\item{type}{\code{\link{factor}}: \code{CJ} (Canaanite jar), \code{EJ} (Egyptian jar);
+\code{TSJ} (transport stirrup jar), \code{SNA} (short-necked amphora).}
+\item{date}{\code{\link{character}}: chronology (period).}
+\item{Sm}{\code{\link{numeric}}: Sm content (ppm).}
+\item{Lu}{\code{\link{numeric}}: Lu content (ppm).}
+\item{U}{\code{\link{numeric}}: U content (ppm).}
+\item{Yb}{\code{\link{numeric}}: Yb content (ppm).}
+\item{As}{\code{\link{numeric}}: As content (ppm).}
+\item{Sb}{\code{\link{numeric}}: Sb content (ppm).}
+\item{Ca}{\code{\link{numeric}}: Ca content (ppm).}
+\item{Na}{\code{\link{numeric}}: Na content (ppm).}
+\item{La}{\code{\link{numeric}}: La content (ppm).}
+\item{Ce}{\code{\link{numeric}}: Ce content (ppm).}
+\item{Th}{\code{\link{numeric}}: Th content (ppm).}
+\item{Cr}{\code{\link{numeric}}: Cr content (ppm).}
+\item{Hf}{\code{\link{numeric}}: Hf content (ppm).}
+\item{Cs}{\code{\link{numeric}}: Cs content (ppm).}
+\item{Sc}{\code{\link{numeric}}: Sc content (ppm).}
+\item{Rb}{\code{\link{numeric}}: Rb content (ppm).}
+\item{Fe}{\code{\link{numeric}}: Fe content (ppm).}
+\item{Ta}{\code{\link{numeric}}: Ta content (ppm).}
+\item{Co}{\code{\link{numeric}}: Co content (ppm).}
+\item{Eu}{\code{\link{numeric}}: Eu content (ppm).}
 }
 }
 \usage{

@@ -5,18 +5,18 @@
 \alias{chevelon}
 \title{Chevelon Ground Stone}
 \format{
-A \code{\link{data.frame}} with 12 rows and 10 variables (ground stone types):
+A \code{data.frame} with 12 observations (sites) and 10 variables (ground stone types):
 \describe{
-\item{BMe}{Basin metate.}
-\item{SMe}{Slab metate.}
-\item{TMe}{Trough metate.}
-\item{IMe}{Indeterminate metate.}
-\item{UMa}{Unifacial mano.}
-\item{BMa}{Bifacial mano.}
-\item{MUHa}{Modified unifacial handstone.}
-\item{MBHa}{Modified bifacial handstone.}
-\item{UUHa}{Unmodified unifacial handstone.}
-\item{UBHa}{Unmodified bifacial handstone.}
+\item{BMe}{\code{\link{integer}}: basin metate.}
+\item{SMe}{\code{\link{integer}}: slab metate.}
+\item{TMe}{\code{\link{integer}}: Trough metate.}
+\item{IMe}{\code{\link{integer}}: indeterminate metate.}
+\item{UMa}{\code{\link{integer}}: unifacial mano.}
+\item{BMa}{\code{\link{integer}}: bifacial mano.}
+\item{MUHa}{\code{\link{integer}}: modified unifacial handstone.}
+\item{MBHa}{\code{\link{integer}}: modified bifacial handstone.}
+\item{UUHa}{\code{\link{integer}}: unmodified unifacial handstone.}
+\item{UBHa}{\code{\link{integer}}: unmodified bifacial handstone.}
 }
 }
 \source{

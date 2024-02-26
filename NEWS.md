@@ -1,6 +1,7 @@
 # folio 1.3.0.9000
 
 * Add the `vegetation` dataset (isotopic data).
+* Document variable types for each dataset.
 
 # folio 1.3.0
 

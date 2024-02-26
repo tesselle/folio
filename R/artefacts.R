@@ -2,7 +2,7 @@
 #'
 #' A dataset of data set of artifact presence/absence for the Celtic
 #' Münsingen-Rain cemetery (Switzerland).
-#' @format A [`data.frame`] with 59 rows (graves) and 70 variables (artifacts).
+#' @format `r describe_dim(munsingen, what_row = "graves", what_col = "artefact types")`.
 #' @references
 #'  Hodson, F. R. (1968). *The La Tene Cemetery at Münsingen-Rain*. Stämpfli,
 #'  Bern.
@@ -25,22 +25,22 @@
 
 #' Mediterranean Shipwrecks
 #'
-#' A dataset of mediterranean shipwrecks.
-#' @format A [`data.frame`] with 1784 rows and 13 variables:
+#' A dataset of Mediterranean shipwrecks.
+#' @format `r describe_dim(shipwrecks, what_row = "wrecks")`:
 #'  \describe{
-#'    \item{name}{Wreck name.}
-#'    \item{sea}{Region of the sea where the wreck was discovered.}
-#'    \item{country}{Country where the wreck was discovered.}
-#'    \item{region}{Region where the wreck was discovered.}
-#'    \item{depth_min}{Minimum depth of the wreck (m).}
-#'    \item{depth_max}{Maximum depth of the wreck (m).}
-#'    \item{depth}{Depth of the wreck (m).}
-#'    \item{period}{Period.}
-#'    \item{dating}{Dating.}
-#'    \item{date_early}{Earliest date.}
-#'    \item{date_late}{Latest date.}
-#'    \item{origin}{Place of origin.}
-#'    \item{destination}{Place of destination.}
+#'    \item{name}{[`character`]: wreck name.}
+#'    \item{sea}{[`character`]: region of the sea where the wreck was discovered.}
+#'    \item{country}{[`character`]: country where the wreck was discovered.}
+#'    \item{region}{[`character`]: region where the wreck was discovered.}
+#'    \item{depth_min}{[`integer`]: minimum depth of the wreck (m).}
+#'    \item{depth_max}{[`integer`]: maximum depth of the wreck (m).}
+#'    \item{depth}{[`character`]: depth of the wreck (m).}
+#'    \item{period}{[`character`]: chronology (period).}
+#'    \item{dating}{[`character`]: chronology (dating).}
+#'    \item{date_early}{[`integer`]: earliest date.}
+#'    \item{date_late}{[`integer`]: latest date.}
+#'    \item{origin}{[`character`]: place of origin.}
+#'    \item{destination}{[`character`]: place of destination.}
 #'  }
 #' @references
 #'  Parker, A. J. (1992). *Ancient Shipwrecks of the Mediterranean and the Roman

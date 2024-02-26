@@ -5,10 +5,10 @@
 \alias{ngrip2004}
 \title{NGRIP 50-year Average}
 \format{
-A \code{\link{data.frame}} with 2 variables:
+A \code{data.frame} with 4918 observations and 2 variables:
 \describe{
-\item{age}{Calendar age (years before 2000 AD), ss09sea time scale.}
-\item{delta}{\eqn{\delta^{18}O}{\delta18O} (per mil).}
+\item{age}{\code{\link{integer}}: calendar age (years before 2000 AD), ss09sea time scale.}
+\item{delta}{\code{\link{numeric}}: \eqn{\delta^{18}O}{\delta18O} (per mil).}
 }
 }
 \source{

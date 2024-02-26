@@ -5,10 +5,10 @@
 \alias{epica2008}
 \title{EPICA Dome C}
 \format{
-A \code{\link{data.frame}} with 2 variables:
+A \code{data.frame} with 1096 observations and 2 variables:
 \describe{
-\item{age}{Year BP.}
-\item{CO2}{\eqn{CO_2}{CO2} (ppmv).}
+\item{age}{\code{\link{integer}}: year BP.}
+\item{CO2}{\code{\link{numeric}}: \eqn{CO_2}{CO2} (ppmv).}
 }
 }
 \source{

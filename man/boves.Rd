@@ -5,22 +5,7 @@
 \alias{boves}
 \title{Boves Ceramics}
 \format{
-A \code{\link{data.frame}} with 8 rows and 13 variables (ceramic types):
-\describe{
-\item{I}{}
-\item{IIa}{}
-\item{IIb}{}
-\item{IIc}{}
-\item{IIIa}{}
-\item{IIIb}{}
-\item{IIIc}{}
-\item{IVa}{}
-\item{IVb}{}
-\item{Va}{}
-\item{Vb}{}
-\item{VI}{}
-\item{VII}{}
-}
+A \code{data.frame} with 8 observations (periods) and 13 variables (ceramic types).
 }
 \source{
 Racinet P. (2002). Le site castral et prioral de Boves du Xe au XVIIe

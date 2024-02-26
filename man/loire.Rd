@@ -5,15 +5,15 @@
 \alias{loire}
 \title{Medieval Ceramics from the Loire Basin}
 \format{
-A \code{\link{data.frame}} with 332 rows (archaeological assemblages) and 331
-variables. The first five columns provide background information,
-the next columns give the MNI of each ceramic types:
+A \code{data.frame} with 332 observations (assemblages) and 331 variables (ceramic types).
+The first five columns provide background information, the next columns give
+the MNI of each ceramic types:
 \describe{
-\item{site}{Name of the archaeological site.}
-\item{city}{City.}
-\item{area}{Geographical area.}
-\item{lower}{Lower bound of the temporal range.}
-\item{upper}{Upper bound of the temporal range.}
+\item{site}{\code{\link{character}}: name of the archaeological site.}
+\item{city}{\code{\link{character}}: city.}
+\item{area}{\code{\link{character}}: geographical area.}
+\item{lower}{\code{\link{integer}}: lower bound of the temporal range (year AD).}
+\item{upper}{\code{\link{integer}}: upper bound of the temporal range (year AD).}
 }
 }
 \source{

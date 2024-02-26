@@ -5,33 +5,33 @@
 \alias{spratt2016}
 \title{Late Pleistocene Sea Level Stack}
 \format{
-A \code{\link{data.frame}} with 9 variables:
+A \code{data.frame} with 799 observations and 9 variables:
 \describe{
-\item{age_calkaBP}{Age (calendar kilo year BP).}
-\item{SeaLev_shortPC1}{Sea Level (meters above present day),
+\item{age_calkaBP}{\code{\link{integer}}: age (calendar kilo year BP).}
+\item{SeaLev_shortPC1}{\code{\link{numeric}}: sea Level (meters above present day),
 climate reconstructions (scaled first principal component of seven sea
 level reconstructions (0-430 ka)).}
-\item{SeaLev_shortPC1_err_sig}{Sea Level standard deviation from
-bootstrap (meters), climate reconstructions (scaled first principal
+\item{SeaLev_shortPC1_err_sig}{\code{\link{numeric}}: sea Level standard deviation
+from bootstrap (meters), climate reconstructions (scaled first principal
 component of seven sea level reconstructions (0-430 ka)).}
-\item{SeaLev_shortPC1_err_lo}{Sea Level 95\% confidence interval lower
-bound (meters), climate reconstructions (scaled first principal component
-of seven sea level reconstructions (0-430 ka)).}
-\item{SeaLev_shortPC1_err_up}{Sea Level 95\% confidence interval upper
-bound (meters), climate reconstructions (scaled first principal component
-of seven sea level reconstructions (0-430 ka)).}
-\item{SeaLev_longPC1}{Sea Level (meters above present day),
+\item{SeaLev_shortPC1_err_lo}{\code{\link{numeric}}: sea Level 95\% confidence
+interval lower bound (meters), climate reconstructions (scaled first
+principal component of seven sea level reconstructions (0-430 ka)).}
+\item{SeaLev_shortPC1_err_up}{\code{\link{numeric}}: sea Level 95\% confidence
+interval upper bound (meters), climate reconstructions (scaled first
+principal component of seven sea level reconstructions (0-430 ka)).}
+\item{SeaLev_longPC1}{\code{\link{numeric}}: sea Level (meters above present day),
 climate reconstructions (scaled first principal component of five sea
 level reconstructions (0-798 ka)).}
-\item{SeaLev_longPC1_err_sig}{Sea Level standard deviation from bootstrap
-(meters), climate reconstructions (scaled first principal component of
-five sea level reconstructions (0-798 ka)).}
-\item{SeaLev_longPC1_err_lo}{Sea Level 95\% confidence interval lower bound
-(meters), climate reconstructions (scaled first principal component of
-five sea level reconstructions (0-798 ka)).}
-\item{SeaLev_longPC1_err_up}{Sea Level 95\% confidence interval upper bound
-(meters), climate reconstructions (scaled first principal component of
-five sea level reconstructions (0-798 ka)).}
+\item{SeaLev_longPC1_err_sig}{\code{\link{numeric}}: sea Level standard deviation
+from bootstrap (meters), climate reconstructions (scaled first principal
+component of five sea level reconstructions (0-798 ka)).}
+\item{SeaLev_longPC1_err_lo}{\code{\link{numeric}}: sea Level 95\% confidence
+interval lower bound (meters), climate reconstructions (scaled first
+principal component of five sea level reconstructions (0-798 ka)).}
+\item{SeaLev_longPC1_err_up}{\code{\link{numeric}}: sea Level 95\% confidence
+interval upper bound (meters), climate reconstructions (scaled first
+principal component of five sea level reconstructions (0-798 ka)).}
 }
 }
 \source{

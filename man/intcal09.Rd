@@ -5,13 +5,13 @@
 \alias{intcal09}
 \title{IntCal09}
 \format{
-A \code{\link{data.frame}} with 5 variables:
+A \code{data.frame} with 3522 observations and 5 variables:
 \describe{
-\item{calBP}{Calendar (calibrated) age (year BP).}
-\item{age}{Radiocarbon age (year BP).}
-\item{error}{Radiocarbon error (year BP).}
-\item{delta}{Isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
-\item{sigma}{Error on \code{delta} (per mil).}
+\item{calBP}{\code{\link{integer}}: calendar (calibrated) age (year BP).}
+\item{age}{\code{\link{integer}}: radiocarbon age (year BP).}
+\item{error}{\code{\link{integer}}: radiocarbon error (year BP).}
+\item{delta}{\code{\link{numeric}}: isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
+\item{sigma}{\code{\link{numeric}}: error on \code{delta} (per mil).}
 }
 }
 \source{
