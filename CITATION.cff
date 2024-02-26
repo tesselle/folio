@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.2.3
+# CITATION file created with {cffr} R package, v0.5.0
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
@@ -8,7 +8,8 @@ message: 'To cite package "folio" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'folio: Datasets for Teaching Archaeology and Paleontology'
-version: 1.3.0.9000
+version: 1.4.0
+doi: 10.5281/zenodo.4476182
 abstract: Datasets for teaching quantitative approaches and modeling in archaeology
   and paleontology. This package provides several types of data related to broad topics
   (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be
@@ -29,29 +30,14 @@ preferred-citation:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  version: 1.3.0.9000
-  abstract: Datasets for teaching quantitative approaches and modeling in archaeology
-    and paleontology. This package provides several types of data related to broad
-    topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which
-    can be used to illustrate statistical methods in the classroom (multivariate data
-    analysis, compositional data analysis, diversity measurement, etc.).
-  repository: https://CRAN.R-project.org/package=folio
-  repository-code: https://github.com/tesselle/folio
+  year: '2024'
+  location:
+    name: Pessac, France
+  notes: R package version 1.4.0
   url: https://packages.tesselle.org/folio/
-  contact:
-  - family-names: Frerebeau
-    given-names: Nicolas
-    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
-    orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
-  keywords:
-  - archaeological-science
-  - archaeology
-  - datasets
-  - paleontology
-  - r-package
-  license: GPL-3.0-or-later
-  year: '2022'
+  doi: 10.5281/zenodo.4476182
+  institution:
+    name: Université Bordeaux Montaigne
 repository: https://CRAN.R-project.org/package=folio
 repository-code: https://github.com/tesselle/folio
 url: https://packages.tesselle.org/folio/
@@ -71,12 +57,12 @@ references:
 - type: software
   title: 'R: A Language and Environment for Statistical Computing'
   notes: Depends
+  url: https://www.R-project.org/
   authors:
   - name: R Core Team
   location:
     name: Vienna, Austria
-  year: '2022'
-  url: https://www.R-project.org/
+  year: '2024'
   institution:
     name: R Foundation for Statistical Computing
   version: '>= 2.10'
@@ -99,3 +85,6 @@ identifiers:
 - description: The versioned DOI for version 1.3.0.
   type: doi
   value: 10.5281/zenodo.7267613
+- description: The Software Heritage identifier for version 1.1.0.
+  type: swh
+  value: swh:1:rel:43f3b06159b8cca22697dabade1300578828d564

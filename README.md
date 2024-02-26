@@ -47,23 +47,26 @@ dataset (see the documentation).**
 
     To cite folio in publications use:
 
-      Frerebeau, Nicolas (2022). folio: Datasets for Teaching Archaeology
-      and Paleontology. R package version 1.3.0 Université Bordeaux
-      Montaigne, Pessac, France. DOI 10.5281/zenodo.4476182. URL
-      https://packages.tesselle.org/folio/.
+      Frerebeau N (2024). _folio: Datasets for Teaching Archaeology and
+      Paleontology_. Université Bordeaux Montaigne, Pessac, France.
+      doi:10.5281/zenodo.4476182 <https://doi.org/10.5281/zenodo.4476182>,
+      R package version 1.4.0, <https://packages.tesselle.org/folio/>.
 
     A BibTeX entry for LaTeX users is
 
       @Manual{,
-        title = {folio: Datasets for Teaching Archaeology and Paleontology},
         author = {Nicolas Frerebeau},
-        year = {2022},
+        title = {{folio: Datasets for Teaching Archaeology and Paleontology}},
+        year = {2024},
         organization = {Université Bordeaux Montaigne},
         address = {Pessac, France},
-        note = {R package version 1.3.0},
+        note = {R package version 1.4.0},
         url = {https://packages.tesselle.org/folio/},
         doi = {10.5281/zenodo.4476182},
       }
+
+    This package is a part of the tesselle project
+    <https://www.tesselle.org>.
 
 ## Installation
 
@@ -141,8 +144,8 @@ abline(fit, col = "red")
   archaeological data sets used in [*Quantitative Methods in Archaeology
   Using R*](https://doi.org/10.1017/9781139628730) by David L. Carlson
   (2017).
-- [**historydata**](https://github.com/ropensci/historydata): includes
-  data sets intended for historians learning R.
+- [**historydata**](https://cran.r-project.org/package=historydata):
+  includes data sets intended for historians learning R.
 
 ## Contributing
 
