@@ -1,5 +1,7 @@
 # folio 1.4.0.9000
 
+* Add the `inrap` dataset (spatial data).
+
 # folio 1.4.0
 
 * Add the `vegetation` dataset (isotopic data).

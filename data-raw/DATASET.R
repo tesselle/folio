@@ -165,3 +165,14 @@ usethis::use_data(spratt2016, overwrite = FALSE)
 vegetation <- read.csv("data-raw/vegetation.csv", header = TRUE,
                        sep = ",", dec = ".")
 usethis::use_data(vegetation, overwrite = FALSE)
+
+# Spatial data =================================================================
+inrap <- read.csv("data-raw/inrap.csv", header = TRUE, sep = ";", dec = ",",
+                  encoding = "UTF-8")
+inrap$start <- as.Date(inrap$start, format = "%Y-%m-%d")
+inrap$end <- as.Date(inrap$end, format = "%Y-%m-%d")
+inrap$period <- strsplit(inrap$period, split = "#") |>
+  lapply(X = _, FUN = function(x) if (length(x) == 0) return(NA_character_) else x[nchar(x) > 0])
+inrap$theme <- strsplit(inrap$theme, split = "#") |>
+  lapply(X = _, FUN = function(x) if (length(x) == 0) return(NA_character_) else x[nchar(x) > 0])
+usethis::use_data(inrap, overwrite = FALSE)
