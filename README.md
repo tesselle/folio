@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
-[![Dependencies](https://tinyverse.netlify.com/badge/folio)](https://cran.r-project.org/package=folio)
+[![Dependencies](https://tinyverse.netlify.app/badge/folio)](https://cran.r-project.org/package=folio)
 
 <a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
 src="https://tesselle.r-universe.dev/badges/folio"
@@ -45,28 +45,17 @@ outdated.
 **When using folio, you must cite the relevant publications for each
 dataset (see the documentation).**
 
-    To cite folio in publications use:
+------------------------------------------------------------------------
 
-      Frerebeau N (2024). _folio: Datasets for Teaching Archaeology and
-      Paleontology_. Université Bordeaux Montaigne, Pessac, France.
-      doi:10.5281/zenodo.4476182 <https://doi.org/10.5281/zenodo.4476182>,
-      R package version 1.4.0, <https://packages.tesselle.org/folio/>.
+To cite folio in publications use:
 
-    A BibTeX entry for LaTeX users is
+Frerebeau N (2024). *folio: Datasets for Teaching Archaeology and
+Paleontology*. Université Bordeaux Montaigne, Pessac, France.
+<doi:10.5281/zenodo.4476182> <https://doi.org/10.5281/zenodo.4476182>, R
+package version 1.4.0, <https://packages.tesselle.org/folio/>.
 
-      @Manual{,
-        author = {Nicolas Frerebeau},
-        title = {{folio: Datasets for Teaching Archaeology and Paleontology}},
-        year = {2024},
-        organization = {Université Bordeaux Montaigne},
-        address = {Pessac, France},
-        note = {R package version 1.4.0},
-        url = {https://packages.tesselle.org/folio/},
-        doi = {10.5281/zenodo.4476182},
-      }
-
-    This package is a part of the tesselle project
-    <https://www.tesselle.org>.
+This package is a part of the tesselle project
+<https://www.tesselle.org>.
 
 ## Installation
 
@@ -111,6 +100,9 @@ summary(fit)
 #> Residual standard error: 0.2421 on 4 degrees of freedom
 #> Multiple R-squared:  0.9745, Adjusted R-squared:  0.9681 
 #> F-statistic: 152.6 on 1 and 4 DF,  p-value: 0.0002467
+```
+
+``` r
 
 plot(
   x = arnold1949$age_expected,
