@@ -100,9 +100,6 @@ summary(fit)
 #> Residual standard error: 0.2421 on 4 degrees of freedom
 #> Multiple R-squared:  0.9745, Adjusted R-squared:  0.9681 
 #> F-statistic: 152.6 on 1 and 4 DF,  p-value: 0.0002467
-```
-
-``` r
 
 plot(
   x = arnold1949$age_expected,
@@ -133,11 +130,11 @@ abline(fit, col = "red")
 ## Related Works
 
 - [**archdata**](https://cran.r-project.org/package=archdata): includes
-  archaeological data sets used in [*Quantitative Methods in Archaeology
+  archaeological datasets used in [*Quantitative Methods in Archaeology
   Using R*](https://doi.org/10.1017/9781139628730) by David L. Carlson
   (2017).
 - [**historydata**](https://cran.r-project.org/package=historydata):
-  includes data sets intended for historians learning R.
+  includes datasets intended for historians learning R.
 
 ## Contributing
 
