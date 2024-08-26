@@ -76,6 +76,7 @@ usethis::use_data(verre, overwrite = FALSE)
 kommos <- read.csv("data-raw/kommos.csv", header = TRUE, row.names = 1,
                    sep = ",", dec = ".")
 kommos$type <- as.factor(kommos$type)
+kommos$Rb <- as.numeric(kommos$Rb)
 usethis::use_data(kommos, overwrite = FALSE)
 
 # Chronological data ===========================================================
