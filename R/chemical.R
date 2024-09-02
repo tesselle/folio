@@ -52,7 +52,7 @@
 #' @keywords datasets
 "verre"
 
-#' Transport Jars from Kommos (Crete).
+#' Transport Jars from Kommos (Crete)
 #'
 #' Chemical analysis (neutron activation analysis) of 88 Late Bronze Age
 #' transport jars found in excavations at Kommos, Crete.
@@ -90,3 +90,40 @@
 #' @family chemical data
 #' @keywords datasets
 "kommos"
+
+#' Chinese Ritual Bronzes
+#'
+#' Chemical analysis of 369 Chinese ritual bronzes.
+#' The major elements (Cu, Sn and Pb) were measured using atomic absorption
+#' spectroscopy and the trace elements using neutron activation analysis.
+#' @format `r describe_dim(kommos, what_col = "chemical elements")`:
+#'  \describe{
+#'    \item{reference}{[`integer`]: catalog number.}
+#'    \item{chronology}{[`integer`]: chronology (typology).}
+#'    \item{dynasty}{ordered [`factor`]: dynasty name.}
+#'    \item{Cu}{[`numeric`]: Cu content (ppm).}
+#'    \item{Sn}{[`numeric`]: Sn content (ppm).}
+#'    \item{Pb}{[`numeric`]: Pb content (ppm).}
+#'    \item{Zn}{[`numeric`]: Zn content (ppm).}
+#'    \item{Au}{[`numeric`]: Au content (ppm).}
+#'    \item{Ag}{[`numeric`]: Ag content (ppm).}
+#'    \item{As}{[`numeric`]: As content (ppm).}
+#'    \item{Sb}{[`numeric`]: Sb content (ppm).}
+#'  }
+#' @references
+#'  Bagley, R. W. (1987). *Shang ritual bronzes in the Arthur M. Sackler
+#'  collections*. New York: The Arthur M. Sackler Foundation.
+#'
+#'  Rawson, J. (1990). *Western Zhou ritual bronzes from the Arthur M. Sackler
+#'  collections*. New York: The Arthur M. Sackler Foundation.
+#'
+#'  So, J. (1995). *Eastern Zhou ritual bronzes from the Arthur M. Sackler
+#'  Collections*. New York: The Arthur M. Sackler Foundation.
+#' @source
+#'  Wood, J. R. & Liu, Y. (2023). A Multivariate Approach to Investigate
+#'  Metallurgical Technology: The Case of the Chinese Ritual Bronzes.
+#'  *Journal of Archaeological Method and Theory*, 30: 707-756.
+#'  \doi{10.1007/s10816-022-09572-8}.
+#' @family chemical data
+#' @keywords datasets
+"bronze"

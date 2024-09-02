@@ -79,6 +79,21 @@ kommos$type <- as.factor(kommos$type)
 kommos$Rb <- as.numeric(kommos$Rb)
 usethis::use_data(kommos, overwrite = FALSE)
 
+# The Kommos dataset from Day et al. 2011
+bronze <- read.csv("data-raw/bronze.csv", header = TRUE,
+                   sep = ",", dec = ".")
+bronze$group <- NULL
+bronze$dynasty <- factor(bronze$dynasty, levels = c("Shang", "Western Zhou", "Eastern Zhou"), ordered = TRUE)
+bronze$Cu <- as.numeric(bronze$Cu)
+bronze$Sn <- as.numeric(bronze$Sn)
+bronze$Pb <- as.numeric(bronze$Pb)
+bronze$Zn <- as.numeric(bronze$Zn)
+bronze$Au <- as.numeric(bronze$Au)
+bronze$Ag <- as.numeric(bronze$Ag)
+bronze$As <- as.numeric(bronze$As)
+bronze$Sb <- as.numeric(bronze$Sb)
+usethis::use_data(bronze, overwrite = FALSE)
+
 # Chronological data ===========================================================
 # Chronostratigraphic Chart
 stratigraphy <- read.csv("data-raw/stratigraphy.csv", header = TRUE,

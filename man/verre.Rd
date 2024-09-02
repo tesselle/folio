@@ -63,6 +63,7 @@ Barrera J., Velde B. (1989). A study of french medieval glass composition.
 }
 \seealso{
 Other chemical data: 
+\code{\link{bronze}},
 \code{\link{kommos}}
 }
 \concept{chemical data}

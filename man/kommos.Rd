@@ -3,7 +3,7 @@
 \docType{data}
 \name{kommos}
 \alias{kommos}
-\title{Transport Jars from Kommos (Crete).}
+\title{Transport Jars from Kommos (Crete)}
 \format{
 A \code{data.frame} with 88 observations and 22 variables (chemical elements):
 \describe{
@@ -47,6 +47,7 @@ Age Harbor of Kommos, Crete. \emph{Hesperia}, 80, 511-558.
 }
 \seealso{
 Other chemical data: 
+\code{\link{bronze}},
 \code{\link{verre}}
 }
 \concept{chemical data}
