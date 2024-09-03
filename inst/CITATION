@@ -9,5 +9,5 @@ bibentry(
   address      = "Pessac, France",
   note         = sprintf("R package version %s", meta$Version),
   url          = "https://packages.tesselle.org/folio/",
-  doi          = "10.5281/zenodo.4476182",
+  doi          = "10.5281/zenodo.4476182"
 )

@@ -2,7 +2,7 @@
 #' \tabular{ll}{
 #'  **Package:** \tab folio \cr
 #'  **Type:** \tab Package \cr
-#'  **Version:** \tab 1.4.0 \cr
+#'  **Version:** \tab 1.5.0 \cr
 #'  **License:** \tab GPL-3 \cr
 #'  **Zenodo:** \tab \doi{10.5281/zenodo.4476182} \cr
 #' }

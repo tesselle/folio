@@ -23,9 +23,9 @@ Sys.setlocale("LC_MESSAGES", 'en_GB.UTF-8') # Force locale
 [![Dependencies](https://tinyverse.netlify.app/badge/folio)](https://cran.r-project.org/package=folio)
 
 [![r-universe](https://tesselle.r-universe.dev/badges/folio)](https://tesselle.r-universe.dev){.pkgdown-devel}
-[![CRAN Version](http://www.r-pkg.org/badges/version/folio)](https://cran.r-project.org/package=folio){.pkgdown-release}
+[![CRAN Version](https://www.r-pkg.org/badges/version/folio)](https://cran.r-project.org/package=folio){.pkgdown-release}
 [![CRAN checks](https://badges.cranchecks.info/worst/folio.svg)](https://cran.r-project.org/web/checks/check_results_folio.html){.pkgdown-release}
-[![CRAN Downloads](http://cranlogs.r-pkg.org/badges/folio)](https://cran.r-project.org/package=folio){.pkgdown-release}
+[![CRAN Downloads](https://cranlogs.r-pkg.org/badges/folio)](https://cran.r-project.org/package=folio){.pkgdown-release}
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 

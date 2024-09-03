@@ -1,4 +1,4 @@
-# folio 1.4.0.9000
+# folio 1.5.0
 
 * Add the `bronze` dataset (chemical data).
 * Add the `cities` dataset (geographical data).
