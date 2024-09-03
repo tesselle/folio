@@ -7,9 +7,9 @@ reference:
 - title: Artefact Data
   contents:
   - has_concept("artefact data")
-- title: Spatial Data
+- title: Geographical Data
   contents:
-  - has_concept("spatial data")
+  - has_concept("geographical data")
 - title: Count Data
   contents:
   - has_concept("count data")

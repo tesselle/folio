@@ -1,7 +1,8 @@
 # folio 1.4.0.9000
 
 * Add the `bronze` dataset (chemical data).
-* Add the `inrap` dataset (spatial data).
+* Add the `cities` dataset (geographical data).
+* Add the `inrap` dataset (geographical data).
 
 # folio 1.4.0
 

@@ -192,3 +192,7 @@ inrap$period <- strsplit(inrap$period, split = "#") |>
 inrap$theme <- strsplit(inrap$theme, split = "#") |>
   lapply(X = _, FUN = function(x) if (length(x) == 0) return(NA_character_) else x[nchar(x) > 0])
 usethis::use_data(inrap, overwrite = FALSE)
+
+cities <- read.csv("data-raw/cities.csv", header = TRUE, row.names = 1,
+                   sep = ",", dec = ".", encoding = "UTF-8")
+usethis::use_data(cities, overwrite = FALSE)

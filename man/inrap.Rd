@@ -40,5 +40,9 @@ Institut national de recherches archéologiques préventives (Inrap).
 # coord <- st_as_sf(inrap, coords = c("X", "Y"), crs = st_crs(2154))
 # plot(coord["region"])
 }
-\concept{spatial data}
+\seealso{
+Other geographical data: 
+\code{\link{cities}}
+}
+\concept{geographical data}
 \keyword{datasets}
