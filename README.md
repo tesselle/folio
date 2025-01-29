@@ -5,7 +5,6 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
 [![Dependencies](https://tinyverse.netlify.app/badge/folio)](https://cran.r-project.org/package=folio)
 
 <a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
@@ -67,11 +66,11 @@ You can install the released version of **folio** from
 install.packages("folio")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+And the development version from [Codeberg](https://codeberg.org/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("tesselle/folio")
+remotes::install_git("https://codeberg.org/tesselle/folio")
 ```
 
 ## Usage

@@ -22,9 +22,9 @@ Datasets for teaching quantitative approaches and modeling in archaeology and pa
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://codeberg.org/tesselle/folio}
   \item \url{https://packages.tesselle.org/folio/}
-  \item \url{https://github.com/tesselle/folio}
-  \item Report bugs at \url{https://github.com/tesselle/folio/issues}
+  \item Report bugs at \url{https://codeberg.org/tesselle/folio/issues}
 }
 
 }

@@ -19,7 +19,6 @@ Sys.setlocale("LC_MESSAGES", 'en_GB.UTF-8') # Force locale
 # folio <img width=120px src="man/figures/logo.png" align="right" />
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
 [![Dependencies](https://tinyverse.netlify.app/badge/folio)](https://cran.r-project.org/package=folio)
 
 [![r-universe](https://tesselle.r-universe.dev/badges/folio)](https://tesselle.r-universe.dev){.pkgdown-devel}
@@ -55,11 +54,11 @@ You can install the released version of **folio** from [CRAN](https://CRAN.R-pro
 install.packages("folio")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+And the development version from [Codeberg](https://codeberg.org/) with:
 
 ```{r gh-installation, eval=FALSE}
 # install.packages("remotes")
-remotes::install_github("tesselle/folio")
+remotes::install_git("https://codeberg.org/tesselle/folio")
 ```
 
 ## Usage
