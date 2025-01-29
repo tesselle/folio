@@ -3,11 +3,13 @@ Title: Datasets for Teaching Archaeology and Paleontology
 Version: 1.5.0.9000
 Authors@R: c(
     person("Nicolas", "Frerebeau", , "nicolas.frerebeau@u-bordeaux-montaigne.fr", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-5759-4944", affiliation = "Université Bordeaux Montaigne")),
-    person("Brice", "Lebrun", , "brice.lebrun@u-bordeaux-montaigne.fr", role = "ctb",
+           comment = c(ORCID = "0000-0001-5759-4944", ROR = "03pbgwk21")),
+    person("Brice", "Lebrun", role = "art",
            comment = c(ORCID = "0000-0001-7503-8685", "Logo designer")),
-    person("Université Bordeaux Montaigne", role = "fnd"),
-    person("CNRS", role = "fnd")
+    person("Université Bordeaux Montaigne", role = "fnd",
+           comment = c(ROR = "03pbgwk21")),
+    person("CNRS", role = "fnd",
+           comment = c(ROR = "02feahw73"))
   )
 Maintainer: Nicolas Frerebeau <nicolas.frerebeau@u-bordeaux-montaigne.fr>
 Description: Datasets for teaching quantitative approaches and modeling in
