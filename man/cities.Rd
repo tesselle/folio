@@ -37,11 +37,11 @@ of the Imperial period.
 \references{
 Hanson J. W. & Ortman S. G. (2017). A systematic method for estimating the
 populations of Greek and Roman settlements. \emph{Journal of Roman Archaeology},
-30:301-324. \doi{10.1017/S1047759400074134}.
+30: 301-324. \doi{10.1017/S1047759400074134}.
 
 Hanson J. W., Ortman S. G., Bettencourt L. M. A. & Mazur L. C. (2019). Urban
 form, infrastructure and spatial organisation in the Roman Empire.
-\emph{Antiquity}, 93(369):702-718. \doi{10.15184/aqy.2018.192}.
+\emph{Antiquity}, 93(369): 702-718. \doi{10.15184/aqy.2018.192}.
 }
 \seealso{
 Other geographical data: 

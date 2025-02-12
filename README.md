@@ -129,11 +129,11 @@ abline(fit, col = "red")
 
 ## Related Works
 
-- [**archdata**](https://cran.r-project.org/package=archdata): includes
+- [**archdata**](https://cran.r-project.org/package=archdata) includes
   archaeological datasets used in [*Quantitative Methods in Archaeology
   Using R*](https://doi.org/10.1017/9781139628730) by David L. Carlson
   (2017).
-- [**historydata**](https://cran.r-project.org/package=historydata):
+- [**historydata**](https://cran.r-project.org/package=historydata)
   includes datasets intended for historians learning R.
 
 ## Contributing
