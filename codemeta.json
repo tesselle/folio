@@ -58,7 +58,10 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "527.879KB",
+  "applicationCategory": "ArchaeologicalScience",
+  "isPartOf": "https://www.tesselle.org",
+  "keywords": ["archaeology", "archaeological-science", "paleontology", "datasets", "r-package"],
+  "fileSize": "528.126KB",
   "citation": [
     {
       "@type": "SoftwareSourceCode",
@@ -78,6 +81,5 @@
       "sameAs": "https://doi.org/10.5281/zenodo.4476182"
     }
   ],
-  "contIntegration": "https://github.com/tesselle/folio/actions",
   "developmentStatus": "https://www.repostatus.org/#active"
 }

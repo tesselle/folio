@@ -101,4 +101,45 @@ abline(fit, col = "red")
 * [**historydata**](https://cran.r-project.org/package=historydata): includes datasets intended for historians learning R.
 
 ## Contributing
+
 Please note that the **folio** project is released with a [Contributor Code of Conduct](https://www.tesselle.org/conduct.html). By contributing to this project, you agree to abide by its terms.
+
+```{r metadata, include=FALSE}
+## Update codemeta.json
+codemetar::write_codemeta(verbose = FALSE)
+
+## Update CITATION.cff
+cff_keys <- list(
+  identifiers = list(
+    list(description = "The concept DOI.",
+         type = "doi",
+         value = "10.5281/zenodo.4476182"),
+    list(description = "The versioned DOI for version 0.1.0.",
+         type = "doi",
+         value = "10.5281/zenodo.4476183"),
+    list(description = "The versioned DOI for version 1.0.0.",
+         type = "doi",
+         value = "10.5281/zenodo.4537570"),
+    list(description = "The versioned DOI for version 1.1.0.",
+         type = "doi",
+         value = "10.5281/zenodo.6523636"),
+    list(description = "The versioned DOI for version 1.2.0.",
+         type = "doi",
+         value = "10.5281/zenodo.6993457"),
+    list(description = "The versioned DOI for version 1.3.0.",
+         type = "doi",
+         value = "10.5281/zenodo.7267613"),
+    list(description = "The versioned DOI for version 1.4.0.",
+         type = "doi",
+         value = "10.5281/zenodo.10708937"),
+    list(description = "The versioned DOI for version 1.5.0.",
+         type = "doi",
+         value = "10.5281/zenodo.13643896"),
+    list(description = "The CRAN DOI",
+         type = "doi",
+         value = "10.32614/cran.package.folio")
+  )
+)
+cff <- cffr::cff_create("DESCRIPTION", keys = cff_keys)
+if (cffr::cff_validate(cff)) cffr::cff_write(cff, outfile = "CITATION.cff")
+```

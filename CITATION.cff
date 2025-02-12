@@ -35,9 +35,9 @@ identifiers:
 - description: The versioned DOI for version 1.5.0.
   type: doi
   value: 10.5281/zenodo.13643896
-- description: The Software Heritage identifier for version 1.1.0.
-  type: swh
-  value: swh:1:rel:43f3b06159b8cca22697dabade1300578828d564
+- description: The CRAN DOI
+  type: doi
+  value: 10.32614/cran.package.folio
 abstract: Datasets for teaching quantitative approaches and modeling in archaeology
   and paleontology. This package provides several types of data related to broad topics
   (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be
@@ -76,10 +76,10 @@ contact:
   affiliation: Université Bordeaux Montaigne
 keywords:
 - archaeology
-- archaeological science
+- archaeological-science
 - paleontology
-- r package
 - datasets
+- r-package
 references:
 - type: software
   title: 'R: A Language and Environment for Statistical Computing'
