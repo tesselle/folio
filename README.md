@@ -5,7 +5,13 @@
 
 <!-- badges: start -->
 
-[![Dependencies](https://tinyverse.netlify.app/badge/folio)](https://cran.r-project.org/package=folio)
+<a href="https://ci.codeberg.org/repos/14690" class="pkgdown-devel"><img
+src="https://ci.codeberg.org/api/badges/14690/status.svg"
+alt="status-badge" /></a>
+<a href="https://cran.r-project.org/package=folio"
+class="pkgdown-devel"><img
+src="https://tinyverse.netlify.app/badge/folio"
+alt="Dependencies" /></a>
 
 <a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
 src="https://tesselle.r-universe.dev/badges/folio"
