@@ -20,14 +20,15 @@ Description: Datasets for teaching quantitative approaches and modeling in
     data analysis, diversity measurement, etc.).
 License: GPL (>= 3)
 URL: https://codeberg.org/tesselle/folio,
-    https://packages.tesselle.org/folio/
+    https://packages.tesselle.org/folio/,
+    https://tesselle.r-universe.dev/folio
 BugReports: https://codeberg.org/tesselle/folio/issues
 Depends: 
     R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 X-schema.org-applicationCategory: Archaeological Science
 X-schema.org-isPartOf: https://www.tesselle.org
 X-schema.org-keywords: archaeology, archaeological-science, paleontology,

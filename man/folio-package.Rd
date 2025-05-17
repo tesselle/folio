@@ -29,6 +29,7 @@ Useful links:
 \itemize{
   \item \url{https://codeberg.org/tesselle/folio}
   \item \url{https://packages.tesselle.org/folio/}
+  \item \url{https://tesselle.r-universe.dev/folio}
   \item Report bugs at \url{https://codeberg.org/tesselle/folio/issues}
 }
 
@@ -39,8 +40,8 @@ Useful links:
 Other contributors:
 \itemize{
   \item Brice Lebrun (\href{https://orcid.org/0000-0001-7503-8685}{ORCID}) (Logo designer) [artist]
-  \item Université Bordeaux Montaigne (03pbgwk21) [funder]
-  \item CNRS (02feahw73) [funder]
+  \item Université Bordeaux Montaigne (\href{https://ror.org/03pbgwk21}{ROR}) [funder]
+  \item CNRS (\href{https://ror.org/02feahw73}{ROR}) [funder]
 }
 
 }
