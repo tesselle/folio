@@ -20,6 +20,7 @@ Description: Datasets for teaching quantitative approaches and modeling in
     data analysis, diversity measurement, etc.).
 License: GPL (>= 3)
 URL: https://codeberg.org/tesselle/folio,
+    https://tesselle.r-universe.dev/folio,
     https://packages.tesselle.org/folio/
 BugReports: https://codeberg.org/tesselle/folio/issues
 Depends: 

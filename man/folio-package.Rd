@@ -28,6 +28,7 @@ France
 Useful links:
 \itemize{
   \item \url{https://codeberg.org/tesselle/folio}
+  \item \url{https://tesselle.r-universe.dev/folio}
   \item \url{https://packages.tesselle.org/folio/}
   \item Report bugs at \url{https://codeberg.org/tesselle/folio/issues}
 }
