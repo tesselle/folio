@@ -51,7 +51,7 @@
 #'  URL: \url{https://discovery.ucl.ac.uk/id/eprint/1349806}.
 #' @source
 #'  Strauss, J. (2013). *Shipwrecks Database*. Version 1.0. Accessed 2022-08-13.
-#'  URL: \url{http://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/}
+#'  URL: \url{https://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/}
 #' @note
 #'  This dataset contains typos and needs to be normalized.
 #' @family artefact data

@@ -24,7 +24,7 @@ A \code{data.frame} with 1784 observations (wrecks) and 13 variables:
 }
 \source{
 Strauss, J. (2013). \emph{Shipwrecks Database}. Version 1.0. Accessed 2022-08-13.
-URL: \url{http://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/}
+URL: \url{https://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/}
 }
 \usage{
 shipwrecks
