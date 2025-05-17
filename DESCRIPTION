@@ -1,9 +1,9 @@
 Package: folio
 Title: Datasets for Teaching Archaeology and Paleontology
-Version: 1.5.0.9000
+Version: 1.5.1
 Authors@R: c(
     person("Nicolas", "Frerebeau", , "nicolas.frerebeau@u-bordeaux-montaigne.fr", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-5759-4944", ROR = "03pbgwk21")),
+           comment = c(ORCID = "0000-0001-5759-4944")),
     person("Brice", "Lebrun", role = "art",
            comment = c(ORCID = "0000-0001-7503-8685", "Logo designer")),
     person("Université Bordeaux Montaigne", role = "fnd",

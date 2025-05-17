@@ -55,10 +55,10 @@ dataset (see the documentation).**
 
 To cite folio in publications use:
 
-Frerebeau N (2024). *folio: Datasets for Teaching Archaeology and
+Frerebeau N (2025). *folio: Datasets for Teaching Archaeology and
 Paleontology*. Université Bordeaux Montaigne, Pessac, France.
 <doi:10.5281/zenodo.4476182> <https://doi.org/10.5281/zenodo.4476182>, R
-package version 1.5.0, <https://packages.tesselle.org/folio/>.
+package version 1.5.1, <https://packages.tesselle.org/folio/>.
 
 This package is a part of the tesselle project
 <https://www.tesselle.org>.

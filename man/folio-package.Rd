@@ -12,12 +12,17 @@ Datasets for teaching quantitative approaches and modeling in archaeology and pa
 }
 \details{
 \tabular{ll}{
-\strong{Package:} \tab folio \cr
-\strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.5.0 \cr
-\strong{License:} \tab GPL-3 \cr
-\strong{Zenodo:} \tab \doi{10.5281/zenodo.4476182} \cr
+\strong{Version} \tab 1.5.1 \cr
+\strong{License} \tab GPL-3 \cr
+\strong{CRAN DOI} \tab \doi{10.32614/CRAN.package.folio} \cr
+\strong{Zenodo DOI} \tab \doi{10.5281/zenodo.4476182} \cr
 }
+
+Archéosciences Bordeaux (UMR 6034)\cr
+Maison de l'Archéologie\cr
+Université Bordeaux Montaigne\cr
+F-33607 Pessac cedex\cr
+France
 }
 \seealso{
 Useful links:
@@ -29,22 +34,14 @@ Useful links:
 
 }
 \author{
-\strong{Full list of authors and contributors} (alphabetic order)
+\strong{Maintainer}: Nicolas Frerebeau \email{nicolas.frerebeau@u-bordeaux-montaigne.fr} (\href{https://orcid.org/0000-0001-5759-4944}{ORCID})
 
-\tabular{ll}{
-Nicolas Frerebeau \tab \emph{Université Bordeaux Montaigne, France} \cr
-Brice Lebrun \tab \emph{Université Bordeaux Montaigne, France}
+Other contributors:
+\itemize{
+  \item Brice Lebrun (\href{https://orcid.org/0000-0001-7503-8685}{ORCID}) (Logo designer) [artist]
+  \item Université Bordeaux Montaigne (03pbgwk21) [funder]
+  \item CNRS (02feahw73) [funder]
 }
 
-\strong{Package maintainer}
-
-Nicolas Frerebeau\cr
-\email{nicolas.frerebeau@u-bordeaux-montaigne.fr}
-
-Archéosciences Bordeaux (UMR 6034)\cr
-Maison de l'Archéologie\cr
-Université Bordeaux Montaigne\cr
-F-33607 Pessac cedex\cr
-France
 }
 \keyword{internal}
