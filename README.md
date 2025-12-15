@@ -34,6 +34,7 @@ state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4476182.svg)](https://doi.org/10.5281/zenodo.4476182)
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://codeberg.org/tesselle/folio/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://codeberg.org/tesselle/folio)
 <!-- badges: end -->
 
 ## Overview

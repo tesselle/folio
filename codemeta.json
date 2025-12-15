@@ -4,7 +4,7 @@
   "identifier": "folio",
   "description": "Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data related to broad topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be used to illustrate statistical methods in the classroom (multivariate data analysis, compositional data analysis, diversity measurement, etc.).",
   "name": "folio: Datasets for Teaching Archaeology and Paleontology",
-  "relatedLink": ["https://packages.tesselle.org/folio/", "https://CRAN.R-project.org/package=folio"],
+  "relatedLink": ["https://packages.tesselle.org/folio/", "https://tesselle.r-universe.dev/folio", "https://CRAN.R-project.org/package=folio"],
   "codeRepository": "https://codeberg.org/tesselle/folio",
   "issueTracker": "https://codeberg.org/tesselle/folio/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
